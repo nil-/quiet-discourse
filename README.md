@@ -5,7 +5,6 @@ This is an online compendium of sorts for all things affiliated to the MyAnimeLi
 
 * `/club-comments` all text from the club's club comments
 * `/irc`: all IRC chat history from the [#qd](http://client00.chat.mibbit.com/?channel=%23qd&server=irc.rizon.net) channel on Rizon
-* `/polls`: all voting data from the club's polls
 * `/quiet-discourser`: all issues of the weekly newsletter (and for free!)
 * `/threads`: all text from the club's threads
 
