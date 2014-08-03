@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Clubs - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/ss_jscript.v2.js"></script>
+		
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Quiet Discourse's Comments</h1>
+	<div id="content">
+	    <script type="text/javascript">
+
+	function delComment(commentid,clubid)
+	{
+		var confirmVal = confirm('Remove this comment?');
+
+		if (confirmVal)
+			{
+			var comObj = document.getElementById("comment"+commentid);
+			comObj.innerHTML = '<img src="http://cdn.myanimelist.net/images/xmlhttp-loader.gif" />';
+			$.get("/includes/ajax.inc.php?t=10&comid="+commentid+"&cid="+clubid, function(data)
+					{
+					$(comObj).slideToggle("slow");
+					}
+				);
+			}
+		else
+			return false;
+	}
+
+	</script>
+    <div class="borderClass spaceit"><span style="float: right;"><a href="clubs.php?cid=40791">Back to Quiet Discourse</a></span>Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=400">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=380">20</a> <a href="clubs.php?id=40791&action=view&t=comments&show=400">21</a> [22] <a href="clubs.php?id=40791&action=view&t=comments&show=440">23</a> <a href="clubs.php?id=40791&action=view&t=comments&show=460">24</a> <a href="clubs.php?id=40791&action=view&t=comments&show=440">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div><div id="comment11940381" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/2921515_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Nagisa33">Nagisa33</a> <small><span style="font-weight: normal;"> | 05-07-14, 10:27 AM</span></small></div>
+		  Has anyone seen or read Bokurano? I heard both versions are different and I'm wondering which one to experience. I'm leaning towards the anime.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11938835" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 05-07-14, 3:04 AM</span></small></div>
+		   heheheh i guess i'm just gonna have to kick someone</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11936919" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/syshim"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1340633_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/syshim">syshim</a> <small><span style="font-weight: normal;"> | 05-06-14, 3:51 PM</span></small></div>
+		  heheh funny numbers</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11936871" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Subpyro"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/2350311_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Subpyro">Subpyro</a> <small><span style="font-weight: normal;"> | 05-06-14, 3:36 PM</span></small></div>
+		  Aww, no more 69 members count.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11935953" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/2921515_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Nagisa33">Nagisa33</a> <small><span style="font-weight: normal;"> | 05-06-14, 12:00 PM</span></small></div>
+		  I just watched this scene from Ben-To and my face hurst from smiling so much. It's really funny! The last part is the best. I think I found a new show to watch. :)<br />
+ <a href="http://www.youtube.com/watch?v=_-t9__D98O0" target="_blank"><a href="http://www.youtube.com/watch?v=_-t9__D98O0" target="_blank">http://www.youtube.com/watch?v=_-t9__D98O0</a></a></td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11935751" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/tsudecimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1853032_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/tsudecimo">tsudecimo</a> <small><span style="font-weight: normal;"> | 05-06-14, 10:57 AM</span></small></div>
+		  It's not that NGNL doesn't try, it's that it's try to be fun and self aware, and silly on purpose. One of the rules set into the virtual world is <em>literally</em> to have fun, and the main characters put emphasis on that as their primary goal. Comedy is a prominent and great aspect of the series, where even the most serious duels with the most serious consequences still have a lot of humor in them, making it a light anime, that is not too serious with a lot of entertainment value.<br />
+<br />
+&gt; the whole brother-sister thing is ridiculous<br />
+<br />
+I don't see how you can have problem with this particular aspect. For once we get a brother and sister combo that aren't romantically interested in one another, with no ''not so subtle'' hints for incest. I think their relationship is kinda refreshing and interesting.<br />
+<br />
+I personally think an anime like that is needed, fans need to loosen up sometimes and learn how to have fun, without being overly critical of the silliness, especially if it works to the show's favor.<br />
+</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11935577" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 05-06-14, 10:03 AM</span></small></div>
+		  Disclaimer: I don't watch NGNL</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11935347" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 05-06-14, 8:40 AM</span></small></div>
+		  Well, even so, a show that purposefully doesn't try doesn't get a license for poor quality and as a case in point I'd say a lot of OVAs from the bubble didn't take themselves seriously as they were just dirt ass cheap to produce and were probably used for new animators to get some experience regardless of however the fuck the screenplay turned out.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11935243" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/tsudecimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1853032_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/tsudecimo">tsudecimo</a> <small><span style="font-weight: normal;"> | 05-06-14, 8:17 AM</span></small></div>
+		  @BigSimo<br />
+<br />
+You are taking NGNL more seriously than it takes itself.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11934945" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Rosa_FOEtida"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/115275_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Rosa_FOEtida">Rosa_FOEtida</a> <small><span style="font-weight: normal;"> | 05-06-14, 6:36 AM</span></small></div>
+		  Well the truth is...<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>That both Valvrave and Falmenco can be enjoyed equally as much in that regard.<!--spoiler--></span></div></td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11934831" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Masserati_"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/276749_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Masserati_">Masserati_</a> <small><span style="font-weight: normal;"> | 05-06-14, 6:04 AM</span></small></div>
+		  Wow rude.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11934455" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1294541_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/twinbells">twinbells</a> <small><span style="font-weight: normal;"> | 05-06-14, 1:32 AM</span></small></div>
+		  It's impossible to not enjoy Valvrave in a sort of "What kind of crazy twist will they pull out of their butts this time?" kind of way. That's what made Valvrave fun to watch.<br />
+<br />
+Fixed. :)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11934437" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Masserati_"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/276749_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Masserati_">Masserati_</a> <small><span style="font-weight: normal;"> | 05-06-14, 1:18 AM</span></small></div>
+		  It's impossible to not enjoy Flamenco in a sort of "What kind of crazy twist will they pull out of their anus this time?" kind of way. That's what made Flamenco fun to watch.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11934253" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 05-05-14, 11:23 PM</span></small></div>
+		  yes indeed doaj.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11933891" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 05-05-14, 8:56 PM</span></small></div>
+		  Don't worry, I'm usually alone in my opinions, too. For example: I really enjoyed Samurai Flamenco. <br />
+<br />
+See? Alone.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11933639" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/39613_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Veronin">Veronin</a> <small><span style="font-weight: normal;"> | 05-05-14, 7:21 PM</span></small></div>
+		  Don't worry, Veronin-kun is always alone in his opinions.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11933233" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1205653_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Josh-i">Josh-i</a> <small><span style="font-weight: normal;"> | 05-05-14, 5:38 PM</span></small></div>
+		  I'm waiting for the Ping Pong doujins.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11933035" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/985071_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Gonzo-nyan">Gonzo-nyan</a> <small><span style="font-weight: normal;"> | 05-05-14, 5:13 PM</span></small></div>
+		  I'm a guy who loves ecchi and fanservice, but even I enjoy Ping Pong. :)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11929293" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 05-05-14, 12:47 AM</span></small></div>
+		  @po_and_dong<br />
+<br />
+Indeed the whole recycling stereotypes thing is nothing new, but I'm all about what purpose it serves. What do the writers hope to achieve by having a loli imouto that clings to her oniichan? Is it for the purposes of the show? No, it is there to appeal to appeal to sexual fantasies of its viewers. All I see with NGNL are a collection of the lowest stereotypes and cliches currently in anime. An almighty protagonist surrounded by girls. A girl whose breasts get more screentime than her face.<br />
+No doubt there are other aspects of the show that could have the potential to make it its own thing, but I feel these are overshadowed by its reliance on poor taste to lure the masses.<br />
+<br />
+@Veronin<br />
+YOU ARE WRONG ABOUT PING PONG.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11929269" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Po_and_Dong"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/3599051_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Po_and_Dong">Po_and_Dong</a> <small><span style="font-weight: normal;"> | 05-05-14, 12:37 AM</span></small></div>
+		  I haven't watched anything thats been airing since Shin Sekai Yori and Psycho Pass finished, but of this season I will make sure to see Mushishi Zoku Shou, this crow episode has me beyond sold from screenshots alone. One gripe I had with Mushishi is I didn't see many creepy aspects of folklore present within it, or maybe they were there it just didn't have the intended effect.<br />
+<br />
+I watched the first episode of Sidonia no Kishi but I am not a fan of CGI and it does not present much to me since I've read the manga (of which 3 chapters finally came out after something like 8 months of raws have been out).</td>
+		</tr>
+		</table>
+		</div>
+		<br><div class="spaceit">Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=400">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=380">20</a> <a href="clubs.php?id=40791&action=view&t=comments&show=400">21</a> [22] <a href="clubs.php?id=40791&action=view&t=comments&show=440">23</a> <a href="clubs.php?id=40791&action=view&t=comments&show=460">24</a> <a href="clubs.php?id=40791&action=view&t=comments&show=440">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=9';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>
