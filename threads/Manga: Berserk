@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Manga: Berserk - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Manga: Berserk</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1164259">Manga: Berserk</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg30454049">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg30454049"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30454049" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">05-02-14, 2:23 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30454049" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30454049">This thread is for the discussion of <!--link--><a href="http://myanimelist.net/manga/2/MiuraLovesIdolm@ster">Berserk</a>.<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by NavyCherub, 05-30-14, 2:48 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31030211">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg31030211"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31030211" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">05-23-14, 12:44 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31030211" style="padding-bottom: 2px;"><a href="/profile/Doaj"><strong>Doaj</strong></a></div>
+		  
+		  <a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/useravatars/532439.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 457
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31030211">It's far too long. Golden Age arc is best arc. It'll never end. Repetitive tropes and declining interes on the mangaka's part will prevent anything past Golden Age from being worth mentioning. /end</div><div class="postActions"></div><div class="sig"><span style="font-size: 80%;"><div style="text-align: center;"><img class="userimg" data-src="http://fc06.deviantart.net/fs42/f/2009/096/7/8/Tonberry_Banner_by_Doaj.jpg" /><br />
+Vengeance of everyone's grudge.<!--size--></span><!--center--></div><br />
+"I didn't add it to my list so I forgot I was watching that." - lpf</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31030933">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg31030933"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31030933" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">05-23-14, 1:52 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31030933" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31030933">RIP Golden Age<span style="text-decoration:line-through;"> of anime<!--strike--></span>. I'm not sure if the artwork improved but I did like the drawings of Guts in berserker armor. The motley crew past Golden Age is also interesting because they're all developed quite well, especially more so than The Hawks—a bit of a shame the stories they're thrown in are so terrible though. Also their weapons are literally something Aslan from The Chronicles of Narnia would have given them..</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31053865">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg31053865"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31053865" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">05-24-14, 1:48 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31053865" style="padding-bottom: 2px;"><a href="/profile/Masserati_"><strong>Masserati_</strong></a></div>
+		  
+		  
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Jan 2010<br>
+		  Posts: 212
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31053865">Berserk frustrates me because even though the Golden Age is fantastic everything else afterwards is somewhat weak. Guts becomes little more than Miura's ultimate power fantasy, the side characters apart from Serpico and Isidro aren't all that interesting, Puck will forever remain unfunny 'comic relief' and the list of Berserk's faults go on. Honestly, everything that once interested me about Berserk is no longer there, especially now that the setting has become little more than a standard JRPG with elemental powers for the characters. Ultimately, I think that once Miura stopped focusing on the core element that made Berserk so interesting to begin with (the relationship between Guts and Griffith), the heart of the series was lost and it's never gotten back to the standard that the Golden Age set.<br />
+<br />
+The art is still fantastic, and I will admit I am curious to see <span style="text-decoration:line-through;">when<!--strike--></span> how the story ends, but I think it's unlikely that Berserk will ever really reach the heights that the Golden Age set ever again.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31054075">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg31054075"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31054075" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">05-24-14, 2:10 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31054075" style="padding-bottom: 2px;"><a href="/profile/Po_and_Dong"><strong>Po_and_Dong</strong></a></div>
+		  
+		  <a href="/profile/Po_and_Dong"><img src="http://cdn.myanimelist.net/images/useravatars/3599051.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2014<br>
+		  Posts: 22
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31054075">Well that is why they call it the Golden Age.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31078543">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg31078543"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31078543" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">05-24-14, 11:58 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31078543" style="padding-bottom: 2px;"><a href="/profile/Miraclezify"><strong>Miraclezify</strong></a></div>
+		  
+		  <a href="/profile/Miraclezify"><img src="http://cdn.myanimelist.net/images/useravatars/1818993.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2012<br>
+		  Posts: 884
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31078543">I stopped reading it quite a while ago. I think the anime presented Berserk perfectly. The stuff that happens after that is somewhat interesting as well, but it never quite reaches the height of the Golden Age arc. Will probably pick up the manga again sometime because I really do want to see where it goes.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31078705">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg31078705"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31078705" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">05-25-14, 12:09 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31078705" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31078705">I wonder if it'll even finish. There hasn't been a new release since last November (and a paltry total of 9 chapters that year). Also the latest chapter is right in the middle of a conflict where they do some strange time skip, and it doesn't seem anywhere near close to a conclusion.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31079073">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg31079073"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31079073" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">05-25-14, 12:33 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31079073" style="padding-bottom: 2px;"><a href="/profile/Stellio"><strong>Stellio</strong></a></div>
+		  
+		  <a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/useravatars/1158933.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2012<br>
+		  Posts: 370
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31079073">Pretty much agreeing here. The main characters in Berserk's Golden Age arc felt really mature and developed despite not being likable at times. So, for instance, Griffith I'd say is one of my favourite villains (I want to kill him, so that's probably good!) in anime. Guts, though inspiring, has his moments of vehement emotions that make me feel unease, and yet there's something so tranquil about his falsely heroic character. Casca gets development, but her memories become an ace in the hole (which is bound to be holed there for awhile) after that graphic upbringing of the demon... by-blow... thing. <br />
+<br />
+Needless to say, most side characters, whose stories were once engaging, lose some fuel after the Golden Age arc, too. Someone please tell Miura to <span style="text-decoration:line-through;">kill<!--strike--></span> write off that little fairy elves thing. Goodness' sake.<br />
+<br />
+Anyway, Berserk is basically Naruto without the fanbois. [it's never gonna finish]</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31092243">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg31092243"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31092243" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">05-25-14, 2:05 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31092243" style="padding-bottom: 2px;"><a href="/profile/Masserati_"><strong>Masserati_</strong></a></div>
+		  
+		  
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Jan 2010<br>
+		  Posts: 212
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31092243"><!--quote--><div class="quotetext"><strong>nil- said:</strong><!--quotesaid--><br>I wonder if it'll even finish. There hasn't been a new release since last November (and a paltry total of 9 chapters that year). Also the latest chapter is right in the middle of a conflict where they do some strange time skip, and it doesn't seem anywhere near close to a conclusion.<!--quote--></div><br />
+<br />
+Actually as it's finally off hiatus, Miura is publishing chapters again, the latest one actually came out today. No idea how long this will go on for though, I reckon it's only a matter of time before Miura actually decides to go on hiatus yet again <span style="text-decoration:line-through;">and never, ever finish the story<!--strike--></span></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32165301">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg32165301"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32165301" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">07-02-14, 11:23 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32165301" style="padding-bottom: 2px;"><a href="/profile/Po_and_Dong"><strong>Po_and_Dong</strong></a></div>
+		  
+		  <a href="/profile/Po_and_Dong"><img src="http://cdn.myanimelist.net/images/useravatars/3599051.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2014<br>
+		  Posts: 22
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32165301">Golden Age by far the best arc, has the same well drawn action the series is famous for, keeps the aesthetic that has become iconic, and has a great story, perfectly paced and ends with an absurd and memorable climax. One of my favorite parts in any manga.<br />
+<br />
+I also think people overblow the quality decrease after Golden Age tremendously. Some would have it in their heads that everything after Golden Age is loli witch shenanigans when there is an entire two arcs between Golden Age and that. Berserk was clearly planned to go into the magic department from the beginning, and so things increasingly progressed into the weird. People may not like it, but I'm hard pressed to call it random when there are elves and demon lords in the first few volumes.<br />
+<br />
+The character of Griffith largely disappearrs from the reader's radar after Golden Age, readers can no longer see his personality and development like they could in Golden Age. But of course you can't, thats the symbolism of the Eclipse, he loses his humanity. Here's a down to earth statement if you think I'm grasping for straws, a character like Griffith can't stay villainous and frightening if you can see right into your head. Going beyond this Golden Age largely resolved Griffith's character arc. Do we really need to see more Griffith, as a character rather than a plot device. Not now, the Band of the Hawk is over, now its Gut's adventure.<br />
+<br />
+Fittingly so, most of the character development goes to Gut's slow mental breakdown that progresses up until he gets some travellers, his attempt to rape Casca and his increasing violent insanity represented by the hellhound. Random character development to show how mean he is in battle? NO, trauma from the Eclipse. Guts is a great character that simply goes through SO much shit and is so hardened most of the time that the few instances we see his vulnerability after Golden Age have more impact.<br />
+<br />
+I liked the Tower of Retribution arc alot, it had a clear plot development in mind (the birth of Griffith so he can start the age of darkness) had some little mystery about the Behelit Apostle, and had much more twisted and dark sequences in lieu of the Eclipse. By far the darkest arc in the entire manga, and my favorite besides Golden Age because it is a good progression from the realism of Golden Age into the more dark and crazy world Berserk was introduced as (Black Swordsman). And as I said before all of the action in Berserk is well above average.<br />
+<br />
+The witch/troll arc is when people start to complain. It introduces more high fantasy types of magic instead of the grimdark demon stuff that was put into the series before. Reception is mixed. I don't think anyone claims its one of the best arcs but at the same time is it really that bad? To put it simply we can examine it piece by piece, comparing it with the supposedly superior Golden Age.<br />
+<br />
+Crazy and awesome action Berserk is famous for:: CHECK<br />
+-people dont like the Berserker armor, it makes the series to &quot;shoneny&quot;, I think those people should reexamine what shonen means before they apply it to something like Berserk.<br />
+<br />
+Good character stuff:: NOPE<br />
+-You don't see any of the subtle deprecation of Gut's personality as so in Tower of Retribution, or someone else thats interesting like Griffith. You may see some interesting characters like the old witch, but they aren't anything overly memorable. Does it make the arc shit? Hardly.<br />
+<br />
+Aesthetic appeal:: CHECK<br />
+-Berserk didn't lose its famous grimdark bloody -berserk- rage stuff it has always has in this arc. They introduced some magic weapons, Guts also went into the cesspool of a demon tree. People should stop overblowing this.<br />
+<br />
+STORY:: CHECK(?)<br />
+-Was this a bad story? Not in my opinion. Read real shitty manga and learn what a real bad story is before you call this terrible, please. Its such a subjective area though, I would rather just address individual qualms if someone responds to me with their opinion. The story kept me glued to the screen same as any other arc. Less so? Yes. Alot less so? No.<br />
+Also people complain about how Falconia came out of nowhere and didn't make sense. What didn't make sense exactly, between the demon kings and the giant flying skull man? More specifically, Falconia wasn't foreshadowed, I can agree. Some Foreshadowing never hurts.<br />
+<br />
+Is Berserk too long? No, I don't think so. It's an epic manga, epic as a noun here. I like the story grandoise and long, in retrospect I want to see it as a huge adventure. One big plot development per arc is the formula so far, just like an epic. Golden Age had the eclipse, Tower of Retribution the birth of Griffith, Millenium Falcon arc had the creation of Falconia. This current arc will likely conclude with the arrival at Elfheim.<br />
+<br />
+Is Berserk too slow? Yes. That has nothing to do with the manga itself though, the canon is irrespective of Miura's gaming habits.<br />
+<br />
+Is Berserk overrated/underrated? There is probably 1 hipster for every 5 superfans, and honestly I don't give a shit. Let me put it this way, if you find yourself asking this question then abort right there, you are on the wrong path of thought.<br />
+<br />
+Berserk is one of my favorite manga, but I don't have a bias towards it. I understand that some people geniuely don't like it. I also understand that the rise of verbose and dramatic criticisms in proportion to its popularity is likely not a coincidence.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32195021">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg32195021"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32195021" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">07-03-14, 11:35 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32195021" style="padding-bottom: 2px;"><a href="/profile/Doaj"><strong>Doaj</strong></a></div>
+		  
+		  <a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/useravatars/532439.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 457
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32195021">I think the problem isn't so much that people think the post-Golden Age arcs are &quot;terribad&quot;, but that it's disappointing to go from &quot;Incredible&quot; and &quot;Nigh-Perfection&quot; to &quot;Pretty decent, I guess,&quot; type of quality. I'd even argue the fairie arc was pretty poor and drawn out. The pacing was bad and there were dozens of panels of just fairies being slashed. <br />
+<br />
+That said, Berserk is good. It is an epic, like you describe, and you're right in everything you said. If it were being released faster, the complaints would be completely different. But people wait on bated breath for Golden Age level of quality, and wait a long time, at that, to receive, I don't know, 6/10 quality of work? I hate to throw out a number, but I can't think of an anime to compare it to off the top of my head. <br />
+<br />
+Point is, a common flaw amongst masterpieces is that you can't compare to your own works. It happens all the time. Miura has blatantly hit that wall, and the fanbase cringes seeing Miura stumped. At least, I know I do.</div><div class="postActions"></div><div class="sig"><span style="font-size: 80%;"><div style="text-align: center;"><img class="userimg" data-src="http://fc06.deviantart.net/fs42/f/2009/096/7/8/Tonberry_Banner_by_Doaj.jpg" /><br />
+Vengeance of everyone's grudge.<!--size--></span><!--center--></div><br />
+"I didn't add it to my list so I forgot I was watching that." - lpf</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1164259" id="topicId"/>
+<input type="hidden" value="10" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

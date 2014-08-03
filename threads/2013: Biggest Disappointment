@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>2013: Biggest Disappointment - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">2013: Biggest Disappointment</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=719623">2013: Biggest Disappointment</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;">Pages (2) <a href="?topicid=719623&show=-40"></a> <a href="?topicid=719623&show=-20"></a> [1] <a href="?topicid=719623&show=20">2</a> <a href="?topicid=719623&show=40"></a> <a href="?topicid=719623&show=20">&raquo;</a> </div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg27428795">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg27428795"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27428795" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">01-03-14, 4:48 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27428795" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27428795">This thread is for the discussion of the Biggest Disappointment of 2013.<br />
+<br />
+<strong>Event Guidelines</strong>:<ul><li> All eligible anime (excluding OVA and films) must have aired at least one episode in the year.<br />
+<li> All eligible OVA and films must have released at least one of their BD/DVDs in the year.</ul></ol><strong>Practices to Follow</strong>:<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by nil-, 01-24-14, 2:14 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27430423">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg27430423"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27430423" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">01-03-14, 5:52 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27430423" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27430423">Kyoukai<br />
+<br />
+no<br />
+<br />
+Kanata<br />
+<br />
+;____________________;</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27431499">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg27431499"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27431499" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">01-03-14, 6:44 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27431499" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27431499"><!--quote--><div class="quotetext"><strong>purplepurple said:</strong><!--quotesaid--><br>Kyoukai<br />
+<br />
+no<br />
+<br />
+Kanata<br />
+<br />
+;____________________;<!--quote--></div><br />
+Gonna go with this too</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27440125">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg27440125"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27440125" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">01-04-14, 1:15 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27440125" style="padding-bottom: 2px;"><a href="/profile/Valefor"><strong>Valefor</strong></a></div>
+		  
+		  <a href="/profile/Valefor"><img src="http://cdn.myanimelist.net/images/useravatars/501076.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jun 2011<br>
+		  Posts: 314
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27440125">Not like I had any expectations on anything, but I guess the biggest disappointment was Kami-sama no Inai Nichiyoubi. Main reasons are the mix between my faith in the ability of Madhouse to make a wonderful anime from rubbish and the interesting "Kino no Tabi-like" premise of a long journey across a dying world.<br />
+In the end the story didn't go anywhere, except for all over the place, before falling back in the depths of hell. Too bad. Alice was cool tho.</div><div class="postActions"></div><div class="sig"><div style="text-align: right;"><em><strong><span style="font-size: 90%;">~<!--link--><a href="http://vndb.org/u18665/list" rel="nofollow">Visual Novel</a>~<!--link--><a href="http://myanimelist.net/mangalist/Valefor">Manga</a>~<!--link--><a href="http://myanimelist.net/animelist/Valefor">Anime</a>~<!--link--><a href="http://www.imdb.com/user/ur34816890/ratings?start=1&amp;view=compact&amp;sort=ratings_date:desc&amp;defaults=1&amp;scb=0.25123432860709727" rel="nofollow">Movies</a>~<!--link--><a href="http://www.goodreads.com/user/show/25530710-valefordm" rel="nofollow">Books</a>~<!--link--><a href="http://mal.oko.im/Valefor/" rel="nofollow">MALgraph</a>~<!--link--><a href="http://myanimelist.net/blog.php?eid=740953">Favorites</a>~<!--link--><a href="http://myanimelist.net/blog.php?eid=739987">Collection</a>~<!--size--></span></strong></em><!--right--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27440899">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg27440899"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27440899" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">01-04-14, 2:06 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27440899" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27440899">Since I should actually say something about Kyoukai no Kanata:<br />
+<br />
+You know, I don't even care about the "plot holes" or whatever. I mean, yeah, it's entirely possible that the youmu shit and like basically everything that comes after episode 9 doesn't make sense, but the mechanical workings of the plot are of such little concern to me in this type of show. I'm not going to begrudge what is essentially a slice of life series with light dramatic and action-y elements for keeping exposition to a minimum because who cares about how Mirai's blood powers work or the nitty-gritty of Akkey being a half-youmu when the focus of the show is their growth as characters—this show doesn't want to be a battle shounen with elaborate powers and four-digit powerlevels or a sci-fi novel with detailed explanations for every piece of technology.<br />
+<br />
+Unforgivable, however, are a number of other problems. First off, I have to agree with naisho that the characters are flat. When you can reduce a character to a catchphrase, that's a problem, and it's not just Mirai. Running gags and defining quirks are taken too far and used inappropriately. This leads to absolutely cringeworthy moments. Spot a girl that looks like she's about to commit suicide? Scream at her about your sexual fetishes because that's apparently just what your character does sometimes. Need to get over a fence in an action scene? Gotta break the flow of the scene because struggling against fences is moe. Lighthearted and fun episode that mostly consists of moe pandering? Gotta end it with some SADNESS outta nowhere. The list goes on.<br />
+<br />
+Finally, just like the other super disappointing show of the year (Sasami-san@Ganbaranai, which now that I think about it was actually a bigger disappointment for me personally than Kyoukai no Kanata but I'm not writing about because the wounds are less fresh in my memory), Kyoukai no Kanata lacks focus. I called it a "essentially a slice of life series with light dramatic and action-y elements" earlier, but I can't even say for sure if that's what the creators were going for. Maybe the dramatic elements were intended to be more prominent than I felt they were—I haven't read any interviews with the director or the screenwriter so who knows. Schizophrenic episodes that flip between decent slice of life scenes hampered by poor characterization and haphazard flirtations with building a complex plot, all while the tone shifts wildly at the blink of an eye, make for a show that isn't particularly good at anything.<br />
+<br />
+At least episode 6 was a 10/10. (I'm not joking.)</div><div style="margin-top: 8px;"><em>Modified by twinbells, 01-04-14, 2:12 AM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27441069">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg27441069"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27441069" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">01-04-14, 2:16 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27441069" style="padding-bottom: 2px;"><a href="/profile/Stellio"><strong>Stellio</strong></a></div>
+		  
+		  <a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/useravatars/1158933.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2012<br>
+		  Posts: 370
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27441069">Definitely Watamote and, in the same vein as KyouKana (which I haven't gotten past episode 1, so I'd likely agree with most if I had watched it), Tamako Market. The former having a great first episode (and later failing to grow into much else besides its initial shell) and the latter being just fluff and fluff. Not that I don't like fluff but somehow I expected more.<br />
+<br />
+Kotoura-san, I felt, had a lot of potential from episode one. There was a lot of emotions packed into that one episode, however it unfortunately never grew out of its melodrama. I was actually pretty upset to see that nothing good came out of it.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27441287">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg27441287"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27441287" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">01-04-14, 2:29 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27441287" style="padding-bottom: 2px;"><a href="/profile/Levi-"><strong>Levi-</strong></a></div>
+		  
+		  <a href="/profile/Levi-"><img src="http://cdn.myanimelist.net/images/useravatars/533205.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 183
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27441287">Biggest disappointment for me personally was Kill la Kill. I know the saving anime thing was supposed to be a joke, but it actually hyped me up far more than I should had. Plus I like Trigger and I wished better for them. Kill la Kill just turned out to be extremely lackluster overall.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27462807">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg27462807"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27462807" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">01-04-14, 7:38 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27462807" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27462807"><!--quote--><div class="quotetext"><strong>purplepurple said:</strong><!--quotesaid--><br><br />
+<br />
+At least episode 6 was a 10/10. (I'm not joking.)<!--quote--></div><br />
+Was that the dance one? Because if so, that was actually 10/10 for me too. Goddamn I cried with laughter during that.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27463025">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg27463025"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27463025" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">01-04-14, 7:50 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27463025" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27463025"><!--quote--><div class="quotetext"><strong>BigSimo said:</strong><!--quotesaid--><br><!--quote--><div class="quotetext"><strong>purplepurple said:</strong><!--quotesaid--><br><br />
+<br />
+At least episode 6 was a 10/10. (I'm not joking.)<!--quote--></div><br />
+Was that the dance one? Because if so, that was actually 10/10 for me too. Goddamn I cried with laughter during that.<!--quote--></div><br />
+Watashitachi wa...<br />
+<br />
+AIDORU!!!<br />
+<br />
+Yeah I don't even care if it was beyond stupid. Probably the hardest I've laughed all year.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27463351">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg27463351"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27463351" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">01-04-14, 8:05 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27463351" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27463351">word to that</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27464089">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg27464089"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27464089" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">01-04-14, 8:37 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27464089" style="padding-bottom: 2px;"><a href="/profile/Josh-i"><strong>Josh-i</strong></a></div>
+		  
+		  <a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/useravatars/1205653.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2012<br>
+		  Posts: 10125
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27464089">Wait, there's a dance episode in KnK? Might have to un-drop it...</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27474061">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post12"></a><a name="msg27474061"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27474061" class="postnum">12</a></div>
+		<div style="padding-left: 3px;">01-05-14, 4:23 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27474061" style="padding-bottom: 2px;"><a href="/profile/ridojiri"><strong>ridojiri</strong></a></div>
+		  
+		  <a href="/profile/ridojiri"><img src="http://cdn.myanimelist.net/images/useravatars/130236.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2009<br>
+		  Posts: 1160
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27474061">Maoyuu Maou Yuusha<br />
+<br />
+This had potential to be watchable but wasn't, simply put. The great character designs in the various works before adaptation were not really well executed in anime. They chose the wrong VAs. Complete overuse of crass, cheap, filters. Etc.<br />
+<br />
+I wasn't expecting that much, but this is the anime that varied most from my expectation.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27480215">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post13"></a><a name="msg27480215"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27480215" class="postnum">13</a></div>
+		<div style="padding-left: 3px;">01-05-14, 11:11 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27480215" style="padding-bottom: 2px;"><a href="/profile/GaryFrost"><strong>GaryFrost</strong></a></div>
+		  
+		  <a href="/profile/GaryFrost"><img src="http://cdn.myanimelist.net/images/useravatars/566985.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2011<br>
+		  Posts: 144
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27480215">Shingeki no Kyojin.<br />
+<br />
+I don't even know where to begin. nil did a fantastic write-up in his blog which criticizes the anime's production values and other faults here and there: <a href="http://nilblogs.wordpress.com/2013/07/01/theatrics-and-shingeki-it-aint-easy-being-loud-part-1/" target="_blank" rel="nofollow"><a href="http://nilblogs.wordpress.com/2013/07/01/theatrics-and-shingeki-it-aint-easy-being-loud-part-1/" target="_blank" rel="nofollow">http://nilblogs.wordpress.com/2013/07/01/theatrics-and-shingeki-it-aint-easy-being-loud-part-1/</a></a><br />
+<br />
+The biggest problem I had with the show is its extremely minimal worldbuilding anywhere, as well as its very lackluster concerning character development/characterization. The result usually made a lot of the battles rather uneventful/unmemorable, and I unfortunately felt no sympathy towards any of the characters nor the precious cities they take so much care into protecting.<br />
+<br />
+That being said, it was still occasionally entertaining. The Female Titan arc was actually decent, as it offered some character relationships and background between the elite troops and Eren, even though this felt still minimal.</div><div style="margin-top: 8px;"><em>Modified by GaryFrost, 01-05-14, 12:05 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27482765">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post14"></a><a name="msg27482765"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27482765" class="postnum">14</a></div>
+		<div style="padding-left: 3px;">01-05-14, 12:34 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27482765" style="padding-bottom: 2px;"><a href="/profile/Veronin"><strong>Veronin</strong></a></div>
+		  
+		  <a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/useravatars/39613.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2008<br>
+		  Posts: 3533
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27482765">Suisei no Gargantia. It started as something subtle and carefully crafted and ended as a worthless mess of clichés and melodrama. It also shows how inept Urobuchi is as a writer, and how much of a one-trick pony he is (suffering, plot twists!)<br />
+<br />
+(I was also super disappointed by the DanganRonpa and Neptunia adaptations, but video game/visual novel adaptations are almost always terrible. I suppose I wasn't expecting much to begin with.)</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img src="http://img541.imageshack.us/img541/6581/v46o.png" /><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27482981">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post15"></a><a name="msg27482981"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27482981" class="postnum">15</a></div>
+		<div style="padding-left: 3px;">01-05-14, 12:45 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27482981" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27482981">I've heard that the Genster only wrote the first and last episodes of Gargantia or something, which kind of makes sense because sci-fi and D4RKNESS are his thing, not the iyashikei-esque early episodes. If you really want an example of what Gen unleashed looks like, watch Blassreiter, which I personally think is among the very worst anime ever made although it isn't entirely his fault. Futuristic german motorcycle demons with laser whips—pretty much as Gen as it gets.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27485607">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post16"></a><a name="msg27485607"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27485607" class="postnum">16</a></div>
+		<div style="padding-left: 3px;">01-05-14, 2:42 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27485607" style="padding-bottom: 2px;"><a href="/profile/Subpyro"><strong>Subpyro</strong></a></div>
+		  
+		  <a href="/profile/Subpyro"><img src="http://cdn.myanimelist.net/images/useravatars/2350311.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2013<br>
+		  Posts: 3653
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27485607">Kyoukai no Kanata gets my (un)honorable vote.<br />
+<br />
+There is not much to say. Great animation. Top. However, how much does that help if the story is simply bland? When there is no enjoyment brought, not a single drop?<br />
+<br />
+We usually tend to enjoy some series, even if their quality is not the very best. Well, Kyoukai no Kanata is the exact opposite. Although some quality is clearly seen, there is not even a little bit of spice that would keep us (at least me) entertained.<br />
+<br />
+All it all, KyoAni and an interesting premise make you think that nothing can go wrong. Well, everything that could go wrong, went wrong. That's that.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27488341">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post17"></a><a name="msg27488341"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27488341" class="postnum">17</a></div>
+		<div style="padding-left: 3px;">01-05-14, 4:56 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27488341" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27488341"><!--quote--><div class="quotetext"><strong>Veronin said:</strong><!--quotesaid--><br>Suisei no Gargantia. It started as something subtle and carefully crafted and ended as a worthless mess of clichés and melodrama. It also shows how inept Urobuchi is as a writer, and how much of a one-trick pony he is (suffering, plot twists!)<!--quote--></div><br />
+<br />
+I don't think Gen is inept - Madoka was great, Fate/Zero had potential to be good but was ruined by the anime staff (which Gen was not a part of), and Psycho-Pass which I have yet to finish but which a lot of you say deteriorates in the second half (whatever, I'm enjoying it so far) but in any case Gen came up with the concept for the show (which I think is great) and wrote the screenplay only for the first 6 episodes (which are great).<br />
+So if you match those up with his other stuff, it's something like a 50/50 split. One failure for every good show.<br />
+I don't know why I'm defending him because I agree with you about Gargantia, but whatevrrrr</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27488551">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post18"></a><a name="msg27488551"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27488551" class="postnum">18</a></div>
+		<div style="padding-left: 3px;">01-05-14, 5:06 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27488551" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27488551">If Gen only did the first six episodes of Gargantia, then he did a fine job because those are the better episodes (minus the super cringe-y belly dancing stuff).<br />
+<br />
+As for Psycho-Pass, now that I think about it, the not-so-good half of it was in 2013, so I guess it kinda counts as a 2013 disappointment for the purposes of this thread. :O</div><div style="margin-top: 8px;"><em>Modified by twinbells, 01-05-14, 5:10 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27488757">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post19"></a><a name="msg27488757"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27488757" class="postnum">19</a></div>
+		<div style="padding-left: 3px;">01-05-14, 5:15 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27488757" style="padding-bottom: 2px;"><a href="/profile/Levi-"><strong>Levi-</strong></a></div>
+		  
+		  <a href="/profile/Levi-"><img src="http://cdn.myanimelist.net/images/useravatars/533205.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 183
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27488757">Gen only did 2 episodes people. The first and last episode.  <!--link--><a href="http://www.animenewsnetwork.com/encyclopedia/anime.php?id=14961" rel="nofollow">Source.</a></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27489329">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post20"></a><a name="msg27489329"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27489329" class="postnum">20</a></div>
+		<div style="padding-left: 3px;">01-05-14, 5:42 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27489329" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27489329">Okay yeah, that's what I'd initially heard.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="719623" id="topicId"/>
+<input type="hidden" value="31" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;">Pages (2) <a href="?topicid=719623&show=-40"></a> <a href="?topicid=719623&show=-20"></a> [1] <a href="?topicid=719623&show=20">2</a> <a href="?topicid=719623&show=40"></a> <a href="?topicid=719623&show=20">&raquo;</a> </div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Topic: Non-Sexual Fanservice - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Topic: Non-Sexual Fanservice</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=741547">Topic: Non-Sexual Fanservice</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg27941835">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg27941835"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27941835" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">01-24-14, 3:16 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27941835" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27941835">A giant robot is introduced and the director spends an entire minute panning over all of the weaponry. The tendency of certain animation studios to fill their shows with references to their previous works. <!--link--><a href="http://myanimelist.net/character/9500/Full_Frontal">A character in a reboot of a classic franchise that's a literal clone of the fan favorite.</a> Though the term "fanservice" is typically associated with l-lewd cliches like panty shots, beach episodes, and absurdly revealing and impractical outfits, "servicing the fans" is far from limited to the realm of the sexual. By examining how various types of non-sexual fanservice are employed in anime and manga, perhaps we can consider the practice of fanservice from a different perspective and address the subject of pandering without being clouded by the stigma of the erotic.<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by NavyCherub, 02-07-14, 2:16 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27948919">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg27948919"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27948919" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">01-24-14, 9:20 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27948919" style="padding-bottom: 2px;"><a href="/profile/Kapodaco"><strong>Kapodaco</strong></a></div>
+		  
+		  <a href="/profile/Kapodaco"><img src="http://cdn.myanimelist.net/images/useravatars/1705403.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2012<br>
+		  Posts: 624
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27948919">Mmm.<br />
+<br />
+I like to talk about things like this all the time with my siblings whenever I bring something like this up with other sources. I'd be there, watching some stupid, unnamed series called My Little Pony and I'd see all of these "references" the fandom had made famous online and had been translated into the show by the writers.<br />
+<br />
+Fan service is exactly as it is: fan service. It's the act of those involved in a story to peek out a branch and allow the viewer to grab a hold for either a split second or an agonizing twenty minutes (or so on). While, in anime, this just so happens to be filtered through breasts, melons, and balloons, they could also choose (oh, they could) to show that they pay attention to the viewer in other ways. One of my favorite types of fan service is not having any fan service at all. But that's just me.<br />
+<br />
+This brings up a question; is showing no fan service, fan service? Perhaps. If those who are fans of a particular series complain of the suggestive nature, those who wish to adapt it could tone down the lewdness in order to appease a certain ratio of viewers. To what degree is fan service? Is it as small as a reference to other media? Or as big as the knockers on the female love interest? How can we fully measure what could or could not be considered fan service when considering the possibilities? A show about otaku culture? Fan service? More slice of lives? Fan service? The next episode of Kill la Kill paying homage to Gurren Lagann? Fan service? Playing anime at a more convenient time for viewers?!?! Fan service?!?!<br />
+<br />
+I wonder if showing the same main character in every shounen and harem anime over and over and over again is fan service....</div><div class="postActions"></div><div class="sig"><em>As long as I've got Henne, I've got a pretty penny.</em></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27953375">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg27953375"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27953375" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">01-25-14, 2:37 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27953375" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27953375"><!--quote--><div class="quotetext"><strong>Kapodaco said:</strong><!--quotesaid--><br>This brings up a question; is showing no fan service, fan service? Perhaps. If those who are fans of a particular series complain of the suggestive nature, those who wish to adapt it could tone down the lewdness in order to appease a certain ratio of viewers.<!--quote--></div><br />
+<br />
+Very interesting point. I believe it was in Monogatari Second Season (but my memory isn't the most reliable on that), one character authored very lewd amateur manga, and someone advised them to tone down the ecchi to make it more accessible. I often call ecchi shows out on attracting viewers, but sometimes they could just be servicing a group of fans that I am not part of, much like they might not be part of the Gundam Universal Century fanbase. Is it possible to make a clear distinction between sexual <em>pandering</em>, aiming to attract more viewers even if the methods for that detract from the quality of the series, and sexual <em>fanservice</em>, rewarding already earned fans? I wonder.<br />
+<br />
+This isn't debate content, but I'll just list some examples of non-sexual fanservice I tremendously enjoyed. In Diebuster, the catchphrase 'oneeeesama!' is extremely pleasing as it is an important one in Gunbuster, and a recurrent one in shoujo sports series. Diebuster had other things that I loved as a fan like the remixes of Gunbuster songs, the origin of the protagonist's name. Something worthy of note about Gunbuster is the discreet addition of tits at several points in the series. I may be too kind with Gainax on that (being a <em>fan</em> after all!), but it's probably accurate to say that this was harmless fanservice, not detracting from the story and pacing, and mainly playing with the already earned fan.<br />
+<br />
+Another 'non-sexual' fanservice that I enjoyed is in the Gundam Universal Century timeline. Some songs are reused throughout the Universal Century or in video games (like <!--link--><a href="http://www.youtube.com/watch?v=qnEowbJfZ4E" rel="nofollow">Ai Senshi</a>), which has the same effect as remixes in Diebuster. A recent example I also want to list is Gundam Unicorn. A couple of iconic characters from previous series return, and every time this happens, the fan is in heaven, while the newcomer is indifferent but still enjoys the series for its non-fanservice content. And here I think we have one interesting difference between sexual and non-sexual fanservice. The latter is quite rarely alienating, while the former always repels varying portions of an important audience.</div><div style="margin-top: 8px;"><em>Modified by lpf, 01-25-14, 2:51 AM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27966995">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg27966995"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27966995" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">01-25-14, 2:15 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27966995" style="padding-bottom: 2px;"><a href="/profile/Don_Don_Kun"><strong>Don_Don_Kun</strong></a></div>
+		  
+		  <a href="/profile/Don_Don_Kun"><img src="http://cdn.myanimelist.net/images/useravatars/49924.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2008<br>
+		  Posts: 590
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27966995">When it comes to non-sexual fanservice, the best possible example I can think of would be Toei's Precure All-Stars movies. To give some brief background, the movies are crossovers encompassing characters from all previous installments up to the franchise's current iteration (since the sixth Precure season, Toei has been releasing them on a yearly basis). What this means is that fans get to see their favourite Cures in action, beating up baddies and unleashing their finishers alongside many of the other heroines (accompanied by some amazing animation). As such, the movies are a nice reward for longtime fans or those who have watched multiple seasons, since they'll be more familiar with the characters, and will be able to pick up on the multitude of cameos, inside jokes and references Toei has carefully slipped in. <br />
+<br />
+For audiences who have only seen a couple seasons or aren't into Precure, the All-Stars movies have less value, as part of their appeal is seeing your favourite Cures interacting with each other. It's essentially fanfiction, and a huge service to longtime fans, making it my go-to example for this topic.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://moe-alternative.net/" rel="nofollow"><img src="http://i.imgur.com/WXb2Rn2.png" /></a><!--center--></div><br />
+<br />
+</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27970147">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg27970147"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27970147" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">01-25-14, 4:24 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27970147" style="padding-bottom: 2px;"><a href="/profile/Doaj"><strong>Doaj</strong></a></div>
+		  
+		  <a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/useravatars/532439.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 457
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27970147">A more current example would be Space Dandy. It's a show specifically influenced by one of the most (if not <em>the</em> most) popular Cowboy Bebop episode, Mushroom Samba. Cowboy Bebop also blew up in the Western Hemisphere, and Space Dandy is the first anime to be simultaneously aired in the US and Japan. Everything about it is blatantly catering to western audiences and Bebop fans. <br />
+<br />
+Does that make it bad? Is this a negative? If it is, is it a negative for every show that panders in this way, or just Space Dandy's instance? <br />
+<br />
+Ultimately, there are lines to be crossed, whether the fan service is sexual or otherwise. It's just up to the individual person to draw their lines. I think Space Dandy is a gift from a higher power. Others disagree- some for the exact reason of its fan service. I tend to be a big fan of non-sexual fan service though, and not everybody is. I have some of my own exceptions.<br />
+<br />
+Mecha, or other technological creations in general. I dislike most mecha anime because they spend so much time giving a shit about the inanimate objects. That really bothers me because it detracts from character development, storyline, and other important factors. A non-mecha example of this would be my dislike of Spirited Away. It's complete Ghibli fanservice, and that really bothers me, because the story and characters suffer for a visual feast of Miyazaki's imagination. Which is fine and dandy (but not the dandiest), but I lose a lot of interest for it.</div><div class="postActions"></div><div class="sig"><span style="font-size: 80%;"><div style="text-align: center;"><img class="userimg" data-src="http://fc06.deviantart.net/fs42/f/2009/096/7/8/Tonberry_Banner_by_Doaj.jpg" /><br />
+Vengeance of everyone's grudge.<!--size--></span><!--center--></div><br />
+"I didn't add it to my list so I forgot I was watching that." - lpf</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg28011917">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg28011917"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg28011917" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">01-27-14, 7:06 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser28011917" style="padding-bottom: 2px;"><a href="/profile/Yukariki"><strong>Yukariki</strong></a></div>
+		  
+		  <a href="/profile/Yukariki"><img src="http://cdn.myanimelist.net/images/useravatars/497699.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jun 2011<br>
+		  Posts: 140
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message28011917">I either have a boner or laugh my ass out whenever I see good or bad literary references respectively. Yeah, p. much.<br />
+<br />
+By the way, Gunbuster and Diebuster are not shoujo. The former is though a mecha parody of such shows.</div><div class="postActions"></div><div class="sig">I work in <!--link--><a href="http://vntls.tindabox.net/staff/kastel" rel="nofollow">VNs</a>. Sometimes, they have h-scenes and I go "waai~". I also like to not write at <!--link--><a href="http://oppaiisjustice.wordpress.com/" rel="nofollow">Oppai is Justice</a>, a blog with great urls.</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg28018779">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg28018779"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg28018779" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">01-27-14, 1:19 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser28018779" style="padding-bottom: 2px;"><a href="/profile/syshim"><strong>syshim</strong></a></div>
+		  
+		  <a href="/profile/syshim"><img src="http://cdn.myanimelist.net/images/useravatars/1340633.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jun 2012<br>
+		  Posts: 1469
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message28018779">It's not necessarily <em>bad</em> to pander to fans, but this can sometimes indadvertedly cause detriment in a narrative. The Evangelion rebuilds are particularly guilty of pandering to fans (i.e. Rei standing up for herself in the well known elevator scene). Some may think something such as this is a welcome change, but any symbolism/meaning (in a case such as this) could be lost entirely by catering to fans. <br />
+<br />
+But then there comes the question; does pandering even change the outcome of a show significantly? Personally, I believe creators should follow what they believe would be best for a story, rather than giving people 'instant' gratificaction from meaningless fan service. In some cases it is even unclear if pandering was truly a factor in the end result (i.e. Clannad: After Story), or if it the show would have really been changed without it. I believe it's <em>usually</em> better to experiment/progress within a creation rather than contribute to any sort of stagnation. As I mentioned, with the Evangelion Rebuilds, there is often pandering to fans, but a separate series can still become its own entity rather than the same thing as its predecessor. After all, it is pointless to simply rehash a story that has already been done. <br />
+<br />
+Addressing that no fan service (of a sexual nature) is fan service in of itself, I would personally say that it depends on the show. How about a show that touts itself as 'mature', mostly appealing to older audiences; this show uses no sexual fan service of any kind, possibly because it is 'too good' for something such as that. I personally think that a show such as this would warrant this claim. An example (that might not directly use this as an 'advantage') is Fate/Zero. I don't know if the creators themselves had this idea in mind when the story was adapted, but I do know many of the fans consider the show mature because there is no sexual fan service -- this, I personally believe, is fan service for these people. Although, there are many stories that don't require sexual fan service of any kind in order to progress. There's a thin line when describing this, but it usually depends on the audience and their values. Really, fan service takes on many forms, mostly dependent on what the viewer themselves find of worth. As a result of this, I think that fan service can be created from a product that never truly had 'servicing the fans' in mind from the get-go.</div><div class="postActions"></div><div class="sig"><strong>получить деньги моего друга</strong></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="741547" id="topicId"/>
+<input type="hidden" value="6" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

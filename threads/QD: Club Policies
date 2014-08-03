@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>QD: Club Policies - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">QD: Club Policies</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=708147">QD: Club Policies</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg27054327">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg27054327"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27054327" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">12-18-13, 1:19 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27054327" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27054327"><div style="text-align: center;"><span style="font-size: 150%;"><span style="color:#3c3161">activity<!--color--></span><!--size--></span><!--center--></div><br />
+<ul><li> All members must contribute a post at least once every three months.<br />
+<br />
+Reason: The focal point of QD is discussion. Considering that the requirement correlates to exactly one post a season, it is quite lenient. If you are unable to contribute at least this infrequently, then you do not belong in a club which promotes active thought.<br />
+</ul></ol><br />
+However, the activity policy is very casually enforced, and we only allow ourselves the ability to boot members if they do not meet the rule—not that booting occurs immediately. You will certainly be given a heads-up before anything happens.<br />
+<br />
+If you go beyond this rule, do please notify an administrator that you're currently too busy (and they will provide you with extra time), or post within a week or two. If you have been booted from the club for inactivity or you voluntarily left for any reason, you may PM an administrator in order to be readmitted.<br />
+<br />
+<div style="text-align: center;"><span style="font-size: 150%;"><span style="color:#3c3161">club community<!--color--></span><!--size--></span><!--center--></div><br />
+Aside from the nomination and discussion threads, here are other ways to get involved with the club.<br />
+<br />
+<span style="font-size: 125%;"><span style="color:#3c3161">IRC<!--color--></span><!--size--></span><br />
+Please join #qd on the Rizon network! We boast a small but active channel with a fair number of regulars. Chat is generally anything worth discussing in an informal live feed rather than under more prepared circumstances. It can often lead to interesting topical issues, but above all it is a place for socializing and making new friends. If you do not have a dedicated IRC client, you can use a browser web client: <!--link--><a href="http://client00.chat.mibbit.com/?channel=%23qd&amp;server=irc.rizon.net" rel="nofollow">#qd</a>. Of course, chat is not 24/7 so do expect inactivity during the off hours of a day.<br />
+<br />
+<span style="font-size: 125%;"><span style="color:#3c3161">Club comments<!--color--></span><!--size--></span><br />
+This is the anything and everything place for discussion. The subject of conversation will always toss and turn from day to day, and it is usually but certainly not limited to:<br />
+<ul><li> General socializing<br />
+      <li> A very recent work or group of works<br />
+      <li> Current industry news<br />
+      <li> English or Japanese anime communities<br />
+      <li> The current or upcoming season(s)<br />
+      <li> Club improvements/suggestions<br />
+      <li> Meta-discussion about the club or the current ongoings in the threads</ul></ol><br />
+<span style="font-size: 125%;"><span style="color:#3c3161">Events<!--color--></span><!--size--></span><br />
+On the chance occasion, there may also be events such as group simulwatches and even silly things like Skype sessions. They will be scheduled in advance (sometimes), and regular members are also encouraged to suggest, propose, or even arrange events as well. Be sure to be on the lookout if they crop up on the frontpage!<br />
+<br />
+<div style="text-align: center;"><span style="font-size: 150%;"><span style="color:#3c3161">public writing &amp; advertising<!--color--></span><!--size--></span><!--center--></div><br />
+One of the primary goals of QD's system is that it promotes a healthy, growing member base with as little manual effort as possible. It should be self-governing, and as such, we do not manually advertise. By the sheer quality of our club, QD relies on word of mouth in order to consistently attract good new members. It is of course encouraged that you invite any friends you believe would find the club interesting, but certainly do not feel compelled to do so.<br />
+<br />
+On the side, we do write club reviews. This is a collaborative effort that is still in the development stages before we decide to begin writing some (news will be tentatively released near the end of <span style="text-decoration:line-through;">Winter season<!--strike--></span> the world).<br />
+<br />
+<div style="text-align: center;"><span style="font-size: 150%;"><span style="color:#3c3161">behavior<!--color--></span><!--size--></span><!--center--></div><br />
+We do not regulate member behavior unless a current member is so belligerent that booting him or her is the only proper course of action (warnings will of course be given beforehand). Expect a fair degree of administrative discretion with regards to how harsh a member must be in order to receive such a punishment. In general, we do not aim to regulate heated arguments. We're all adults (in brain age) here, and so we expect mature conduct to follow the same route.</div><div style="margin-top: 8px;"><em>Modified by nil-, 05-06-14, 1:58 AM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="708147" id="topicId"/>
+<input type="hidden" value="0" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

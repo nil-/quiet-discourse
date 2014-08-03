@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Topic: Can 3DPD be moe? - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Topic: Can 3DPD be moe?</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1184909">Topic: Can 3DPD be moe?</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg31043419">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg31043419"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31043419" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">05-23-14, 3:31 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31043419" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31043419">We all know that real life is purely depressing, a place where our fantasies, dreams, goals, and aspirations are not achieved. Anime contrastingly fulfils these achievements- whether it be as a self-insert character or other. Similarly, anime provides representations of characters that we find adorable, wish to protect and celebrate.<br />
+<br />
+The usual point would be that likewise such adorable people do not exist in real life. Moe attributes and behaviours have been said to be purely annoying if they occured in the real world.<br />
+<br />
+Is this the case? Are there no people in the physical realm we unfortunately cohabitate that can provide fuel for our souls desperate for people who appear so weak and adorable that we want to protect them and reproduce their image in lewd non-lewd ways to put on our walls, to adorn our minds?<br />
+A great many anime series feature casts composed of females only -- in  such shows, male characters may exist but are typically not part of  the circle of friends the series revolves around.  What is the intent  for this gender exclusivity, and how does it affect anime?<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by danz, 06-06-14, 2:08 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31078713">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg31078713"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31078713" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">05-25-14, 12:09 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31078713" style="padding-bottom: 2px;"><a href="/profile/Stellio"><strong>Stellio</strong></a></div>
+		  
+		  <a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/useravatars/1158933.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2012<br>
+		  Posts: 370
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31078713">Given that this prompt isn't just a rhetorical inquiry (some parts of it answer themselves), if people like Yui or Azusa (from keion) actually existed in real life, it would be fairly concerning.<br />
+<br />
+Yes I'll be the first to admit I like moeshit, to an extent. But the degree to which most moeblobs, if we're not going to use euphemisms here, act so aimlessly and fetchingly, is beyond the point of unreal. We joke about the characters having autism and mental diseases, but, well, if they dwelled in our ordinary lives, they really would. <br />
+<br />
+Yes, there're ppl who'd probably want moeblobs to exist in rl. Whether there should be an oration or statement made about that should be left to interested social commentators. <br />
+<br />
+As for the gender-exclusivity, it's fairly evident that the industry is trying to pander to a specific audience: in this case, (most likely) heterosexual male otakus. The converse gender-exclusivity happened with Free!, and look at what major demographics that masterpiece attracted!<br />
+<br />
+Let's not get into some circulatory semantics about what moe is pls.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31090791">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg31090791"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31090791" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">05-25-14, 1:09 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31090791" style="padding-bottom: 2px;"><a href="/profile/Veronin"><strong>Veronin</strong></a></div>
+		  
+		  <a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/useravatars/39613.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2008<br>
+		  Posts: 3533
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31090791">There are plenty of Asian chicks that are 'moe'. They are brought up in a culture where cuteness is preferred over the blonde sorority girl nonsense of the west. As far as mimicking moeblob characters in anime (i.e. acting like a five-year-old), real girls act like, well... actual human beings. They have their own motives and emotions whereas anime just idealises them to the point where they don't even resemble humans any more.<br />
+<br />
+(I guess that's why I like the more hot-blooded tsundere type in anime- they actually behave like people.)</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img src="http://img541.imageshack.us/img541/6581/v46o.png" /><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31204427">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg31204427"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31204427" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">05-30-14, 8:26 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31204427" style="padding-bottom: 2px;"><a href="/profile/iSuckAtWriting"><strong>iSuckAtWriting</strong></a></div>
+		  
+		  <a href="/profile/iSuckAtWriting"><img src="http://cdn.myanimelist.net/images/useravatars/396401.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2010<br>
+		  Posts: 92
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31204427">Well, a lot of prolific female seiyus are practically idols in Japan. That probably comes close.</div><div class="postActions"></div><div class="sig"><img class="userimg" data-src="http://i.imgur.com/vqw0XUz.png" /></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31269201">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg31269201"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31269201" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">06-01-14, 6:23 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31269201" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31269201">fuck no</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31304941">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg31304941"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31304941" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">06-03-14, 7:55 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31304941" style="padding-bottom: 2px;"><a href="/profile/danz"><strong>danz</strong></a></div>
+		  
+		  <a href="/profile/danz"><img src="http://cdn.myanimelist.net/images/useravatars/131418.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2009<br>
+		  Posts: 698
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31304941">fuck yes</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31315795">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg31315795"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31315795" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">06-03-14, 5:50 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31315795" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31315795"><!--quote--><div class="quotetext"><strong>flusterism said:</strong><!--quotesaid--><br>fuck no<!--quote--></div><!--quote--><div class="quotetext"><strong>flusterism said:</strong><!--quotesaid--><br>fuck no<!--quote--></div><br />
+<br />
+Animegao kigurumi are pretty moe.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31340003">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg31340003"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31340003" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">06-04-14, 5:56 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31340003" style="padding-bottom: 2px;"><a href="/profile/einonymous"><strong>einonymous</strong></a></div>
+		  
+		  <a href="/profile/einonymous"><img src="http://cdn.myanimelist.net/images/useravatars/3099955.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2013<br>
+		  Posts: 251
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31340003">Admittedly, I also like moe, and no, I am not a heterosexual male. However, it would bother me to see more "moe" in real life. I have a friend who is one of those "Asian girls who try to act cute" and sometimes it gets quite annoying. She wears pastel-colored short, lacy dresses, and talks in a high voice whenever possible. It most definitely feels unnatural.</div><div class="postActions"></div><div class="sig"><!--link--><a href="http://myanimelist.net/animelist/einonymous&amp;sclick=1"><img class="userimg" data-src="http://myanimelist.net/signature/einonymous.png" /></a> </div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31343869">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg31343869"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31343869" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">06-04-14, 8:49 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31343869" style="padding-bottom: 2px;"><a href="/profile/Yukariki"><strong>Yukariki</strong></a></div>
+		  
+		  <a href="/profile/Yukariki"><img src="http://cdn.myanimelist.net/images/useravatars/497699.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jun 2011<br>
+		  Posts: 140
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31343869">emma watson is moe</div><div class="postActions"></div><div class="sig">I work in <!--link--><a href="http://vntls.tindabox.net/staff/kastel" rel="nofollow">VNs</a>. Sometimes, they have h-scenes and I go "waai~". I also like to not write at <!--link--><a href="http://oppaiisjustice.wordpress.com/" rel="nofollow">Oppai is Justice</a>, a blog with great urls.</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31344917">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg31344917"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31344917" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">06-04-14, 10:03 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31344917" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31344917">#gross</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1184909" id="topicId"/>
+<input type="hidden" value="9" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

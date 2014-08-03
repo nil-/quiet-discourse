@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Anime: Dareka no Manazashi - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Anime: Dareka no Manazashi</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1084053">Anime: Dareka no Manazashi</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg28994279">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg28994279"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg28994279" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">02-28-14, 2:30 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser28994279" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message28994279">This thread is for the discussion of <!--link--><a href="http://myanimelist.net/anime/17121/Dareka_no_Manazashi">Dareka no Manazashi</a>.<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol><br />
+</div><div style="margin-top: 8px;"><em>Modified by lpf, 03-14-14, 3:24 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29010133">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg29010133"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29010133" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">03-01-14, 10:17 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29010133" style="padding-bottom: 2px;"><a href="/profile/Josh-i"><strong>Josh-i</strong></a></div>
+		  
+		  <a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/useravatars/1205653.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2012<br>
+		  Posts: 10125
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29010133">Easily my favourite of Shinkai's works. Short, sweet, and actually not about some difficult romantic relationship (thank God). Some of the dialogue is absolutely adorable and the insert song makes me cry evry tiem.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29025721">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg29025721"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29025721" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">03-02-14, 3:43 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29025721" style="padding-bottom: 2px;"><a href="/profile/Aryaragi"><strong>Aryaragi</strong></a></div>
+		  
+		  <a href="/profile/Aryaragi"><img src="http://cdn.myanimelist.net/images/useravatars/2296999.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2013<br>
+		  Posts: 167
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29025721">Well, that was a pretty sweet short. It told a rather nice story about growing up and the different phases of life. Particularly liked the part where they showed the girl becoming more and more aloof from her family. The animation as usual was amazing but that's to be expected from a shinkai work, I guess. The ending song was really good too. The dialogue as said is really adorable, particularly the interactions between the daughter and the father at the dinner table bringing up all sorts of nostalgic scenes.</div><div class="postActions"></div><div class="sig">[25/04/14 4:04:39 PM] Skitzo: doujins have deep psychological undertones about the sexual intrigue of human behavior</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29040303">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg29040303"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29040303" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">03-02-14, 5:18 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29040303" style="padding-bottom: 2px;"><a href="/profile/Nagisa33"><strong>Nagisa33</strong></a></div>
+		  
+		  <a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/useravatars/2921515.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jul 2013<br>
+		  Posts: 465
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29040303">The aloofness of the girl reminds me of how some of my college friends are towards their parents. The distance widens and soon a rift forms. Growing up may be about doing your own thing and becoming and adult but you don't have to do it alone. I think that is what this is trying to say. I teared up a bit when her father was waiting near her apartment. Yeah, it was short and sweet with stellar animation.</div><div style="margin-top: 8px;"><em>Modified by Nagisa33, 03-02-14, 5:37 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29043393">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg29043393"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29043393" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">03-02-14, 8:00 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29043393" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29043393"><!--quote--><div class="quotetext"><strong>Aryaragi said:</strong><!--quotesaid--><br>The animation as usual was amazing but that's to be expected from a shinkai work, I guess.<!--quote--></div><br />
+One thing I can say of all of Shinkai's work is that you can take any individual frame and have something beautiful that you could frame and put on your wall.  But animation refers to the <em>kinetic</em> aspect of the visuals--and Shinkai's work delivers very little on that front.  Beautiful art, lackluster animation.<br />
+<br />
+I don't see this as a problem, necessarily.  There are lots of places that linger on a still frame, and if the intent is to allow the viewer to look at beautifully drawn frames, then reproducing them seems like an effective means of achieving that.  But again, it's hard to praise the animation when the best thing that can be said about the animation is that there isn't much of it.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29043813">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg29043813"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29043813" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">03-02-14, 8:35 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29043813" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29043813">I realize youtube links are terrible for posterity's sake, but for those here and now: <a href="http://youtu.be/KSwbnUQJGnA" target="_blank" rel="nofollow"><a href="http://youtu.be/KSwbnUQJGnA" target="_blank" rel="nofollow">http://youtu.be/KSwbnUQJGnA</a></a> (in case you are too lazy to torrent a 6-minute video).<br />
+<br />
+As with the majority of Shinkai's works, Dareka no Manazashi is beautiful. The colors are sumptuous, the shadows are brilliant and picturesque, the work as a whole feels polished. It's also self-aware of its status as a moving painting by dropping blobs of visuals onto a creamy white canvas. Like Kuiper says, the animation often lingers from one visual to the next. I imagine this is for a sentimentalist intent, and of which serves it purpose well. Shinkai-branded "emotion" seems to work best in shorts like these—I believe it's not the content that makes this palatable over something like Kotonoha no Niwa's drama, but the length.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29052863">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg29052863"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29052863" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">03-03-14, 8:52 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29052863" style="padding-bottom: 2px;"><a href="/profile/leaveit2me"><strong>leaveit2me</strong></a></div>
+		  
+		  <a href="/profile/leaveit2me"><img src="http://cdn.myanimelist.net/images/useravatars/1264589.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 808
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29052863">'Kay.  Does this mean I have to be that disagreeing voice at the back of the room?<br />
+I guess so.<br />
+I'm actually not very familiar with Shinkai's works so I can't really compare objectively in that sense.  I can agree that, at the very least, claims of his animation being awesome are not made for no reason.  However, did I miss something somewhere?  Is this not just a commercial for a real estate development?  I dunno, the luster of the work wears off when I know why it exists in the first place.  Please correct me if I'm wrong here.<br />
+As far as the story goes, I actually thought it wasn't that strong.  The thing about Shinkai's work that I can determine from what little I've seen is that the art makes the drama and romance linger more than if it was in a different work or a different medium.  Even something you might find corny can be made effective with Shinkai's style of animation.  That's not to say that this story was corny or anything.  I just thought that the drama was bit contrived.  The daughter leaving the house, the father being alone, the elder neglect, the cat dying.  I mean... I dunno.  Maybe I'm just a heartless bastard.  It feels like I've seen it all before, maybe not in anime, but somewhere.<br />
+<br />
+...I'm probably just a heartless bastard.</div><div style="margin-top: 8px;"><em>Modified by leaveit2me, 03-03-14, 8:56 AM</em></div><div class="postActions"></div><div class="sig">In God, we trust.  All others pay cash.</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29055211">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg29055211"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29055211" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">03-03-14, 11:30 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29055211" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29055211"><!--quote--><div class="quotetext"><strong>leaveit2me said:</strong><!--quotesaid--><br>I dunno, the luster of the work wears off when I know why it exists in the first place.  Please correct me if I'm wrong here.<!--quote--></div><br />
+This could be a discussion all on its own, but I feel it's worth pointing out that the vast, vast majority of anime exists for commercial purposes, that is to say, it's created with the intent of making money.  I'd argue that a work like this where the commercial sponsorship is largely separate from the messaging of the work is <em>way</em> less gross than many commercial anime that are engineered for the purpose of selling a larger number of copies to make more money.  (Examples of this include the Madoka movies, the Evangelion remakes, the Monogatari sequels, and to varying extents, most long-running manga series and their adaptations.)<br />
+<br />
+In short, which would you rather have:<br />
+<br />
+<div class="quotetext">"Here's a wad of cash.  Make something beautiful that we would be proud to associate with our brand."<!--quote--></div><br />
+<br />
+or<br />
+<br />
+<div class="quotetext">"Here's a wad of cash.  Make something that will appeal to otaku superconsumers so that they are compelled to go out and spend hundreds of dollars on blu-rays and merchandise."<!--quote--></div><br />
+<br />
+Of course that's dichotemizing things a bit unfairly, and it ignores the many cases of anime that exist partly as marketing engines for existing commercial works (e.g. most manga adaptations), but I'd consider it fair to say that the overwhelming majority of anime is made in the pursuit of money.<br />
+<br />
+Summarizing my thoughts, this feels like a case of Shinkai making a short film because he had a story that he wanted to tell; the source of the funding for the project seems pretty incidental.<br />
+<br />
+For related reading, I recommend "Make Art Make Money" about Jim Henson (creator of Sesame Street), which discusses the idea of how artists can receive income to fund their creative endeavors without compromising their artistic integrity.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29060159">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg29060159"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29060159" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">03-03-14, 3:29 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29060159" style="padding-bottom: 2px;"><a href="/profile/leaveit2me"><strong>leaveit2me</strong></a></div>
+		  
+		  <a href="/profile/leaveit2me"><img src="http://cdn.myanimelist.net/images/useravatars/1264589.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 808
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29060159"><!--quote--><div class="quotetext"><strong>Kuiper said:</strong><!--quotesaid--><br> I'd argue that a work like this where the commercial sponsorship is largely separate from the messaging of the work is <em>way</em> less gross than many commercial anime that are engineered for the purpose of selling a larger number of copies to make more money.<!--quote--></div><br />
+<br />
+But it's not like we're going to argue the quality of anime that are made just so that otaku will buy it.<br />
+<div class="quotetext">Lolololol, I can't wait for my Blu-Ray import of Ikkitousen Seasons 1-10 to come in from Ecuador. <br />
+#otaku4life<!--quote--></div><br />
+<br />
+I get your point though.  Anime, in the end, is media like any other.  The money has to come from somewhere.  What a sad world we live in.  <br />
+It almost makes me feel.... ZETSUBOUSHITA!!!</div><div class="postActions"></div><div class="sig">In God, we trust.  All others pay cash.</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29062337">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg29062337"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29062337" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">03-03-14, 5:14 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29062337" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29062337">I admit that I sometimes wonder if "artist-nuanced" works like Shinkai's aren't artificially manufactured. I guess with respect to this short (as well as shorts in general), it's not really about the story. It's that whiff of emotion you take in from the presentation.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29063507">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg29063507"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29063507" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">03-03-14, 6:13 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29063507" style="padding-bottom: 2px;"><a href="/profile/mosaic"><strong>mosaic</strong></a></div>
+		  
+		  <a href="/profile/mosaic"><img src="http://cdn.myanimelist.net/images/useravatars/1092257.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2012<br>
+		  Posts: 139
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29063507">This wasn't purely an advertisement for the company that sponsored the animation; there's no blatant advertisement during the short - which saves this project, somehow.... <br />
+<br />
+We again, see how a human being grows and tries to live a common life, studying, working and living alone - all of this will won't have any emotional depth on the viewer that doesn't relate at all with the experiences that the character is going through, and this short relies a lot on that. Good thing the production values were high (this is very important, gives the immersion needed due to its short length) and I guess the conclusion was okay, I didn't expected much out of it.</div><div style="margin-top: 8px;"><em>Modified by mosaic, 03-05-14, 9:30 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg29133275">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post12"></a><a name="msg29133275"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg29133275" class="postnum">12</a></div>
+		<div style="padding-left: 3px;">03-07-14, 10:21 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser29133275" style="padding-bottom: 2px;"><a href="/profile/NavyCherub"><strong>NavyCherub</strong></a></div>
+		  
+		  <a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/useravatars/283217.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2010<br>
+		  Posts: 1137
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message29133275">What I find really great about this short is that it is in fact an advertisement and the entire production of it was paid for as such - yet it is entirely able to communicate real feelings all the same. The first time I watched it, I didn't even know it was an advertisement, and I would have never guessed, either. A real show of the idea that art can be made from just about any base, commercial or not, dispelling the idea that something was never able to be strong simply because it was "made to make money".</div><div class="postActions"></div><div class="sig">&quot;My tables-meet it is I set it down<br />
+That one may smile, and smile, and be a villain.&quot;</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1084053" id="topicId"/>
+<input type="hidden" value="11" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Topic: Escalating Sequels - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Topic: Escalating Sequels</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1170851">Topic: Escalating Sequels</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg30706909">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg30706909"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30706909" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">05-10-14, 10:28 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30706909" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30706909">As of the last couple of years, a far larger portion of noteworthy anime than before has been sequels, especially last year. What are the implications of this on the industry?<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by twinbells, 05-23-14, 3:26 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30707917">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg30707917"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30707917" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">05-10-14, 10:56 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30707917" style="padding-bottom: 2px;"><a href="/profile/Gonzo-nyan"><strong>Gonzo-nyan</strong></a></div>
+		  
+		  <a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/useravatars/985071.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2011<br>
+		  Posts: 771
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30707917">Interestingly, sequels have been a big thing on almost every industry (Film, games, books, etc). They are mainly used in two different aspects. Either they want to continue a story that they left off, whether it is from an adapted source or not, and try to satisfy the audience in offering a developed sequel that could be just as or even better than the prequel, or they just want to bank off from the hype of the prequel and make it half-assed. <br />
+<br />
+It goes to show that the industry doesn't really want to make new shows from a manga or not because it doesn't offer up a profit for their financial assets. The other obvious reason is just the fact that it's easier to market a sequel than make a new show as you can see if you see the development process of selling a show to an executive. In an optimistic sense, the sequels that will sell billions of profit can be used to make sure that those original works can be financially feasible for them to make and can ensure that they won't have any trouble even if it flops.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://gonzonyan.wordpress.com/" rel="nofollow"><img class="userimg" data-src="http://i.minus.com/iFBKqTvDcfeI1.png" /></a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30714945">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg30714945"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30714945" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">05-11-14, 3:59 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30714945" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30714945">It would seem the typical length of TV series has sharply reduced, and thus the number of sequels increased. I guess part of the reason is that the medium became more crowded and harder to break through, but making anime overall is a riskier venture than it used to, so gathering enough funding for more than one or two cour at once is probably challenging. <br />
+<br />
+Though this production model might be partly responsible for the number of anime that lack satisfying endings, it probably can also be thanked for the likes of Kaiba, Bartender, NHK or Casshern Sins which initially sold &lt;800 copies per volume and might never break even. "Mass-producing short series and continuing whatever makes a profit" at least allowed a few unprofitable gems to be made.<br />
+<br />
+As for the question of "noteworthy" anime being sequels, or as I call them "continuation of bluechip franchises" (since we might as well include things like Mine Fujiko, Rebuild or Sailor Moon on top of sequels like Natsume, Hidamari etc.), I don't know if there's been a temporary creativity low in 2012 and 2013 or if it's a false impression but one thing we did find in C&amp;C is that the "early 00s" had a lot more noteworthy non-sequel anime than the current years. I wonder if Lindle remembers the exact years as I think he was the one to highlight this period when we were debating decades.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30716045">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg30716045"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30716045" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">05-11-14, 5:31 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30716045" style="padding-bottom: 2px;"><a href="/profile/Veronin"><strong>Veronin</strong></a></div>
+		  
+		  <a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/useravatars/39613.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2008<br>
+		  Posts: 3533
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30716045">Well, it's the same with the film and video game industries: visual media is expensive and a single financial bomb can result in the studio being closed and people out of work. <br />
+<br />
+I'd say the bigger problem is the anime industry's reliance on adaptations. I don't know the exact ratio, but I'd imagine the amount of adaptations versus anime-original series is a pretty huge difference. 10:1, maybe? It makes me not care about anime very much when I can simply consume these works in their original form. Adaptations are almost always worse than the source material, anyway. </div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img src="http://img541.imageshack.us/img541/6581/v46o.png" /><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30716143">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg30716143"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30716143" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">05-11-14, 5:40 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30716143" style="padding-bottom: 2px;"><a href="/profile/Lindle"><strong>Lindle</strong></a></div>
+		  
+		  <a href="/profile/Lindle"><img src="http://cdn.myanimelist.net/images/useravatars/232951.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2009<br>
+		  Posts: 2813
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30716143">It seems that much of what I was planning to say has already been said, which I'm a little sad about because this topic was my idea and I wanted to ramble about it.<br />
+<br />
+That said, here's some interesting raw data for you guys on the subject that I gathered in advance.<br />
+<br />
+I counted every single TV anime made in the last 5 years, and seperated them into Original (non-sequel/remake/etc, in other words), and sequels. I then calculated what percentage of anime that year was made up of sequels.<br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>2009: 26%<br />
+<br />
+O - 86<br />
+S - 31<br />
+<br />
+<br />
+2010: 25%<br />
+<br />
+O - 79<br />
+S - 27<br />
+<br />
+<br />
+2011: 20%<br />
+<br />
+O - 104<br />
+S - 26<br />
+<br />
+<br />
+2012: 27%<br />
+<br />
+O - 107<br />
+S - 40<br />
+<br />
+<br />
+2013: 35%<br />
+<br />
+O - 116<br />
+S - 65<!--spoiler--></span></div><br />
+<br />
+In other words, last year featured a whopping 25 more sequels than any other year of the past half-decade.<br />
+<br />
+This is a big part of why, for several months not too long ago, I completely lost interest in anime. Take note of which anime were heavily talked-about last year. There were a couple of underground hits - Uchouten Kazoku and Kyousogiga - pluss the big popular ones, Kill la Kill and of course Shingeki no Kyojin.<br />
+<br />
+That was pretty much it for the whole fucking year. Other than that, it was all about the sequels!<br />
+<br />
+However, though many of these sequels were superlative - in fact, Monogatari Second Season is firmly my anime of the year for 2013 - it becomes so hard to put up with all the bullshit that the anime industry throws at us when there is such an utter death of creative new ideas coming out of the woodwork. Though 2014 has already been quite sequel-heavy, we've already had Ping Pong and Knights of Sidonia, so I'm set for good new ideas, personally.<br />
+<br />
+In other words, I'm not necessarily against the concept of more sequels being made - just that they seem to be filler for the absence of original concepts.</div><div class="postActions"></div><div class="sig"><img class="userimg" data-src="http://i.imgur.com/Y1FB912.png" /><br />
+<span style="font-size: 150%;"><!--link--><a href="http://theotaku2anime.wordpress.com/2014/04/28/joe-the-lion-crackpot-jojolion-theory-time/#more-1192" rel="nofollow">Latest Blog: Joe The Lion - Crackpot JoJolion Theory Time!</a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30719263">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg30719263"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30719263" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">05-11-14, 8:52 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30719263" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30719263">The anime industry has, for most of its history, been beholden to "safe bets."  For a long time, this has meant adapting popular manga (in recent years there's been a trend toward adapting light novels and visual novels as well) and relying on the strength of existing brands to move a certain minimum number of copies.The anime industry's dependence on "safe bets" is mostly based on the risk associated with these ventures.<br />
+<br />
+The finances that drive anime production have changed in the past few decades. The production costs associated with anime have decreased over time, especially with the advent of digital anime and techniques like digital interpolation.  Otaku superconsumerism has also made it possible for anime productions to achieve financial success with less market penetration.  It used to be that VHS tapes with several episodes would sell for $100 a pop because the target market was video rental stores.  Now, there are people who buy blu-rays for similar prices simply because they are enthusiast consumers.<br />
+<br />
+One of the results of this is that the amount of anime produced over time has increased.  The numbers posted by Lindle above reflect this pretty well.  In 2009, 117 anime were produced.  By 2013, that number had increased to 181.<br />
+<br />
+Conversely, the manga market has been shrinking in recent years.  The growth of anime combined with the commercial decline of manga has had the end result of producing increasingly large generations of "anime natives."  It used to be that if you wanted to sell anime, you had to target manga readers.  Now, to sell anime, you target existing anime fans.  And how do you sell to existing anime fans?  Evidently, the answer is "sequels."</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30719957">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg30719957"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30719957" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">05-11-14, 9:25 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30719957" style="padding-bottom: 2px;"><a href="/profile/Gonzo-nyan"><strong>Gonzo-nyan</strong></a></div>
+		  
+		  <a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/useravatars/985071.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2011<br>
+		  Posts: 771
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30719957">There's also the correlation of: the more original shows you make in the past years, the more chance of a sequel being made.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://gonzonyan.wordpress.com/" rel="nofollow"><img class="userimg" data-src="http://i.minus.com/iFBKqTvDcfeI1.png" /></a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30720347">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg30720347"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30720347" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">05-11-14, 9:47 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30720347" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30720347">To expand on Gonzo's point (and perhaps stating the obvious), but anime that exist unto themselves beg continuation more than anime that exist to publicize the existence of a long-running manga series.  For example, Berserk ends after 25 episodes, essentially with the message that if you want to find out what happens next, you should go read the manga.  But what about cases where there is no source material to point viewers back to?  For the story to continue, an anime sequel is necessary.<br />
+<br />
+That being said, I believe that original works aren't wholly responsible for the increase in sequels.  For example, last year's Ore no Imouto, the various *Monogatari anime, Highschool DxD, and Infinite Stratos are all sequels and adaptive works.<br />
+<br />
+Looking at all of these examples, what do they have in common?  They're all light novel adaptations.<br />
+<br />
+I think the case here is not that "go back to the source material to see the rest of the story" doesn't exist, but rather that much of the audience for the anime has no interest in the source material because people like visual media, and light novels don't scratch that same itch in the way that manga can.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1170851" id="topicId"/>
+<input type="hidden" value="7" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

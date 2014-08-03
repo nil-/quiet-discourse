@@ -1,0 +1,551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Topic: Self-insertion - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Topic: Self-insertion</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1152133">Topic: Self-insertion</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg30118843">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg30118843"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30118843" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">04-18-14, 2:29 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30118843" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30118843">Are personality-less, indecisive, useless anime characters that are made to pander the otaku mass always bad? Are they something that can be defined as the always searched for cancer that's killing anime ( and Japan's birth rate )? Or are they only a harmless means to make people dream?<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by twinbells, 05-02-14, 2:11 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30129895">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg30129895"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30129895" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">04-19-14, 12:52 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30129895" style="padding-bottom: 2px;"><a href="/profile/jal90"><strong>jal90</strong></a></div>
+		  
+		  <a href="/profile/jal90"><img src="http://cdn.myanimelist.net/images/useravatars/402245.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2010<br>
+		  Posts: 4672
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30129895">I'd say that, the way this is worded at least, makes it look like a more simple question: "is pandering the otaku mass inevitably bad?". And if that is the case, my answer is a no. Due to the arbitrary definition of pandering, since everything in fiction can be blamed for being pandering, and because I don't believe that it by itself defines the quality of its delivery.<br />
+<br />
+Anyway on the actual topic of personality-less, indecisive (an indecisive character is not personality-less!), useless (that depends on the viewpoint) anime characters... what answer can I provide rather than an "it depends"? These things must be analyzed in context. Shinji Ikari is not indecisive in the same way Tomoko Kuroki is, these characters cover very different purposes and have very different personalities that fit their respective stories. Both are made to "pander" since they claim for attachment and both are competent and understandable enough in their context.<br />
+<br />
+On the other hand, I believe that this trend is harmless if only because the presence of indecisive and useless characters will never disallow decisive and useful characters to exist. The industry is not defined by one single trend and therefore I can't agree at all with the "cancer that's killing anime" stance, I tend to automatically qualify this statement as an overreaction, maybe due to seeing it thrown in many discussions and texts without any argumental backup, just because it sounds drastic. Another reason why I tend to be skeptical with this judgement is that I think that it comes from a feeling of cohesion that, in something as wide as a medium, doesn't look reasonable. Even if we take the limited context of a particular industry like anime, there has always been a room for authors who seeked for a more independent and trendless (is that a word?) style, and the massive presence of a type of anime hasn't become a burden for the existence of other types.</div><div style="margin-top: 8px;"><em>Modified by jal90, 04-19-14, 1:09 AM</em></div><div class="postActions"></div><div class="sig">Do you like movies? Are you interested on commenting and discussing them? Check <!--link--><a href="http://myanimelist.net/clubs.php?cid=60999">The Cinema Club</a> for some film-related talk.</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30131211">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg30131211"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30131211" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">04-19-14, 2:46 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30131211" style="padding-bottom: 2px;"><a href="/profile/RMNDolphy"><strong>RMNDolphy</strong></a></div>
+		  
+		  <a href="/profile/RMNDolphy"><img src="http://cdn.myanimelist.net/images/useravatars/1212363.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2012<br>
+		  Posts: 519
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30131211">I dunno, I don't think a self-insert character is necessarily a bad thing, but it's rarely done well. I'm just going to ignore the otaku-centric aspect of the question in favor of something broader. <br />
+<br />
+Commonplace settings and situations can be a good starting point for more complex personal stories because no time needs to be wasted on establishing what is already ingrained in the audience's mind. The school setting is often maligned as a cancer killing our precious cartoons, but many thing have used them to good effect (Touch, for example). There's nothing terribly unique about the setting of Touch, but it provides this perfect, unobtrusive, easy-to-jump-in-and-relate-to setting for the characters (who are the focus of the show) to reside and interact and grow. It allows a greater focus on the things that matter.<br />
+<br />
+And there's a point to this whole divergence! I think characters can sorta do the same thing if handled well. Watashi from Tatami Galaxy isn't completely devoid of personality, but on his own merits there isn't really anything outstanding to his characterization either. He's more representational of a typical college student than he is an actually strong character. While a far cry from the fortunate hapless dullards typical of harem anime, I don't really think it's a stretch to call him a self-insert because of this (his "name" being Watashi sorta supports this as well). He fulfills a similar role as the school in touch. He's an easily relatable vessel for the show's grander message. And, in my opinion at least, he's used really well. <br />
+<br />
+But I can't really think of many other example of this sort of thing being used well, or where one even draws the line for being a self-insert. I'm sure some people would disagree with me about Watashi, for example, if only because of the negative stigma attached to stuff like this. Is it entirely a lack of personality thing? wouldn't it be easier to self-insert into someone with personality? After all, us humans generally have one! Does anyone ever <em>actually</em> self-insert into a show or do they just like watching bouncing fat?<br />
+<br />
+Anyway, most of them are awful, sure, but I think they have potential.</div><div style="margin-top: 8px;"><em>Modified by RMNDolphy, 04-19-14, 3:02 AM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: right;"><!--link--><a href="http://drillmilkyholmes.wordpress.com/" rel="nofollow"><img src="http://i.imgur.com/7ALjX4f.png" /></a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30134661">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg30134661"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30134661" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">04-19-14, 7:48 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30134661" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30134661">I find this topic surprisingly interesting, and surprisingly hard to tackle.<br />
+<br />
+The first thing that comes to mind is that self-insertion elements are omnipresent and very noticeable, and for various reasons especially in adaptations of light novels and visual novels. Male protagonists tend to be uncool introverts and rarely cool extroverts. They don't like to be around people and/or are not good with them. Their appearance is often outstandingly bland compared to their eccentric-looking cast. By itself, the recipe offers a basis for a story with potential; however, the trick has been rehashed so many times that it has become an annoying cliché. While I am resigned to accept it, I welcome with excitement stories that avoid it, sometimes sacrificing "relatability" for originality- sometimes keeping both (e.g. Tatami Galaxy to take Dolphy's example).<br />
+<br />
+So it seems that this particular issue with self-insertion (though it is an ubiquitous one) has somewhat more to do with unoriginality and clichés than with self-insertion per se. I'm not saying there's no problem with self-insertion, though. A possible one I can perhaps think of would be when it is used for wish-fulfilment purposes. I find it surprisingly challenging to detail all the factors that can make wish-fulfilment acceptable, annoying or detrimental to the plot, so I'll fast forward to a particular obvious example. Self-insertion for wish-fulfilment purposes to the expense of good storytelling is not okay. A character that starts off powerful is fine, a character that becomes powerful is fine, but if the character just levels up from scratch to overpowered showoff without transition like Kirito from SAO, storytelling is obviously sacrificed for wish-fulfilment. When a character like Tomoya from Clannad doesn't have his own act together but is the one in control that various female characters depend on to fix their own situation, there's an inconsistency. When the main character of a harem anime who's neither attractive nor interesting attracts beautiful girls with no explanation, there's also a problem. (I can forgive these shows from the moment I consider them as soft porn, but I have qualms with the line between porn and entertainment in the industry getting increasingly blurry.)</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30163799">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg30163799"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30163799" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">04-20-14, 11:39 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30163799" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30163799">Going along with lpf's loose definition of the otaku self-insert character as being an uncool introvert (which seems like a pretty fair, albeit loose generalization), I think that "blandness" in and of itself isn't a particularly damning thing, assuming that we define "blandness" based on personality, character design, etc.<br />
+<br />
+It's pretty common across many genres of media for the main character to be the "blandest" member of the cast to make him a more relatable character.  In western media, see the examples of Star War's Luke Skywalker or the titular Harry Potter, who are overshadowed by the rest of the cast when it comes to uniqueness and quirkiness.  In many ways, having an "everyman" protagonist gives us something to latch onto, which can be important in a big and confusing world, as is often the case in works of speculative fiction.<br />
+<br />
+Western fantasy writer Brandon Sanderson posits that an effective protagonist has three critical attributes:<br />
+<br />
+<li>Competent<br />
+<li>Proactive<br />
+<li>Sympathetic<br />
+<br />
+The prototypical self-insert character tends to lack the elements of being proactive or competent.  For example, Haruhi's Kyon is basically just a regular guy who waits for things to happen to him, and he doesn't have any exceptional talents.  The same is true of most harem protagonists.  I also find characters like this to be generally unsympathetic, since the nature of wish fulfillment is that it tends to inspire envy rather than sympathy.<br />
+<br />
+To look at an example of a "self-insert" protagonists that I find to be effective, I'd like to turn to the example of Oregairu's Hachiman.  He's an unpopular introvert without many real talents, and at first glance he seems to be as bland as they come.  Yet on every level, I found him to be an incredibly likable character because fundamentally Oregairu is a story about a guy trying his darndest to be decent to the people around him, coming out of his shell in the process.  Because of this, I want desperately to see him succeed, not because of the meme of "the protagonist must triumph," but because out of all of the people in the show, he deserves happiness more than nearly everyone.  As we find out, he's also a proactive character; although he has the facade of being an apathetic high school student, he has a propensity for springing into action whenever he sees someone in need.  And as it turns out, he tends to do a good job at things like conflict resolution, making him a competent character as well.<br />
+<br />
+On a more fundamental level, I think the question of protagonist proactivity can be answered by asking this question: is the anime telling a story about the things that a character does, or is it telling a story about things that happen to the character?</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30166803">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg30166803"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30166803" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">04-20-14, 2:17 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30166803" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30166803">Just to make sure, I'm not saying being uncool and introverted is all there is to self-insert protagonists, but I see a lot of series building (often minimally) on top of these traits. And while these traits aren't always unwanted, I think the way the formula is rehashed has known so few variations (perhaps in part because the high school setting is so popular) that it became an exasperating cliché.<br />
+<br />
+Following up on your Hachiman example, I wonder if Araragi qualifies as a self-insert, but if he does, then he's the kind of which I want more. Coincidentally or not, he <em>is</em> in a pretty big wish-fulfilment situation, being fancied by all the girls on the cast, but he is neither introverted nor uncool. Unlike with most harem leads, that makes his charm realistic, for one, but that also makes him a powerful and interesting driving force behind the plot (again, a credible one- unlike the example of Tomoya I brought up). In a way, that ties in with your "competent" item if Brandon Sanderson's hypothesis is to be believed. Another example that I'm wondering about is where that places Hyouka's protagonist...</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30175687">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg30175687"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30175687" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">04-20-14, 8:44 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30175687" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30175687"><!--quote--><div class="quotetext"><strong>lpf said:</strong><!--quotesaid--><br>Just to make sure, I'm not saying being uncool and introverted is all there is to self-insert protagonists<!--quote--></div><br />
+Oh, certainly.  There are definitely examples of protagonists that are uncool and introverted but clearly not intended for purposes of self-insertion/wish fulfillment; WataMote comes to mind as a big example.  Arguably shrinking violets like Evangelion's Shinji also qualify.  (And on the flip side, there are self-insert protagonists that aren't modeled as uncool introverts; my understanding is that SAO's Kirito is intended to be "cool.")  However, for the vast, vast majority of anime with an introverted uncool protagonist, it's for the purpose of having someone that the typical audience member can relate to on some level.<br />
+<br />
+Bakemonogatari in many ways subverts the harem anime formula, notably by having the protagonist get the girl before the harem shows up.  In many ways, this allows it to execute on one of the things that harem anime are built around (a male protagonist developing many 1-on-1 relationships with a large cast of female characters) while avoiding a good deal of the insufferable fake drama that tends to be the standard for the genre--contrary to her claims, Senjougahara really isn't a tsundere, at least in the sense of a prototypical harem anime female lead.<br />
+<br />
+I think the main thing that Koyomi Araragi shares in common with Hachiman Hikigaya is that he takes it upon himself to solve the problems of the people around him and is selfless to the end, in a quite literal sense--if I recall correctly, at at one point he basically decides to allow himself to be killed when he concludes that his death would be the best way to peacefully resolve a conflict (until the more thoughtful part of his brain takes over and realizes that him dying would only make the situation worse).<br />
+<br />
+Looking at characters like Koyomi Araragi and Hachiman Hikigaya on the Sanderson evaluation: when they have a desire to help the people around them, that makes them sympathetic.  When they act on that desire, that makes them proactive.  When they succeed in their endeavors to improve the lives of others, that makes them competent.  And when that success wins them the favor of the people around them, that makes them more sympathetic.<br />
+<br />
+Worth noting is the fact that their success makes them even more sympathetic because it is <em>earned</em>.  The harder a character tries to attain something, the more fulfilling it is to see them rewarded for it. (Example: Hajime no Ippo.)  When all they do is win completely irrespective of their effort, it has the opposite effect.  (Example: Sword Art Online)</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30216759">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg30216759"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30216759" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">04-22-14, 4:37 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30216759" style="padding-bottom: 2px;"><a href="/profile/einonymous"><strong>einonymous</strong></a></div>
+		  
+		  <a href="/profile/einonymous"><img src="http://cdn.myanimelist.net/images/useravatars/3099955.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2013<br>
+		  Posts: 251
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30216759">Characters designed for self-insertion are always bad. However, personality-less, indecisive, and useless characters aren't always bad. If an indecisive character fits into the anime well, and is there so that he/she can grow and change, then it makes the anime better. Doesn't everyone love it when the character undergoes a change? For example, in Oregairu and Hyouka, the protagonists are there so that they would eventually change their outlook on life, so that they become livelier people. Hachiman begins to learn to connect with people socially, and Houtarou begins to learn that life isn't as dull as he thought. <br />
+<br />
+With that said, if a character is only there for self-insertion, he/she doesn't belong. Especially in a show with all strange characters, it feels out of place to just have the normal person randomly there. For example, even though I absolutely love the characters in The Melancholy of Haruhi Suzumiya for their weird abilities, it has always bothered me that Kyon was there. There's nothing special about him! Why does he get to be in the S.O.S. Brigade (and not me)? With that said, sometimes these characters may be meant to be self-insert, but may do just the opposite: spark jealously instead! Anime is supposed to take people to a new world and make them feel like they're in it. If a self-insertion character is there, the show is only going to emphasize that real-life people will never be able to fit into an anime. <br />
+<br />
+So to pander to the otaku crowd (after all, this must be done if the studio is going to make money, so I don't mind it), rather than self-insertion characters, why not just go with the traditional fanservice, or parody/references, etc.? These things we actually expect in anime, so they fit well.</div><div class="postActions"></div><div class="sig"><!--link--><a href="http://myanimelist.net/animelist/einonymous&amp;sclick=1"><img class="userimg" data-src="http://myanimelist.net/signature/einonymous.png" /></a> </div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30219875">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg30219875"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30219875" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">04-22-14, 7:40 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30219875" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30219875">I think self-insertion is an extreme version of empathy, which is not necessarily good or bad. Correspondingly on the positive side, it has the most extreme benefits from any emotion-appealing. They're made so you can best feel as they "feel". Relatability, if you will.<br />
+<br />
+To spring onto Kuiper's description of the "three critical attributes", I find value in subversion—in particular, antiheroes like Shinji from NGE or Satou from NHK. It's amazing storytelling (and quite heartrending) to expect them to achieve while you end up seeing them fail.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30223471">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg30223471"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30223471" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">04-22-14, 11:10 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30223471" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30223471">Considering medium for a moment, I think that the phenomenon of self-insert protagonists is most common is in visual novels.  Some (particularly eroge) have protagonists who are <!--link--><a href="http://biskmater.files.wordpress.com/2013/08/yuk_e11_01.jpg" rel="nofollow">literally faceless</a>.  Awhile back I wrote a blog post describing why I believe that bland protagonists make for poor visual novel writing, <!--link--><a href="http://kineticliterature.com/the-benefits-of-first-person-narration" rel="nofollow">post located here</a>.<br />
+<br />
+In considering this, some of the inherent differences between visual novels and anime become evident: anime is inherently a more visual medium, while VNs rely more on their writing and one of the tools they have at their disposal is the ability to regularly expose us to the protagonist's headspace.  (It's possible to do this in anime, but it's not the default mode.)</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg30436645">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg30436645"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg30436645" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">05-01-14, 8:34 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser30436645" style="padding-bottom: 2px;"><a href="/profile/Nagisa33"><strong>Nagisa33</strong></a></div>
+		  
+		  <a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/useravatars/2921515.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jul 2013<br>
+		  Posts: 465
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message30436645">I heard Katawa Shoujo was a good VN but when I played it I felt uncomfortable. The MC was this guy who didn't do much of anything, didn't have any notable trait, and was very much molded by the interactions with the girls he associated with. There was no substance to this guy and that was the point. It's a substitute for real interaction and rich communication with people and that made me feel uneasy to the point that I stopped playing. <br />
+<br />
+One of my favorite examples of an effective self-insert MC is Everyman from the morality play "Everyman". Hahaha! We read it in British Literature and it's about this guy who's all about worldly possessions. God asks him to die for his sins because he is fed up with the sins of humanity. He has no choice but to accept death like everyone else must do eventually but the only way for his soul to be saved is to basically be a good person and repent. As he dies, all aspects of himself wither away except his soul and his good deeds. Those are remembered and he gets accepted into heaven. I'm not a religious person but this story really hit me, especially the discussion on worldly possessions.<br />
+<br />
+He's effective because he represents well, everyman, and the issues can be applied to anyone. This play can work just as well for a religious or secular person. <br />
+ <br />
+Also, I wrote a paper on Everyman that I'm proud of. <br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br><br />
+The Relevance of Everyman<br />
+<br />
+Though Everyman was originally meant for a largely religious audience its lessons and themes are still relevant in today’s society. What makes Everyman so potent is that secular-minded individuals as well as religious individuals can appreciate the content. The struggles that Everyman faces and must overcome are similar to our own. Everyman is a morality play that contains themes of sin, avarice, and death. These themes are not only present in Everyman but they are also seen in other morality plays. <br />
+<br />
+It is believed that Everyman was translated from the Dutch morality play Elkerlijc. This play was created around 1450 but it did not become a part of English theatre history until roughly 1520. Elkerlijc was one of the first printed plays but there is little information on whether or where it was performed. The 15th century morality plays are diverse in their structure and in the allegories they contain. Similarities of morality plays include the use of abstract characters, the use of allegorical motifs, and goals that are aimed at salvation. Morality plays are didactic by nature and there is some greater meditate on (Happé 68). If the morality figure wants to reach salvation and then they must achieve that end by living a good life. The figure of good deeds will help the morality figure achieve salvation or ultimate goodness. In other morality plays a wretched man brings himself to ruin by his evil deeds. In morality plays evil can never lead to good and usually leads to the character’s demise. This type of moral causation is essential to the 15th century morality play (Godshalk 62).<br />
+<br />
+Sin is something that is inescapably human. Throughout time people have been grappling with desires and committing evil deeds. In Christianity sin is most notably represented in the form of the deadly seven sins, which are lust, gluttony, greed, sloth, wrath, envy, and pride. Everyman represents all of mankind God is certainly angry with mankind for their collective sin. He is not pleased with their transgressions against him. God believes that his creations shun him and that they do not consider the morality of their actions. He thinks humans have been reduced to beasts and are getting worse at every passing second. In his eyes humans are blinded with pride, drowned in sin, and all have money on their mind. God is furious that they do not remember the sacrifice he made to save their souls from sin, which is the very thing they are wallowing in. He points out that the seven deadly sins condemn the world and they all live for hedonistic beliefs. Since God predicts that matters will only become increasingly dire he wishes for Everyman to take up the mantle and die for their sins. Everyman lives a life of leisure and wants it to stay that way but he has little choice when confronted with Death.<br />
+Everyman has been sinning all his life but now is forced to change his ways if he wants to reach salvation. It can also be seen that if one lives a good life that is filled with good deeds then they will be respected and remembered of fondly. The world of Everyman is filled with sin and some do see it as getting worse every day. Humans are capable of committing horrors such as genocide, war, and rape. People can be racist, sexist, or biased but there is always a chance for individuals to change their ways. Everyman begins his journey and tries to convince worldly figures to accompany him on his pilgrimage. Fellowship, his cousin, and Kindred all leave Everyman due to his impersonal attachment with them. All Everyman really cared about was Goods. Goods represent the deadly sin of greed or avarice, which is something many religions warn of.<br />
+<br />
+Everyman claims that Goods is what he loved the most in life. Everyman is avaricious, means he is focused on attaining extreme wealth or material gain. He looks to the physical world for his salvation but there is none to be found. The sins are can overlap and Goods is related to wrath and envy. He states, “My condition is man’s soul to kill” and “If I save one, a thousand I do spill.” Wars are fought over resources, land, and personal gain. People are killed daily in order to gain something physical. When a country becomes more powerful it needs an even greater amount of resources to feed on. Goods is so large that he just sits there. He is locked away in a chest hidden from the world and cramped in a room. Everyman keeps accumulating wealth endlessly. Goods states that the world is full of trouble and adversity and he can help Everyman in the earthly realm. He may be able to solve worldly problems but in heaven Goods has no power. Everyman is unable to take his wealth with him to the next life. Everyman would be much worse off if Goods tagged along because he is the opposite to the eternal love that God provides. Goods is a false god that only betrayed and blinded Everyman about what is truly important. People today are immersed in the material, which blinds them from what is truly important. Social interaction and true bonding is crippled with technomedia influencing society. Goods describes that he is a thief and a traitor. He stole what was important to Everyman and replaced it with a material distraction.<br />
+<br />
+Even though Everyman’s recovery from sin to grace is available for all people, he himself is not wholly generic. “Everyman's powerful confidence in goods would have made him recognizable to early audiences as a prosperous member of the mercantile and commercial class, a class particularly given (according to late medieval stereotypes) to avarice” (Harper and Mize 270). Anyone can become a slave to their possessions, even meager ones, and not only entrepreneurs might be rich. Everyman is rich and there is no indication that he did not earn it himself. Since Everyman believes that money can solve all his problems it is likely that money is what he cares about with his core (Harper and Mize 271). Even if Goods is what he values the most it cannot save Everyman from death.<br />
+<br />
+The morality play motif of the coming of Death is paramount to Everyman. The play is a part of the ars moriendi literature, which became popular at the end of the fifteenth century. Ars moriendi renewed people’s hope in salvation during the black plague. It means to die well and it was a facet of Christianity in the 15th century. The theme of death reflects the positive Christian view of death and judgment. Death participates at the end of the play and his presence was seen as a warning to live a just life (Siy 9). Christians were scared of the death pains and the spiritual trauma on the deathbed. The guide to dying was comforting and necessary for the Christian in the late medieval period. They believed one’s disposition and behavior before death helped determine salvation (Siy 7). Everyman dies with his grace and with a full heart. <br />
+<br />
+When death comes for Everyman he tries to bribe him but riches and material possessions have no effect on the spiritual. Once Everyman realizes he cannot escape death he goes through various denial stages until he accepts his fate. Death is something that is no one can escape. As we grow old certain qualities fade away. Everyman had Strength, Discretion, Five-Wits, Beauty, Knowledge with him but as he died they vanished. An old man cannot stay strong and mentally sharp forever. The only aspect of his new self that remained was Good Deeds. His good deeds stayed with him and earned Everyman salvation. The play teaches that even in the face of death one can still succeed if they do well by others.<br />
+<br />
+Everyman’s lessons and themes are still relevant in this era. It is a play that can be done in a traditional manner or presented in a modern style. No matter the form Everyman will have an impact because it resonates with our humanity. Everyman explores timeless themes of sin, avarice, and death. Everyman faces the same problems that individuals experience today. He comes to terms with aspects of his humanity that all individuals must eventually consider.<br />
+<br />
+Works Cited<br />
+Godshalk, W. L. "All's Well That Ends Well and the Morality Play." Shakespeare Quarterly 25 (I974): 61-70.<br />
+<br />
+Happé, Peter. "Genre And Fifteenth-Century English Drama: The Case Of Thomas Chaundler's Liber Apologeticus." Medium Ævum 82.1 (2013): 66-80. MLA International Bibliography. Web. 13 Mar. 2014.<br />
+<br />
+Harper, Elizabeth, and Mize, Britt. "Material Economy, Spiritual Economy, And Social Critique In "Everyman." Comparative Drama 40.3 (2006): 263-311. Academic Search Complete. Web. 13 Mar. 2014. <br />
+<br />
+Siy, Dennis. “Death, Medieval Moralities, and the 'ars Moriendi' Tradition. Ann Arbor.” Mi: University Microfilms International, (1985): Print.<br />
+<!--spoiler--></span></div></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1152133" id="topicId"/>
+<input type="hidden" value="10" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

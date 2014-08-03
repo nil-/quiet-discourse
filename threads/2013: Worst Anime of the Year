@@ -1,0 +1,732 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>2013: Worst Anime of the Year - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">2013: Worst Anime of the Year</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=719585">2013: Worst Anime of the Year</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;">Pages (2) <a href="?topicid=719585&show=-40"></a> <a href="?topicid=719585&show=-20"></a> [1] <a href="?topicid=719585&show=20">2</a> <a href="?topicid=719585&show=40"></a> <a href="?topicid=719585&show=20">&raquo;</a> </div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg27427695">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg27427695"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27427695" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">01-03-14, 4:16 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27427695" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27427695">This thread is for the discussion of the Worst Anime of the Year for 2013.<br />
+<br />
+<strong>Event Guidelines</strong>:<ul><li> All eligible anime (excluding OVA and films) must have aired at least one episode in the year.<br />
+<li> All eligible OVA and films must have released at least one of their BD/DVDs in the year.</ul></ol><strong>Practices to Follow</strong>:<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by nil-, 01-24-14, 2:14 PM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27440907">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg27440907"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27440907" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">01-04-14, 2:07 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27440907" style="padding-bottom: 2px;"><a href="/profile/Stellio"><strong>Stellio</strong></a></div>
+		  
+		  <a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/useravatars/1158933.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2012<br>
+		  Posts: 370
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27440907">So many to choose from.. I pick you, Devil Survivor 2 The Animation!<br />
+<br />
+Seriously, it was so bad I had to delete it off of my list- and the only other title (which I've completely) that's happened to before was Boku no P- you know, I don't even want to finish that sentence.<br />
+<br />
+I'm sure there are even worse though, like Coppelion (which I've heard from many is atrocious) or Amnesia. Luckily, I've been careful recently not to fall into these allegedly catastrophic traps, so yeah. There're probably worse out there.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27441189">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg27441189"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27441189" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">01-04-14, 2:23 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27441189" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27441189">I've apparently only given a single 1/10 to the anime of 2013, so I guess Brothers Conflict has to be my pick for WAOTY. Lots of honorable mentions though: Oreimo s2 for being unwatchable, Samurai Flamenco for puppy-kicking + bullying, Gifuu Doudou!! for featuring some of the most hilarious cost-cutting that I've ever <span style="text-decoration:line-through;">DEEN<!--strike--></span> seen, Genei wo Kakeru Taiyou for D4RKNESS that's impossible to take seriously, Diabolik Lovers even though it has a single redeeming quality unlike BroCon, Kotoura-san for grandad + generally being notgood, and Meganebu! for having a single good episode and then being absolute garbage.</div><div style="margin-top: 8px;"><em>Modified by twinbells, 01-04-14, 2:27 AM</em></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27442279">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg27442279"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27442279" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">01-04-14, 3:40 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27442279" style="padding-bottom: 2px;"><a href="/profile/Levi-"><strong>Levi-</strong></a></div>
+		  
+		  <a href="/profile/Levi-"><img src="http://cdn.myanimelist.net/images/useravatars/533205.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 183
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27442279">Out of all the anime this year? Definitely DokiDoki Precure. I have no idea how you could fuck up a Precure show so badly but Toei has found a way! From  inconsistent writing, the worst mahou shoujo lead I've ever seen ( fuck you Harem King), and everything in between it's hard to believe. Never again will I pick up a Precure show because of it.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27442499">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg27442499"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27442499" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">01-04-14, 3:57 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27442499" style="padding-bottom: 2px;"><a href="/profile/tommy73"><strong>tommy73</strong></a></div>
+		  
+		  <a href="/profile/tommy73"><img src="http://cdn.myanimelist.net/images/useravatars/1201407.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2012<br>
+		  Posts: 168
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27442499">Diabolik Lovers was seriously bad, but I don't think anyone would think "wow I'm shocked it's bad"; it's an Otame adaption about a girl trapped in a mansion filled with vampires. It was funny at times (as in, hahaha this is dumb), but why I bothered with it I will never know, it just sucked and would rather die than watch season 2.<br />
+<br />
+Runner ups include (no particularly order + series I completed); Kotoura-san (seriously this was a complete mess); Sasami-san (well, not ultra bad but boring and uninspiring); Coppelion (ensue unnecessary drama and awful characters not even believable) and Aku no Hana (I'm sorry AnH fans of the anime but I just couldn't care about this). Valvrave would count too but I had a good laugh so I won't count it properly.</div><div class="postActions"></div><div class="sig"><!--link--><a href="http://myanimelist.net/clubs.php?cid=35120"><img class="userimg" data-src="http://i.imgur.com/6PN7YGc.png" /></a><br />
+Me blog: <a href="http://tobunation.wordpress.com/" target="_blank" rel="nofollow">http://tobunation.wordpress.com/</a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27458853">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg27458853"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27458853" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">01-04-14, 4:03 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27458853" style="padding-bottom: 2px;"><a href="/profile/10bit"><strong>10bit</strong></a></div>
+		  
+		  <a href="/profile/10bit"><img src="http://cdn.myanimelist.net/images/useravatars/670817.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2011<br>
+		  Posts: 73
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27458853">I have to agree with Stellio on Devil Survivor 2 being the worst of 2013. After having done write ups about every single episode, under scrutiny, DS2A is a literal affront to all 5 senses.<br />
+<br />
+On top of that, if you happen to be a fan of the games, it's a little extra salt in the wound from Atlus. The plot just veered off into the nonsensical and culminated into an anime original dramafest. I could go on for days about it.<br />
+<br />
+A scene from the show has Satan and Lucifer hugging. I wish I was lying.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27462499">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg27462499"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27462499" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">01-04-14, 7:25 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27462499" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27462499">Well, there were so many terrible anime this year. But there are two that are particularly terrible - Kotoura-san, because it is so shamelessly manipulative, yet it does such a terrible job at it; and Oremio S2, because it through everything out the window and it seemed everyone involved lost interest and just resorted to stringing cliches and pathetic drama together, aaaallll the way to its spectacularly terrible finale.<br />
+<br />
+Stuff like Devil Survivor and Sasami-san and stuff are more just bad rather than offensive to me. Devil Survivor in particular I found so campy and lame at times that it was hilarious.<br />
+<br />
+SO<br />
+A tie between Kotoura-san and Oreimo S2</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27465291">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg27465291"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27465291" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">01-04-14, 9:01 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27465291" style="padding-bottom: 2px;"><a href="/profile/Kapodaco"><strong>Kapodaco</strong></a></div>
+		  
+		  <a href="/profile/Kapodaco"><img src="http://cdn.myanimelist.net/images/useravatars/1705403.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2012<br>
+		  Posts: 624
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27465291">A clear cut choice for me, as this is simply a continuation of a series that I disliked even in my youthful days during my second full month of watching anime.<br />
+<br />
+Infinite Stratos 2.<br />
+<br />
+Even when my brain was naive and puny when I first started out, I still gave the original series a four, immediately after giving Kamisama no Memo-chou a nine. The seventeenth anime I've ever seen, the original Infinite Stratos was where I first started to develop a disdain for harems. Because of this, watching the second season may have been more for my own nostalgic purposes above giving it a fair, fresh shot at not being awful. Regardless, it ended up being awful, so I rated it as such. All of the characters are written with the fans in mind. The plot is laughably lazy. The animation is no better from the original (which had spotty CGI). Everything about is pretty much the bottom of the barrel. The only reason it was saved from a one was because of personal enjoyment. Laughing at its flaws. You all understand.<br />
+<br />
+Honorable Mentions:<br />
+<br />
+Freezing Vibration<br />
+Kamisama no Nichiyoubi<br />
+Watamote</div><div class="postActions"></div><div class="sig"><em>As long as I've got Henne, I've got a pretty penny.</em></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27466691">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg27466691"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27466691" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">01-04-14, 9:52 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27466691" style="padding-bottom: 2px;"><a href="/profile/ridojiri"><strong>ridojiri</strong></a></div>
+		  
+		  <a href="/profile/ridojiri"><img src="http://cdn.myanimelist.net/images/useravatars/130236.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2009<br>
+		  Posts: 1160
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27466691">I feel like you're missing the elephant in the room;<br />
+<span style="font-size: 115%;"><strong>Coppelion</strong><!--size--></span><br />
+<br />
+TBH actually Arata Kangatari was even worse but I feel like literally no one watched it.</strong></strong></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27468687">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg27468687"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27468687" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">01-04-14, 11:21 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27468687" style="padding-bottom: 2px;"><a href="/profile/mugi"><strong>mugi</strong></a></div>
+		  
+		  <a href="/profile/mugi"><img src="http://cdn.myanimelist.net/images/useravatars/260668.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2009<br>
+		  Posts: 928
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27468687">Hard to say, I somehow have a bad memory when it comes to remembering what I watched, especially when I didn't like it.<br />
+<br />
+But even though many some people might disagree, I really hated WataMote. It was simply painful to watch after 4 episodes and not even close to be funny.<br />
+<br />
+Copellion would have been better if they would have reduced the team to just one girl or just mix the team with males, and maybe getting of the school uniforms and that bland writing.. What I read in the manga before the anime aired wasn't too bad but got really tiresome with the anti-nuclear preaching at one point.<br />
+<br />
+I couldn't stand Kyoukai no Kanata as well. At first I thought the visuals didn't fit but I was mistaken once I found out how generic those characters were and how it repeated that unfunny gag dialogue over and over without really developing anything. I don't really want to mention it, as I am that one obnoxious Monogatari fan on MAL, but I couldn't stop thinking that some of the characters and mostly their dialogues and jokes were trying really hard to "copy" Monogatari with bit of streamlining. Well, at least when it comes to the interactions between the male MC and the "abusive" girl.<br />
+If KyoAni would have seriously wanted to create a supernatural anime, then they should have avoided their usually conventions and that art style/character design.</div><div style="margin-top: 8px;"><em>Modified by mugi, 01-04-14, 11:48 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27473175">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg27473175"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27473175" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">01-05-14, 3:17 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27473175" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27473175"><!--quote--><div class="quotetext"><strong>ridojiri said:</strong><!--quotesaid--><br><br />
+TBH actually Arata Kangatari was even worse but I feel like literally no one watched it.</strong></strong><!--quote--></div><br />
+Nah I watched like 3 eps of that before dropping it. To me, it was more painfully average (or painfully bad) than really terrible. It was just some low budget typical shounen story. There were other shows that were more offensive and closer to pure evil.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27479867">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post12"></a><a name="msg27479867"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27479867" class="postnum">12</a></div>
+		<div style="padding-left: 3px;">01-05-14, 10:58 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27479867" style="padding-bottom: 2px;"><a href="/profile/GaryFrost"><strong>GaryFrost</strong></a></div>
+		  
+		  <a href="/profile/GaryFrost"><img src="http://cdn.myanimelist.net/images/useravatars/566985.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2011<br>
+		  Posts: 144
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27479867">Devil Survivor 2 the Animation<br />
+<br />
+dem unconvincing character development<br />
+dem uneventful battles<br />
+dem melodrama everywhere<br />
+dem bland characters <br />
+dem failure of comic relief<br />
+dat part when Satan hugs Lucifer<br />
+dem shounen cliches as well as other awkward cliches</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27487043">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post13"></a><a name="msg27487043"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27487043" class="postnum">13</a></div>
+		<div style="padding-left: 3px;">01-05-14, 3:52 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27487043" style="padding-bottom: 2px;"><a href="/profile/Veronin"><strong>Veronin</strong></a></div>
+		  
+		  <a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/useravatars/39613.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Feb 2008<br>
+		  Posts: 3533
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27487043">Seconding Infinite Stratos 2. It is one thing to be an insipid harem, but it is another to so thoroughly insult the audience's intelligence on every possible occasion. At least trash like Sparrow's Hotel and Genei wo Kakeru Taiyou can be largely ignored. Infinite Stratos 2 represents everything wrong with the anime industry, and worse - it actually managed to sell well. You <em>can't</em> ignore it. It is the plague.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img src="http://img541.imageshack.us/img541/6581/v46o.png" /><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27517041">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post14"></a><a name="msg27517041"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27517041" class="postnum">14</a></div>
+		<div style="padding-left: 3px;">01-06-14, 10:52 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27517041" style="padding-bottom: 2px;"><a href="/profile/NavyCherub"><strong>NavyCherub</strong></a></div>
+		  
+		  <a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/useravatars/283217.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2010<br>
+		  Posts: 1137
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27517041">Sekai de Ichiban Tsuyoku Naritai!<br />
+<br />
+- Normally I am not too phased by fanservice ecchi shows. I understand there is an audience for those kinds of things, and I even find myself enjoying the right one if it suits my tastes. This show, however, is not only devoid of thought, it is exploitative of the female sex and insulting to anyone who even gives a single crap about wrestling. Half of every episode is close up shots of girls' crotches while they moan as another girl fills her own crotch with the other girl's face. That is it. And yet, every once in a while the show has the audacity to attempt to make the viewer believe this is anything like what wrestling is. It's insulting and kind of nasty to boot.</div><div style="margin-top: 8px;"><em>Modified by NavyCherub, 01-07-14, 9:04 PM</em></div><div class="postActions"></div><div class="sig">&quot;My tables-meet it is I set it down<br />
+That one may smile, and smile, and be a villain.&quot;</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27538191">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post15"></a><a name="msg27538191"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27538191" class="postnum">15</a></div>
+		<div style="padding-left: 3px;">01-07-14, 7:36 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27538191" style="padding-bottom: 2px;"><a href="/profile/superzarop"><strong>superzarop</strong></a></div>
+		  
+		  <a href="/profile/superzarop"><img src="http://cdn.myanimelist.net/images/useravatars/1616425.png" vspace="2" border="0"></a>
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Oct 2012<br>
+		  Posts: 66
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27538191">Look like I saved myself from a lot of grief by forgetting about IS2 after the first episode. <br />
+<br />
+My vote for worst of the year would have to be Dog and Scissors. In its attempt at being creative and unique, It has perhaps succeeded in becoming uniquely bad. I get the feeling that it tries to make itself seem smart at times, but it achieves the exact contrary by being full of absurdly childish ideas in addition to the pandering. This show has even less dignity than its protagonist.<br />
+<br />
+No one mentioned this show yet, were I too stupid to even have started watching it, or did it become better after god knows which episode I dropped it on?</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27538417">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post16"></a><a name="msg27538417"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27538417" class="postnum">16</a></div>
+		<div style="padding-left: 3px;">01-07-14, 7:50 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27538417" style="padding-bottom: 2px;"><a href="/profile/nil-"><strong>nil-</strong></a></div>
+		  
+		  <a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/useravatars/1267209.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Apr 2012<br>
+		  Posts: 1172
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27538417"><!--quote--><div class="quotetext"><strong>superzarop said:</strong><!--quotesaid--><br>Look like I saved myself from a lot of grief by forgetting about IS2 after the first episode. <br />
+<br />
+My vote for worst of the year would have to be Dog and Scissors. In its attempt at being creative and unique, It has perhaps succeeded in becoming uniquely bad. I get the feeling that it tries to make itself seem smart at times, but it achieves the exact contrary by being full of absurdly childish ideas in addition to the pandering. This show has even less dignity than its protagonist.<br />
+<br />
+No one mentioned this show yet, were I too stupid to even have started watching it, or did it become better after god knows which episode I dropped it on?<!--quote--></div><br />
+I watched the first episode (and dropped it immediately). Oh god Dog and Scissors to me is like that gimmick show every season. One of them was about a man with a fetish for cutting hair, another was a *cough* mind-reading 4koma... there's too many to count. I think what Dog and Scissors excelled in was not only being marvelously bad, but averaging clearly strained visuals combined with a plot no better than the average doujinishi.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">QD</a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27542165">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post17"></a><a name="msg27542165"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27542165" class="postnum">17</a></div>
+		<div style="padding-left: 3px;">01-08-14, 12:36 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27542165" style="padding-bottom: 2px;"><a href="/profile/Masserati_"><strong>Masserati_</strong></a></div>
+		  
+		  
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Jan 2010<br>
+		  Posts: 212
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27542165">I could go with something like Valvrave, Infinite Stratos 2, Aku no Hana, Attack on Titan, OreImo 2, Kotoura-San, Devil Survivor 2...there's a lot I can choose from, but I'm ultimately tied between two of them.<br />
+<br />
+Blazblue: Alter Memory is probably the worst kind of TV adaptation of a video game. Reducing certain characters to roles so minor that they may as well not appear at all, horrible animation in a series that is all about the action and they even have the audacity to hint at a possible sequel. Blazblue's story-line is below average at best, and the constant time-loops and multiple endings make it difficult to animate, but this is just a really terrible way of adapting it. Carl appeared for about two minutes. Arakune was in for 10 seconds. The worst part is that George XIII (literally the only good thing about Rachel at all) didn't even make an appearance! For shame! The one redeeming feature is that the music is still intact, hearing Lust SIN in an anime was pretty cool, but even that doesn't change how terrible this is.<br />
+<br />
+It's either that or the second Code Geass OVA, which has practically killed any chance of this being an enjoyably bad OVA and changed it to just really terrible with totally implausible mechs (one of them is a centaur) and a horrible cast. Blazblue probably beats it out for worst anime of the year, but it's only by a small margin.</div><div style="margin-top: 8px;"><em>Modified by Masserati_, 01-08-14, 4:56 AM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27634971">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post18"></a><a name="msg27634971"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27634971" class="postnum">18</a></div>
+		<div style="padding-left: 3px;">01-11-14, 8:32 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27634971" style="padding-bottom: 2px;"><a href="/profile/Gonzo-nyan"><strong>Gonzo-nyan</strong></a></div>
+		  
+		  <a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/useravatars/985071.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2011<br>
+		  Posts: 771
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27634971"><strong>Winner: Coppelion</strong><br />
+<br />
+Had genuine high hopes for this from its premise, and yes even from looking at the schoolgirl outfits in the poster, that slowly turned into sour disappointment. With a story this grand, you need to make sure you know how to play your cards right into giving characters actual character. Nonsensical story that is all over the place with no sense of focus whatsoever. Its art of the background really does make you feel like you’re in a nuclear wasteland, but even that only lasts for so long.<br />
+<br />
+<strong>Runner up #1: Sasami-san</strong><br />
+<br />
+Shaft and I have always had a love and hate relationship together. They either make some of the most intriguing and complex shows that could easily tread into generic territory or they’ll come up with the most exaggerated mess of shows that try too hard to either shock or invigorate its audience. Somehow they’ve managed to do both of these things but fail on both instead of one way to another.<br />
+<br />
+<strong>Runner up #2: Aku no Hana</strong><br />
+<br />
+Normally, it’s usually me who’s not on the fence of going with the majority of opinion but with the case of Aku no Hana I can’t force myself to do so. I appreciate it’s intentions on building up a dark atmosphere in an otherwise dark story but the writing just falls flat on so many levels to the point where I can’t get engrossed to the story due in part to its atrocious dialogue writing and horrible development.<br />
+<br />
+Honorable Mentions: ARS Nova, Free, Infinite Stratos 2, Kyoukai no Kanata, Sekai de Ichiban, and Koutara-san.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://gonzonyan.wordpress.com/" rel="nofollow"><img class="userimg" data-src="http://i.minus.com/iFBKqTvDcfeI1.png" /></a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27656585">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post19"></a><a name="msg27656585"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27656585" class="postnum">19</a></div>
+		<div style="padding-left: 3px;">01-12-14, 4:42 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27656585" style="padding-bottom: 2px;"><a href="/profile/xxHxx"><strong>xxHxx</strong></a></div>
+		  
+		  
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2011<br>
+		  Posts: 85
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27656585">Aku no hana was the worst on my opinion. It made me feel desperate, it was kind offensive. Everything about it was  horrible – especially the animation. <br />
+<br />
+I also dropped Coppelion and Ars Nova after the first episode.They look uninteresting.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg27666979">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post20"></a><a name="msg27666979"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg27666979" class="postnum">20</a></div>
+		<div style="padding-left: 3px;">01-13-14, 3:24 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser27666979" style="padding-bottom: 2px;"><a href="/profile/Doaj"><strong>Doaj</strong></a></div>
+		  
+		  <a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/useravatars/532439.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2011<br>
+		  Posts: 457
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message27666979">I'm going to agree with NavyCherub, though I'll admit my experience isn't as in-depth, seeing as I didn't start watching airing anime until Fall season. But Sekai de Ichiban Tsuyoku Naratai was really, really quite bad. <br />
+<br />
+The fanservice I expected. The fifteen minutes per episode of the main character crying in pain while other characters watch and grimace and eventually give up on watching the live show in a show- didn't anticipate that. It got to the point where I was embarrassed to tell people I was watching it. Yes, I picked this up in the off chance it would be good. Please don't judge me. It's one of few 1/10s. I won't even be giving BlazBlue such a low rating, and that's getting some extra hate-rating for dragging the BlazBlue name through the mud.</div><div class="postActions"></div><div class="sig"><span style="font-size: 80%;"><div style="text-align: center;"><img class="userimg" data-src="http://fc06.deviantart.net/fs42/f/2009/096/7/8/Tonberry_Banner_by_Doaj.jpg" /><br />
+Vengeance of everyone's grudge.<!--size--></span><!--center--></div><br />
+"I didn't add it to my list so I forgot I was watching that." - lpf</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="719585" id="topicId"/>
+<input type="hidden" value="21" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;">Pages (2) <a href="?topicid=719585&show=-40"></a> <a href="?topicid=719585&show=-20"></a> [1] <a href="?topicid=719585&show=20">2</a> <a href="?topicid=719585&show=40"></a> <a href="?topicid=719585&show=20">&raquo;</a> </div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

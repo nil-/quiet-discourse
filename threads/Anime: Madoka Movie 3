@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Anime: Madoka Movie 3 - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Anime: Madoka Movie 3</span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1199989">Anime: Madoka Movie 3</a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg31595149">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg31595149"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31595149" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">06-13-14, 2:51 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31595149" style="padding-bottom: 2px;"><a href="/profile/danz"><strong>danz</strong></a></div>
+		  
+		  <a href="/profile/danz"><img src="http://cdn.myanimelist.net/images/useravatars/131418.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2009<br>
+		  Posts: 698
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31595149">This thread is for the discussion of <!--link--><a href="http://myanimelist.net/anime/11981/Mahou_Shoujo_Madoka%E2%98%85Magica_Movie_3:_Hangyaku_no_Monogatari">Madoka Movie 3</a>.<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31876785">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg31876785"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31876785" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">06-23-14, 2:02 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31876785" style="padding-bottom: 2px;"><a href="/profile/sushiisawesome"><strong>sushiisawesome</strong></a></div>
+		  
+		  <a href="/profile/sushiisawesome"><img src="http://cdn.myanimelist.net/images/useravatars/1269655.jpg" vspace="2" border="0"></a>
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Apr 2012<br>
+		  Posts: 1942
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31876785">An atrocious movie which destroyed the character development of the original series and replaced the complex themes of the original series (namely, selflessness vs selfishness) with yuri pandering and a bloody cake scene. It's Urobuchi at his worst.<br />
+A lot of events felt forced and the movie told its story rather than showing it, and expects us to accept its turn of events as something other than a glorious comedy.<br />
+Interesting ideas, no doubt, but pathetic execution. I'm pretending it never happened.</div><div style="margin-top: 8px;"><em>Modified by sushiisawesome, 06-23-14, 2:06 AM</em></div><div class="postActions"></div><div class="sig"><img class="userimg" data-src="http://i.imgur.com/8NuZt.png" /></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31883437">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg31883437"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31883437" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">06-23-14, 8:56 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31883437" style="padding-bottom: 2px;"><a href="/profile/NavyCherub"><strong>NavyCherub</strong></a></div>
+		  
+		  <a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/useravatars/283217.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2010<br>
+		  Posts: 1137
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31883437">The greatest piece of animation I've ever seen. Every time I watch it, it gets better. 流石まどか</div><div class="postActions"></div><div class="sig">&quot;My tables-meet it is I set it down<br />
+That one may smile, and smile, and be a villain.&quot;</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31899635">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg31899635"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31899635" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">06-23-14, 9:05 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31899635" style="padding-bottom: 2px;"><a href="/profile/BigSimo"><strong>BigSimo</strong></a></div>
+		  
+		  <a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/useravatars/102929.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Oct 2008<br>
+		  Posts: 5116
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31899635">given that sushiiawesome and navycherub completely disagree, why don't one of you start arguing with the other!??!?</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31899793">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg31899793"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31899793" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">06-23-14, 9:13 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31899793" style="padding-bottom: 2px;"><a href="/profile/Gonzo-nyan"><strong>Gonzo-nyan</strong></a></div>
+		  
+		  <a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/useravatars/985071.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2011<br>
+		  Posts: 771
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31899793"><!--quote--><div class="quotetext"><strong>BigSimo said:</strong><!--quotesaid--><br>given that sushiiawesome and navycherub completely disagree, why don't one of you start arguing with the other!??!?<!--quote--></div>I feel like Navy is over-exaggerating his love for the movie...</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://gonzonyan.wordpress.com/" rel="nofollow"><img class="userimg" data-src="http://i.minus.com/iFBKqTvDcfeI1.png" /></a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31923437">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg31923437"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31923437" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">06-24-14, 8:28 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31923437" style="padding-bottom: 2px;"><a href="/profile/Excelsior"><strong>Excelsior</strong></a></div>
+		  
+		  
+		  <br>
+		  <span style="color: green;">Online</span><br>
+		  Joined: Sep 2007<br>
+		  Posts: 862
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31923437">One of the terrible parts of the movie concerns with how Urobuchi deals with exposition, having a very &quot;tell-don't-show&quot; philosophy with it. I'm OK with the movie throwing us into a new world with new rules for the sake of grabbing our attention and throwing us off-balance, but he chose the worst possible way to deal with it i.e. <div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>Kyuubey delivering a 7-minute monologue straight-up telling us what the fuck has been happening for the past hour and why. There's some snappy Shinbo-visuals and Homura's pissed-off actions against Kyuubey that occur for the sake of spicing things up, but that doesn't change the fact that we're listening to Kato Emiri read a dozen pages of script to us. <!--spoiler--></span></div></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31923645">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg31923645"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31923645" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">06-24-14, 8:45 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31923645" style="padding-bottom: 2px;"><a href="/profile/RMNDolphy"><strong>RMNDolphy</strong></a></div>
+		  
+		  <a href="/profile/RMNDolphy"><img src="http://cdn.myanimelist.net/images/useravatars/1212363.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2012<br>
+		  Posts: 519
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31923645">I tweeted this nonsense after finishing the movie about a month ago <div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>I&rsquo;m still not sure I understand how I feel about the Madoka movie. Simply as a visual /thing/, it&rsquo;s fucking incredible. Like, absolutely a joy to watch start to finish. Some of the fight scenes are just incredible, and the dreamy environments are just really cool and imaginative. In a substance/style marriage sense, I do think the visuals go further than necessary to the point where they supersede the story in places, in sort of a showboat-y, slightly disruptive way. Focus taken away from more subdued interpersonal moments in favor of kaleidoscopic spectacle. Stuff like that. <br />
+<br />
+A bit of a tangent here, but: in my opinion, style alone can carry something if that&rsquo;s what it sets out to do. Stuff like Redline or Dead Leaves, for example, thrive on their style to the point where it becomes their main selling point. It makes them an absolute blast to watch, and there&rsquo;s value in that. Fun is cool. BUT, those works also do not attempt to have a story, at least not to an egregious extent. <br />
+<br />
+Madoka 3 does though. And that&rsquo;s maybe my biggest problem with it, which sounds dumb conceptually. I suppose my bigger problem with the film is that it is ALL premise. Right up to the credits, the majority of the dialogue is explicating some detail of the premise. The ending of the series felt pretty conclusive, with all loose threads tied up&hellip; and this just feels like they spend most of the runtime trying to convolute a situation where it isn&rsquo;t conclusive anymore. I mean, the central idea of the film brings with it a lot weird issues when connected to the main series, and the rest is spent smoothing those out. Which, to be fair, it does. I just never really felt the premise was allowed to breath beyond that. Or something. <br />
+<br />
+Not that the story was completely void of neat ideas; there were a great number of them. I actually think the movie was pretty good overall. Worth a watch, at least. I&rsquo;m honestly still sorting out my thoughts on it though. This is just a rough idea of how I feel right after watching it. If nothing else, the visuals alone make it worth watching.<br />
+<br />
+Also&hellip; man, did you see those henshins? wow. they were so cool! and i was like &ldquo;wow&rdquo; <br />
+<br />
+and also &ldquo;those are so cool!&rdquo;<!--spoiler--></span></div><br />
+<br />
+And really, I'm still not sure how I feel about it. That's kinda why I wanted to nominate it, really. So yes, please elaborate, you two.<br />
+<br />
+Oh, and that cake scene was like the best part of the movie.</div><div class="postActions"></div><div class="sig"><div style="text-align: right;"><!--link--><a href="http://drillmilkyholmes.wordpress.com/" rel="nofollow"><img src="http://i.imgur.com/7ALjX4f.png" /></a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31925567">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg31925567"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31925567" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">06-24-14, 10:15 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31925567" style="padding-bottom: 2px;"><a href="/profile/twinbells"><strong>twinbells</strong></a></div>
+		  
+		  <a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/useravatars/1294541.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2012<br>
+		  Posts: 421
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31925567">Prettiest anime of the last year by a large margin&mdash;they had the money and they had the will.<br />
+<br />
+A lot of people have calledt it overly stylized, but the art direction actually makes perfect sense in the context of the story. Half of what is told is done so visually, stylistically, and choreographically. Considering this, I don't see where the &quot;tell show whatever whatever&quot; comes from.<br />
+<br />
+Don't know how I feel about Nagisa/Charlotte. Charlotte was easily one of the most creative and interesting witches in the television series and Nagisa's character design in the movie is great, but her inclusion didn't seem to serve any real purpose other than to create even more opportunities to make the anime pretty.<br />
+<br />
+Unsure how I feel about the story as a whole. Perhaps there was more there than was necessary, but you also don't want an Utena movie situation there's no glue to hold your spectacle together. Some were upset by and/or otherwise unsatisfied with the ending, but honestly, this isn't the type of work that befits a nice, tidy conclusion. (For the record, it wasn't Urobuchi's idea.) Wasn't phased by &quot;yuri pandering.&quot;[1]<br />
+<br />
+Cake scene was awesome kids just don't know how to appreciate a cake scene these days.<br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>1. Pandering isn't real. A fanciful notion. A purely fantastical concept. Just like plot holes have you ever seen pandering or a plot in real life with your own two eyes I certain haven't need I say more fight me.<!--spoiler--></span></div></div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><img class="userimg" data-src="http://i.imgur.com/tCa2eBH.png" /><br />
+<span style="color:#f3e7dd">join the quietly discursive at <!--link--><a href="http://myanimelist.net/clubs.php?cid=40791">quiet discourse</a> || <!--link--><a href="http://twin-bells.tumblr.com/" rel="nofollow">tumblr</a><!--color--></span><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31935663">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg31935663"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31935663" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">06-25-14, 9:09 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31935663" style="padding-bottom: 2px;"><a href="/profile/NavyCherub"><strong>NavyCherub</strong></a></div>
+		  
+		  <a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/useravatars/283217.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2010<br>
+		  Posts: 1137
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31935663">Typing this on my little sister's iPhone so sorry if I am not sufficiently verbose because it is frustrating writing on this thing.<br />
+<br />
+As others have pointed out, the greatest thin about this movie is it's visuals. It looks amazing, from the first frame to the last, never yielding in an effort to please the eyes in a grand, satisfying way. The greatest strength here compared to the television series is that the Gekidan Inu Curry designs and animation concepts are allowed to exist outside of the constraints that the original series called &quot;labyrinths&quot;. They are dutifully and beautifully integrated into the city or buildings or chalk-rainbow worlds that are distinctly not Gekidan Inu Curry. Because of this, all of the visual strengths Madoka as a franchise boasts are able to live and breathe freely, mingling and interacting and otherwise existing together in a two hour long grandiose spectacle. Really, the visuals alone are so good that I wouldn't have much minded if it had no dialogue ever.<br />
+<br />
+There is though, which might have been the thing keeping me from loving this film as much as I do. But I find that the complaints voiced frequently (including here in this discussion) about the plot being simply laid on the table, the story being all-concept with every word spoken furthering the explanation and reasoning for the ideas that the film's plot is built upon - these things are what make the movie work. There is not any nuanced character interaction or hidden details in the story for you as a viewer to be concerned with, because those things would be distracting, pulling you away from the main event that is the lovely and constant stream of creativity and animation.<br />
+<br />
+Because there are only two major story elements introduced in this movie, and I've never really seen Kyubey's motivation or reasoning questioned, I am going to address Homura's, and why her decision is actually a good addition to the Madoka story. Homura's obsessive, powerful love didn't come with real consequences in the end of the television series. She suffered, over a long time, but in the end her feelings created the Madoka we see at the end of the show; she would not have been so powerful, would not have accumulated all of those metaphorical threads of fate that increased her potential if Homura had not gone through that process so many times. In this way, Homura is really the hero who gave Madoka that chance to save the magical girls and create the law of cycles. Rebellion, then, uses its time to address the unhealthy obsession that Homura harbored which allowed her to persist for so long. Love can be, after all, toxic, selfish, and harmful, and that is exactly the kind of love Homura held for Madoka. Those feelings are not only negative and unhealthy but also incredibly strong, so it is hard to believe Homura wouldn't take her chance to capitalize on a situation like the one she is given at the end of this movie, to take Madoka for herself without even being aware of how cruel it is to the person she thinks she loves and how selfish it is of her.</div><div class="postActions"></div><div class="sig">&quot;My tables-meet it is I set it down<br />
+That one may smile, and smile, and be a villain.&quot;</div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg31936547">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg31936547"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg31936547" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">06-25-14, 9:53 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser31936547" style="padding-bottom: 2px;"><a href="/profile/mosaic"><strong>mosaic</strong></a></div>
+		  
+		  <a href="/profile/mosaic"><img src="http://cdn.myanimelist.net/images/useravatars/1092257.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jan 2012<br>
+		  Posts: 139
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message31936547">Ay, ay, I don't care about this franchise, thus, I watched it half-asleep just to see how it would all end. The characters are still robots with the only purpose of moving the said &quot;plot&quot; forward, making me think how people see the depth on them while they clearly don't have any. Plot-wise, everything is still nonsensical because it tries so hard to be edgy so the common viewer can easily go &quot;woah, datz so kwel&quot;. The other elements as animation/art/sound are all above par, but it doesn't make me dislike the film any less.<br />
+<br />
+Well, since Urobochi's writing is not my thing, I knew this was going to be disappointing, and I was right, because all I got was just a mere cash grab.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1199989" id="topicId"/>
+<input type="hidden" value="9" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

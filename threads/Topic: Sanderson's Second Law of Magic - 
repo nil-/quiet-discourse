@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Topic: Sanderson's Second Law of Magic -  - Forums - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	<link rel="alternate" type="application/rss+xml" title="Forum - MyAnimeList.net RSS Feed" href="/rss.php?type=forum" />
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Forums</h1>
+	<div id="content">
+	<a name="top"></a>
+<div style="margin-top: 10px">
+<a href="?action=recent">Recent Posts</a> | <a href="?action=viewstarred">My Watched Topics</a> | <a href="?action=ignored">My Ignored Topics</a> | <a href="?action=search">Search</a>
+</div>
+	<p>
+		<span class="forum_locheader">Topic: Sanderson's Second Law of Magic - </span><br />
+		<a href="index.php">MyAnimeList.net Forum</a>  &raquo;&raquo; <a href="?action=recent&rcp=1">Club Discussion</a> &raquo;&raquo; <a href="/clubs.php?cid=40791"><img src="http://cdn.myanimelist.net/images/info_mylist_tiny.gif" border="0" title="Club Information"></a> <a href="?clubid=40791">Quiet Discourse</a> &raquo;&raquo; <a href="?topicid=1224729">Topic: Sanderson's Second Law of Magic - </a>
+	</p><div style="height: 15px; margin: 5px 0px; padding: 3px 0;" class="borderClass">
+<div style="float: left;">Must be a Club Member to Reply</div>
+<div style="float: right;"></div>
+</div><div class="forum_boardrow1" style="margin: 5px 0px; text-align: right; padding: 3px 0;" id="forum_options_container">
+	<ul>
+	
+	
+</ul>
+</div>
+			<div class="forum_border_around" id="forumMsg32498241">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post1"></a><a name="msg32498241"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32498241" class="postnum">1</a></div>
+		<div style="padding-left: 3px;">07-12-14, 3:03 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32498241" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32498241">Sanderson's laws of magic are a set of storytelling principles described in a series of essays authored by fantasy author Brandon Sanderson (Mistborn, Stormlight Archive, Wheel of Time).  In the second of these essays, Sanderson posits that limitations are of greater importance than powers when it comes to effective magic systems (and storytelling in general).<br />
+<br />
+Excerpt from the essay which elaborates on this notion:<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br><!--quote--><div class="quotetext"><strong>Brandon Sanderson said:</strong><!--quotesaid--><br>Let&rsquo;s do some explaining here. When people describe a magic system, they usually talk about what it can do. Let&rsquo;s use a very well known example: Superman. (Yes, superhero abilities are a magic system. In fact, many of them make for good examples, since many of them are well known in society and the scope of their powers is fairly well pinned down.)<br />
+<br />
+If I were to ask you about Superman&rsquo;s magic, you&rsquo;d probably talk about his ability to fly, his super strength, the lasers he can shoot from his eyes. You may go from there to his invincibility and perhaps some of his lesser (and more inconsistent) powers. But if we stick with those four, we&rsquo;ve got a pretty strong setup for what Superman is capable of doing.<br />
+<br />
+However, is this what makes Superman interesting?<br />
+<br />
+I&rsquo;d put forth that it is not. There are lots of people with magic powers who can fly and who are invincible. There are a lot of strong, fast, or smart people. What makes Superman interesting, then? Two things: his code of ethics and his weakness to kryptonite.<br />
+<br />
+Think about it for a moment. Why can Superman fly? Well, because that&rsquo;s what he does. Why is he strong? Comic book aficionados might go into him drawing power from the sun, but in the end, we don&rsquo;t really care why he&rsquo;s strong. He just is.<br />
+<br />
+But why is he weak to kryptonite? If you ask the common person with some familiarity with Superman, they&rsquo;ll tell you it&rsquo;s because kryptonite&ndash;this glowing green rock&ndash;is a shard from his homeworld, which was destroyed. The kryptonite draws you into the story, gets into who Superman is and where he comes from. Likewise, if you ask about his code of ethics&ndash;what he won&rsquo;t do, rather than what he can do&ndash;we&rsquo;ll go into talking about his family, how he was raised. We&rsquo;ll talk about how Ma and Pa Kent instilled solid values into their adopted son, and how they taught him to use his strength not to kill, but to protect.<br />
+<br />
+Superman is not his powers. Superman is his weaknesses.<br />
+<br />
+Now, that explanation above is a descriptive point. It illustrates a concept, but is just an example, working backward. And yet you&rsquo;ll find this concept repeated time and time again in fantastical fiction.<!--quote--></div><br />
+Full essay: <a href="http://brandonsanderson.com/sandersons-second-law/" target="_blank" rel="nofollow">http://brandonsanderson.com/sandersons-second-law/</a><!--spoiler--></span></div><br />
+<br />
+<ul><li> Posts of any length are encouraged. However, in the case of very long posts, make sure each point made is concise or concise enough; it should always be easy to follow. In the case of very short posts, make sure what little you've said offers potential for further discussion.<br />
+<li> Instead of writing from scratch, you can also try responding to a stance taken by a previous person, or elaborate on any interesting comment you've seen in the discussion so far.<br />
+<li> Please try not to form too many comparisons. This makes it difficult for you to properly explain the significance of each one. Furthermore, you are limiting the scope of your message only to those who are familiar with the titles you are referencing.<br />
+<li> Although it is natural for a conversation to take on a life of its own, avoid dragging the discussion completely off-topic.<br />
+<li> Always be sure to exercise common sense, common courtesy, and clarity of argument.</ul></ol></div><div style="margin-top: 8px;"><em>Modified by nil-, 07-26-14, 3:52 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32616861">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post2"></a><a name="msg32616861"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32616861" class="postnum">2</a></div>
+		<div style="padding-left: 3px;">07-15-14, 10:53 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32616861" style="padding-bottom: 2px;"><a href="/profile/lpf"><strong>lpf</strong></a></div>
+		  
+		  <a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/useravatars/367874.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2010<br>
+		  Posts: 1113
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32616861">I will attempt to write about battle anime through the lens of that essay, but I just wanted to say it was great. Do read it! The premise behind it is not particularly controversial but definitely not always followed (for bad results) and the essay develops the idea with very interesting points.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32730043">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post3"></a><a name="msg32730043"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32730043" class="postnum">3</a></div>
+		<div style="padding-left: 3px;">07-19-14, 1:33 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32730043" style="padding-bottom: 2px;"><a href="/profile/GooFraN"><strong>GooFraN</strong></a></div>
+		  
+		  <a href="/profile/GooFraN"><img src="http://cdn.myanimelist.net/images/useravatars/308724.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2010<br>
+		  Posts: 133
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32730043">They truly are. They are more than just a necessity, thay should be integral part, a cornerstone of powers (not just magic) in a setting. When there are no apparent limits we get something like Sword Art Oline or Mahouka, where blatant self-insertous Marty Stu characters ruin every bit of empathy and suspension of disbelief.<br />
+One of the best examples of a 'limitations and powers' system is Pat Rothfuss' book 'The Name Of The Wind'. Not only it presents a massive ammount of a magic powers, it also explains them, categorises them and draws their non-passable limits, be it a runic magic of blacksmiths, immitation and correspodence based voodoo like sympathy or any other.<br />
+But it is a shame, that not many fantasy works trouble themselves with an explanations. Even in a classic works like LotR there are no apparent limits, no bordrers, no way to tell what the limit of an any given character is. Alas.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://mal.oko.im/GooFraN" rel="nofollow"><img src="http://mal.oko.im/export/GooFraN?type=1&amp;bar1=00eecc05&amp;bar2=00dd2200&amp;line1=aaffdd00&amp;line2=aaff0000&amp;back=ffffffff&amp;font1=20220700&amp;font2=90220700&amp;title=00220700&amp;hue=45" /></a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32731209">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post4"></a><a name="msg32731209"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32731209" class="postnum">4</a></div>
+		<div style="padding-left: 3px;">07-19-14, 2:42 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32731209" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32731209">What a character can't do is often more interesting than what they can do. Limitations and weaknesses are what drive struggle, vulnerability, conflict, tension, and all those other wonderful elements we love to see present in a story.<br />
+<br />
+As GooFraN noted, I think that this is why most of us would agree that Sword Art Online is bad storytelling.  There are many things wrong with SAO, but chief among them is Kirito's character.  The fact that Kirito's power level is so off-the-charts insane actually makes the fights boring and undermines the conflict of the story.  When Kirito unleashes massively-powerful techniques to quickly end some fights and then doesn't use them in future fights, it leads to obvious questions about why he doesn't just immediately use his most powerful attacks to quickly end every fight, and most of the tension in later fights seems fake as a result.<br />
+<br />
+<br />
+Without limitations in magic, many stories based around magical power cease to exist, and some very interesting stories can be born out of limitations.<br />
+<br />
+As an example, Death Note's first half (Light vs L) is fundamentally a conflict based on the Death Note's limitations.  The Death Note has the ability to kill people, and Light also has the ability to specify cause and time of death.  Those are interesting story hooks, but they aren't what drives the action in the series.<br />
+<br />
+What are the limitations of the Death Note?  For one thing, Light needs to physically write the name in the book in order to cause death.  He can't just will people to die, or cause people to die by snapping his fingers, or some other trivial action.  The Death Note, by its nature, leaves behind a paper trail, and thus represents a liability for anyone under scrutiny of investigation.  Thus, when his home comes under surveillance, Light is forced to come up with creative ways to continue to write names in the Death Note.  In a sense, Light's continued use of the Death Note is requisite, in the sense that if people stop dying when he is under scrutiny, then it becomes apparent to the investigation team that Light is somehow linked to the murders.  So this limitation of the Death Note represents a manner in which Light may be caught.  It's a source of tension.<br />
+<br />
+The other major limitation of the Death Note is that Light needs a name and face in order to kill.  This is ultimately what drives the conflict between Light and L, as Light cannot use the Death Note to eliminate L.  It also forces Light to creatively to circumvent this limitation, as becomes the case with the Raye Penber arc.<br />
+<br />
+Death Note also provides a good example of a magic that is tied to a powerful cost.  Light has access to another magic power apart from the Death Note itself: the ability to see someone's name by looking at them.  However, it comes at the cost of half of his own remaining lifespan.  Light considers this unacceptable for use by himself, which reinforces the notion that Light's goal is not ultimately to create a world that is &quot;better&quot; in any altruistic sense (he could easily achieve that in half his remaining lifespan if he traded for the eyes), but rather he is selfishly working to create a world that he can preside over as lord and emperor.  However, others (such as Misa) <em>are</em> willing to trade half their remaining lifespan for the ability to see others' names.<br />
+<br />
+If Light had the ability to see others' names, the conflict between him and L would end pretty swiftly.  However, because this power is tied to a powerful cost, it can be included as part of the story without undermining the central conflict.  It also tells us something about Light (and Misa), namely that Misa (and Light) value Misa's life much less than Light values his own, and that Light is confident in his ability to best L without this power.<br />
+<br />
+Limitations are what drive the conflict of Death Note's first season: Light must continue to write names in the Death Note without alerting the police who are watching him, and Light must also ascertain L's true name.  Without these two limitations in Light's magic power, we don't have much of a story.<br />
+<br />
+<br />
+However, I do think it's important to note that Sanderson's second law does not assert that limitations must exist for ALL magics.  The rule, as stated, is that limitations are more important than powers, and if you want to have a story about magical powers (like a notebook that can kill people), then limitations must exist.  But there are plenty of stories with fantasy elements that aren't actually about powers.<br />
+<br />
+For example, Kyousougiga is a story that takes place in a magical world, and all of the main characters have magical powers to some degree.  Most of their magical powers are left unknown, and because we don't know the full extent of their magical powers, their limitations are unclear as well.  In fact, most of the main characters are &quot;overpowered&quot; to a similar extent as a lot of the characters that we like to criticize for being &quot;Mary Sue&quot; types.<br />
+<br />
+However, I don't see this as a problem.  The difference between Kyousougiga and something like SAO is that they present different types of plots.  SAO is a story about a boy using his magical powers to triumph over adversity, and as a result, a lack of limitations on those magical powers serve to trivialize any adversity he faces.  However, Kyousougiga is not fundamentally a story about magical powers; rather, it's a story about family that exists in a colorful world, of which magic is a part.  At its core, Kyousougiga is a story about a group of siblings, and their relationship with each other, and their relationship with their parents and their own inner conflicts and turmoil.  The conflicts are personal in nature, and as a result, it doesn't matter if the magic does not have clear limitations.  The siblings all have access to powerful magic, but their powerful magic isn't matched to the kind of abstract problems that they face.  Thus, the conflict, tension, and struggles presented in the story are preserved, even in the presence of &quot;overpowered&quot; characters.</div><div style="margin-top: 8px;"><em>Modified by Kuiper, 07-19-14, 2:34 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32761303">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post5"></a><a name="msg32761303"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32761303" class="postnum">5</a></div>
+		<div style="padding-left: 3px;">07-19-14, 10:50 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32761303" style="padding-bottom: 2px;"><a href="/profile/Miraclezify"><strong>Miraclezify</strong></a></div>
+		  
+		  <a href="/profile/Miraclezify"><img src="http://cdn.myanimelist.net/images/useravatars/1818993.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Nov 2012<br>
+		  Posts: 884
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32761303">I wish the writer of Mahouka Koukou no Rettousei read this essay before writing his story. Tatsuya from that show is absolutely flawless. The show keeps bringing up his apparent slowness of casting his magic, but he's got a method to go around even that, so it's not even a weakness. Therein lies one of dozens of issues I have with the show. When you have a character that has no faults, what kind of story can you tell? What makes a story interesting are the limitations of the characters; the struggles they have to go through with those limitations and usually the way they resolve things having bested their own limitations. Mahouka will have none of that.<br />
+<br />
+One of the many arguments I use to try and convince people that Mahouka is a terrible show is pretty simply summed up in one line in the essay:<br />
+<br />
+&quot;Why is he strong? Comic book aficionados might go into him drawing power from the sun, but in the end, we don&rsquo;t really care why he&rsquo;s strong. He just is.&quot;<br />
+<br />
+Mahouka consistently explains exactly how their magic works. I've just invented flying magic! How does it work? Well, I manipulate the gravity around myself using psion waves which causes disturbance in the air arou- oh wait, I don't actually care, nor do I remember the real explanation the show gave. It's probably less interesting than what I just came up with. But that's beside the point. I believe that any story that has &quot;magic&quot; never needs to explain how it works. We're in a world where magic exists. We're already suspending our disbelief for that already so there's no need to try convince us through exposition that the magic has a set logic behind it; we're going to assume it does.<br />
+<br />
+Anyway, I don't have much more to say about it. Sorry for a bit of ranting about Mahouka, but that show fits this problem perfectly.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32761839">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post6"></a><a name="msg32761839"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32761839" class="postnum">6</a></div>
+		<div style="padding-left: 3px;">07-19-14, 11:22 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32761839" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32761839"><!--quote--><div class="quotetext"><strong>Miraclezify said:</strong><!--quotesaid--><br>I believe that any story that has &quot;magic&quot; never needs to explain how it works. We're in a world where magic exists. We're already suspending our disbelief for that already so there's no need to try convince us through exposition that the magic has a set logic behind it; we're going to assume it does.<!--quote--></div><br />
+I believe this sentiment is often articulated as &quot;audiences will accept the impossible (but not the implausible).&quot;<br />
+<br />
+For an example, I'll turn to the Star Trek 2009 movie reboot.  As a science fiction story, Star Trek has lots of things which are impossible: faster-than-light travel.  A &quot;red matter&quot; which can be used to create black holes.  <em>Time travel</em>.  But I never have any problems with any of these things, because they're part of the rules of the Star Trek universe.  Fundamentally, I don't care why they exist; I'm watching Star Trek specifically because I want to see a story set in a universe where we can have things like faster-than-light travel and other things that are impossible in our own world.  That's kind of the entire point of speculative fiction.<br />
+<br />
+So turning specifically to Star Trek (2009), I don't have a problem with the fact that &quot;red matter&quot; (a substance which can create black holes) exists.  What I <em>do</em> have a problem with is the fact that the Federation sent Spock alone, transporting a large quantity of this red matter in a small ship with minimal protection and no weapons.  In the hands of terrorists, this substance could be highly destructive.  (In fact, that's basically the premise of the entire movie: the red matter falls into the wrong hands, and the villain begins using it to destroy planets.)  Clearly, transporting a large quantity of a substance that can <em>destroy planets</em> of it would require an armed convoy of combat-ready ships ready to intercept any would-be space terrorists.  At the very least, have it carried by a star ship, heck, even a cargo ship with light armaments, or really anything more formidable than a tiny fragile one-man spacecraft.<br />
+<br />
+If the plot requires that the red matter be carried on an tiny unarmed ship with a one-man crew, build some limitation into the magic which requires it.  Like &quot;the red matter is unstable and reacts violently to large power sources, so it can't be transported on a large vessel like a starship.&quot;  Really, you can tell me anything and I'll probably go along with it; you're the one who gets to decide the rules.  I have no problem with the <em>impossibility</em> of the red matter and the physical rules that govern it.  What breaks my suspension of disbelief is the <em>implausibility</em> of the way that the Federation wantonly handles it; we're talking about a Federation where starships armed to the teeth with photo torpedos and phasers are routinely sent out on peaceful diplomatic missions, yet not a single one of these ships could be spared to protect the precious and potentially destructive cargo that is the red matter.<br />
+<br />
+You are allowed to make up rules, like &quot;this magical red matter creates black holes that destroy planets.&quot;  But you then must follow those rules and and respect the implications of the magic you've created.</div><div style="margin-top: 8px;"><em>Modified by Kuiper, 07-19-14, 11:28 PM</em></div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32817281">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post7"></a><a name="msg32817281"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32817281" class="postnum">7</a></div>
+		<div style="padding-left: 3px;">07-21-14, 2:38 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32817281" style="padding-bottom: 2px;"><a href="/profile/Lindle"><strong>Lindle</strong></a></div>
+		  
+		  <a href="/profile/Lindle"><img src="http://cdn.myanimelist.net/images/useravatars/232951.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2009<br>
+		  Posts: 2813
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32817281">Just going to drop in and do exactly what you all expect from me and state that this is a huge reason why Stands in JoJo's Bizarre Adventure are such a great idea.</div><div class="postActions"></div><div class="sig"><img class="userimg" data-src="http://i.imgur.com/Y1FB912.png" /><br />
+<span style="font-size: 150%;"><!--link--><a href="http://theotaku2anime.wordpress.com/2014/04/28/joe-the-lion-crackpot-jojolion-theory-time/#more-1192" rel="nofollow">Latest Blog: Joe The Lion - Crackpot JoJolion Theory Time!</a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32822307">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post8"></a><a name="msg32822307"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32822307" class="postnum">8</a></div>
+		<div style="padding-left: 3px;">07-21-14, 5:44 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32822307" style="padding-bottom: 2px;"><a href="/profile/einonymous"><strong>einonymous</strong></a></div>
+		  
+		  <a href="/profile/einonymous"><img src="http://cdn.myanimelist.net/images/useravatars/3099955.jpg" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Aug 2013<br>
+		  Posts: 251
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32822307">In real life, the more OP a magic system is, the better. Though of course, having no weaknesses is still impossible, since it's never possible to achieve perfection. So this rule definitely doesn't apply to effective magic systems. <br />
+<br />
+However, in stories, when having no weaknesses is, in fact, possible, we want the characters to be challenged, so weaknesses are what make the magical character interesting_ we want the characters to overcome those weaknesses and grow. So the rule <em>only</em> really applies to effective stories. We want to be able to connect to the character's soft points, because we humans all have flaws and weaknesses. Stories are good because we can relate them to our lives. The reason why people wouldn't ever care about a story about a perfect person is that no one is perfect, so no one can connect to it, at all. <br />
+<br />
+Yes, we are interested in Superman because of the kryptonite. It shows that he has family, and a home that he had to leave. And believe it or not, everyone has a family (or at least parents), and most people have had to leave home. <br />
+<br />
+But if there were ever to be a superhero in real life_ please please <em>please</em> be as perfect as possible. I do not want to connect to you at all_ after all, now you're real. If someone's out there, who is magical, who is saving the world, I hope that person does not ever encounter any challenges.</div><div class="postActions"></div><div class="sig"><!--link--><a href="http://myanimelist.net/animelist/einonymous&amp;sclick=1"><img class="userimg" data-src="http://myanimelist.net/signature/einonymous.png" /></a> </div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32869777">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post9"></a><a name="msg32869777"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32869777" class="postnum">9</a></div>
+		<div style="padding-left: 3px;">07-23-14, 9:32 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32869777" style="padding-bottom: 2px;"><a href="/profile/Nagisa33"><strong>Nagisa33</strong></a></div>
+		  
+		  <a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/useravatars/2921515.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Jul 2013<br>
+		  Posts: 465
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32869777"><!--quote--><div class="quotetext"><strong>Lindle said:</strong><!--quotesaid--><br>Just going to drop in and do exactly what you all expect from me and state that this is a huge reason why Stands in JoJo's Bizarre Adventure are such a great idea.<!--quote--></div><br />
+<br />
+I'm watching the anime so I'm not sure how the stands will be used in the future. In part 3 there's been a lot of dominating by Jotaro's stand: Star Platinum. He is essentially the superman of stands and it takes out a lot of the threat. This leads me to care much less when I know he's there to save the day. &quot;Oh no, this stand is too tiny and fast to hit&quot; Destroys it with extreme precision. &quot;Oh no I'm trapped in a vortex under the sea and I can't move my body&quot; Extend fingers to destroy specialized water stand. &quot;Oh no I'm being controlled by a smoke-based stand&quot; Breathes in otherwise untouchable opponent. <br />
+<br />
+The stands are creative, especially Steely Dan's but Jotaro's stand mops the floor and is a jack of all trades. Star Platinum is literally an A in everything except for range (though it showed it can go pretty far with it's finger extending move.) But those stats aren't what I'm concerned about. It's that Star Platinum has no equal. So while the other stands mix things up and give the characters limitations Jotaro's stand is so OP that I'm never worried. This new battle with Steely Dan is an exception though so far.</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32874299">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post10"></a><a name="msg32874299"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32874299" class="postnum">10</a></div>
+		<div style="padding-left: 3px;">07-23-14, 1:01 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32874299" style="padding-bottom: 2px;"><a href="/profile/Lindle"><strong>Lindle</strong></a></div>
+		  
+		  <a href="/profile/Lindle"><img src="http://cdn.myanimelist.net/images/useravatars/232951.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Sep 2009<br>
+		  Posts: 2813
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32874299"><!--quote--><div class="quotetext"><strong>Nagisa33 said:</strong><!--quotesaid--><br><!--quote--><div class="quotetext"><strong>Lindle said:</strong><!--quotesaid--><br>Just going to drop in and do exactly what you all expect from me and state that this is a huge reason why Stands in JoJo's Bizarre Adventure are such a great idea.<!--quote--></div><br />
+<br />
+I'm watching the anime so I'm not sure how the stands will be used in the future. In part 3 there's been a lot of dominating by Jotaro's stand: Star Platinum. He is essentially the superman of stands and it takes out a lot of the threat. This leads me to care much less when I know he's there to save the day. &quot;Oh no, this stand is too tiny and fast to hit&quot; Destroys it with extreme precision. &quot;Oh no I'm trapped in a vortex under the sea and I can't move my body&quot; Extend fingers to destroy specialized water stand. &quot;Oh no I'm being controlled by a smoke-based stand&quot; Breathes in otherwise untouchable opponent. <br />
+<br />
+The stands are creative, especially Steely Dan's but Jotaro's stand mops the floor and is a jack of all trades. Star Platinum is literally an A in everything except for range (though it showed it can go pretty far with it's finger extending move.) But those stats aren't what I'm concerned about. It's that Star Platinum has no equal. So while the other stands mix things up and give the characters limitations Jotaro's stand is so OP that I'm never worried. This new battle with Steely Dan is an exception though so far.<!--quote--></div><br />
+Star Platinum <em>is</em> OP as fuck, but it is nonetheless restricted in what it can and can't do. All it really amounts to is incredible speed and precision used in creative ways.<br />
+<br />
+It sure as hell does push its luck sometimes though.<br />
+<br />
+Part 3 has by far the weakest stands of any arc, FYI. The concept was done much better from Diamond is Unbreakable onwards.</div><div class="postActions"></div><div class="sig"><img class="userimg" data-src="http://i.imgur.com/Y1FB912.png" /><br />
+<span style="font-size: 150%;"><!--link--><a href="http://theotaku2anime.wordpress.com/2014/04/28/joe-the-lion-crackpot-jojolion-theory-time/#more-1192" rel="nofollow">Latest Blog: Joe The Lion - Crackpot JoJolion Theory Time!</a></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32919271">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post11"></a><a name="msg32919271"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32919271" class="postnum">11</a></div>
+		<div style="padding-left: 3px;">07-25-14, 2:34 AM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32919271" style="padding-bottom: 2px;"><a href="/profile/Laudandus"><strong>Laudandus</strong></a></div>
+		  
+		  <a href="/profile/Laudandus"><img src="http://cdn.myanimelist.net/images/useravatars/458313.gif" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: Mar 2011<br>
+		  Posts: 273
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32919271">There's a lot of unnecessary hate here going around for power fantasies.  Not every story has to rest on believable and genuinely tense conflict, sometimes they can be simple, escapist adventures.  I enjoyed the hell out of Sword Art Online's light novels and Kaze no Stigma and No Game No Life and One Punch Man, and none of the main characters of those stories have meaningful limitations.  Sure, the real tension and unpredictable plotline isn't the source of my enjoyment, but that's just as true of Cromartie High School or Mushishi and it's not really accused of being a flaw there.<br />
+<br />
+That's really kind of off-topic, though, because the lack of limitations in SAO <em>does</em> prevent it from having &quot;meaningful tension&quot; (though it can still have tension) and certainly from having action scenes with interesting and unpredictable resolutions.  Even if we assume action scenes with interesting and unpredictable resolutions are the goal, saying that limitations are the only way to cause those is faulty as it's pretty obvious that a character with no capabilities whatsoever is equally incapable of causing unpredictable outcomes.  The truth is just that people forget to put limitations on their magic systems much more often.  No one would care that Superman was vulnerable to green rocks if he didn't have any superpowers.</div><div class="postActions"></div><div class="sig"><div style="text-align: center;"><!--link--><a href="http://myanimelist.net/clubs.php?cid=2913"> <img src="http://i.imgur.com/Cci6bQq.png" /> </a><!--center--></div></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+			<div class="forum_border_around" id="forumMsg32943871">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			
+		<tr>
+		  <td colspan="2" class="forum_category"><a name="post12"></a><a name="msg32943871"></a><div style="margin: 5px 0px;">
+		<div style="float: right; padding-right: 3px; color: #ffffff;">#<a href="#msg32943871" class="postnum">12</a></div>
+		<div style="padding-left: 3px;">07-25-14, 10:59 PM</div>
+		</div></td>
+		</tr>
+		<tr>
+		  <td width="135" class="forum_boardrow2" style="border-width: 0px 0px 1px 1px;" valign="top"><div id="messageuser32943871" style="padding-bottom: 2px;"><a href="/profile/Kuiper"><strong>Kuiper</strong></a></div>
+		  
+		  <a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/useravatars/331692.png" vspace="2" border="0"></a>
+		  <br>
+		  Offline<br>
+		  Joined: May 2010<br>
+		  Posts: 74
+		  </td>
+		  <td class="forum_boardrow1" style="border-width: 0px 1px 1px 1px;" valign="top"><div id="message32943871">@Laudandus: I find it interesting that you mention No Game No Life in a thread specifically discussing Sanderson's Second Law, because for all of the absurdity of protags' abstract &quot;power level,&quot; the magic in NGNL is remarkably restrained.<br />
+<br />
+I will concede that NGNL treats its powers with greater gravitas than its limits, but at its basic premise, NGNL looks like an underdog story.  Our protagonists represent humanity, a race with <em>zero</em> magical aptitude, and they compete against elves, beastmen, and angels who all wield powerful magics.  Sora is cunning to an almost absurd degree, but nearly every story arc revolves around examining the magic his opponent is wielding, looking for cracks and weaknesses in the magic, and exploiting them.  NGNL is very much a story that exhibits the value of limits when it comes to constructing magic systems.<br />
+<br />
+Apart from magic (and humans' inability to use it), NGNL does give Sora and Shiro weaknesses that are rather meaningless for most intents and purposes (most of the stuff that goes along with being a hikikomori, such as social anxiety, is mostly played for laughs).  However, I was delighted when one of the arcs focused on one of their weaknesses, leveraging it as a source of tension: the fact that Sora and Shiro operate as a &quot;single unit&quot; and have trouble operating independently becomes a big deal when Sora disappears and Shiro has to figure out the path forward based on the clues he's left behind.  For me, it was the only part of the story when I felt that either of them was in any sort of real peril.<br />
+<br />
+NGNL certainly isn't the best when it comes to leveraging weakness and vulnerability, but at least it isn't completely blind to the notion of putting limits on the protagonist.  I think NGNL's biggest virtue is that it has a running theme of &quot;brains triumph over (magical) brawn,&quot; which is much more palatable than &quot;I win because my power level is higher than yours.&quot;  (Sora and Shiro are strong, but they're strong in ways that are different than the opponents they face.)</div><div class="postActions"></div></td>
+		</tr></table></div><div class="forum_boardrowspacer">&nbsp;</div>
+<input type="hidden" value="1224729" id="topicId"/>
+<input type="hidden" value="11" id="totalReplies"/>
+
+<div style="height: 15px; margin: 5px 0px;">
+<div style="float: left;"><a href="#top">Top</a></div>
+<div style="float: right;"></div>
+</div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>
