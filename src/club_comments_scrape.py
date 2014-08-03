@@ -19,12 +19,13 @@ html = requests.get(url, headers=headers).text
 # Find the number of pages to go through
 soup = BeautifulSoup(html, "lxml")
 num_pages = int(soup.find("div", attrs={'class': 'borderClass spaceit'}).text.split('(')[1].split(')')[0])
+num_digits = len(str(num_pages))
 
 for i in range(num_pages):
     if i > 0:
         url = 'http://myanimelist.net/clubs.php?id=40791&action=view&t=comments&show=' + str(i*20)
         html = requests.get(url, headers=headers).text
-    f = open('club-comments/page_' + str(i+1), 'w')
+    f = open('club-comments/page_' + str(i+1).zfill(num_digits) + '.html', 'w')
     f.write(html)
     f.close()
     # Progress bar
