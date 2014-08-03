@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Clubs - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/ss_jscript.v2.js"></script>
+		
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Quiet Discourse's Comments</h1>
+	<div id="content">
+	    <script type="text/javascript">
+
+	function delComment(commentid,clubid)
+	{
+		var confirmVal = confirm('Remove this comment?');
+
+		if (confirmVal)
+			{
+			var comObj = document.getElementById("comment"+commentid);
+			comObj.innerHTML = '<img src="http://cdn.myanimelist.net/images/xmlhttp-loader.gif" />';
+			$.get("/includes/ajax.inc.php?t=10&comid="+commentid+"&cid="+clubid, function(data)
+					{
+					$(comObj).slideToggle("slow");
+					}
+				);
+			}
+		else
+			return false;
+	}
+
+	</script>
+    <div class="borderClass spaceit"><span style="float: right;"><a href="clubs.php?cid=40791">Back to Quiet Discourse</a></span>Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=1100">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1080">55</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1100">56</a> [57] <a href="clubs.php?id=40791&action=view&t=comments&show=1140">58</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1160">59</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1140">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div><div id="comment11418973" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Detective"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/207137_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Detective">Detective</a> <small><span style="font-weight: normal;"> | 02-05-14, 4:40 PM</span></small></div>
+		  Aoi Hana is real. I only recommend that.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11410745" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/syshim"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1340633_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/syshim">syshim</a> <small><span style="font-weight: normal;"> | 02-04-14, 12:44 PM</span></small></div>
+		  The Citizen Kane of Yuri anime.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11410597" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/10bit"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/670817_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/10bit">10bit</a> <small><span style="font-weight: normal;"> | 02-04-14, 12:14 PM</span></small></div>
+		  In defense of Sakura Trick, I present to you: <a href="http://pastebin.com/eGRmsQpC" target="_blank"><a href="http://pastebin.com/eGRmsQpC" target="_blank">http://pastebin.com/eGRmsQpC</a></a></td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11410009" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1205653_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Josh-i">Josh-i</a> <small><span style="font-weight: normal;"> | 02-04-14, 10:05 AM</span></small></div>
+		  Barcelona FC Monogatari &gt; <!--link--><a href="http://myanimelist.net/manga.php?id=8891">this one shot</a> &gt; Morishima's manga &gt; other yuri manga &gt;&gt;&gt;&gt;&gt;&gt; yuri anime</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11409461" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1294541_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/twinbells">twinbells</a> <small><span style="font-weight: normal;"> | 02-04-14, 8:26 AM</span></small></div>
+		  <a href="http://myanimelist.net/people/5715/Akiko_Morishima" target="_blank"><a href="http://myanimelist.net/people/5715/Akiko_Morishima" target="_blank">http://myanimelist.net/people/5715/Akiko_Morishima</a></a> draws the most disgustingly cute yuri manga. 10/10</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11409273" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/283217_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/NavyCherub">NavyCherub</a> <small><span style="font-weight: normal;"> | 02-04-14, 7:43 AM</span></small></div>
+		  Sasameki Koto is silly and filled with bad sexual jokes for the majority of the show (the execution of the crossdresser character was especially hard to swallow). Aoi Hana is much better.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11409001" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/RMNDolphy"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1212363_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/RMNDolphy">RMNDolphy</a> <small><span style="font-weight: normal;"> | 02-04-14, 6:48 AM</span></small></div>
+		  Maria-sama ga Miteru, Aoi Hana, and of couse, Sonohana. Sasameki Koto is pretty amusing from what I've seen of it (though I've heard the manga may be better). </td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11408413" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 02-04-14, 4:15 AM</span></small></div>
+		  Candy Boy. Probably the only good yuri (FYI: I HAVEN'T SEEN MANY)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11408403" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 02-04-14, 4:12 AM</span></small></div>
+		  I have never watched yuri.<br />
+<br />
+Recommendations?</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11407829" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/superzarop"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1616425_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/superzarop">superzarop</a> <small><span style="font-weight: normal;"> | 02-03-14, 11:40 PM</span></small></div>
+		  Thine callous words sting me,<br />
+My eyes can no longer see. <br />
+My soul, wringed by thee,<br />
+I can no longer be. </td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11406519" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1205653_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Josh-i">Josh-i</a> <small><span style="font-weight: normal;"> | 02-03-14, 5:45 PM</span></small></div>
+		  Yuri is a way of life, but Sakura Trick is still really bad.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11406175" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Veronin"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/39613_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Veronin">Veronin</a> <small><span style="font-weight: normal;"> | 02-03-14, 4:41 PM</span></small></div>
+		  Yuri is for impure tramps.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11406173" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 02-03-14, 4:41 PM</span></small></div>
+		  I can't wait for third series to start. First arc is Ononoki. Yisssss.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11405349" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 02-03-14, 2:09 PM</span></small></div>
+		  *vomits*</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11403691" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Detective"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/207137_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Detective">Detective</a> <small><span style="font-weight: normal;"> | 02-03-14, 9:05 AM</span></small></div>
+		  "The cuteness of this anime is overwhelmingly awesome. Way to set off 2014 with a boom, bang, kiss. Honestly, I recommend this anime for you fellow yuri freaks out there *wink* ^////^"<br />
+<br />
+ahahahahahaah sakura trick fans</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11394673" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/blasphy"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/81661_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/blasphy">blasphy</a> <small><span style="font-weight: normal;"> | 02-01-14, 6:43 PM</span></small></div>
+		  I guess it's time to start Monogatari S2..<br />
+<br />
+Poor <!--link--><a href="http://24.media.tumblr.com/2fd39299f52b7d84038ff918e05db362/tumblr_mw9wjcf3wR1rfg20go2_500.gif">mako</a> :(</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11393083" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Lindle"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/232951_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Lindle">Lindle</a> <small><span style="font-weight: normal;"> | 02-01-14, 1:36 PM</span></small></div>
+		  The absence of Nadeko makes me sad.<br />
+<br />
+I guess this is skewed by how the Monogaatari fans were voting for Kaiki anyway. I can live with people preferring Kaiki to Nadeko, even if I totally disagree.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11393055" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1267209_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/nil-">nil-</a> <small><span style="font-weight: normal;"> | 02-01-14, 1:34 PM</span></small></div>
+		  She can still win for 2014! :))</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11392637" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/superzarop"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1616425_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/superzarop">superzarop</a> <small><span style="font-weight: normal;"> | 02-01-14, 12:29 PM</span></small></div>
+		  I wanted Mako Mankanshoku to win. Look at her <!--link--><a href="http://2.bp.blogspot.com/-Th2VPmD0ni8/UoVuAsZWi1I/AAAAAAAAAKk/DT7Gu2WfWqQ/s1600/makoref0.png">tears of defeat :_(</a> I love Kaiki though, clearly best girl.<br />
+<br />
+As you pointed out, that argument was extremely poor. That was a reaction to your "performed the best as a support compared to anyone else as a support" which implied that main characters perform two roles: supporting the show and another role which somehow doesn't support the show. I meant more along the lines of "There is no fundamental difference in how a main character and a supporting character support the show except that you follow the perspective of the main, thereby making perspective what seperates the two". This is still pretty stupid since you don't necessarily need to see the show from the main's perspective, but screentime is even more stupid. Anyhow I'll abandon thread, can't argue with the subjective vs objective.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11392505" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1267209_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/nil-">nil-</a> <small><span style="font-weight: normal;"> | 02-01-14, 12:01 PM</span></small></div>
+		  @Superzarop, well no, it means it's totally up to the voter and not with the system whether he is automatically ineligible. Following a "is he/isn't he" system will only lead to problems in the future, when people do just as you did. I believe you bring up some good points on how Kaiki should be considered better as a main character, but again, it's arguable, and therefore too subjective and loose in order to employ a strict eligibility system for voting intents.<br />
+<br />
+&gt;There is no fundamental difference between the roles of a main and a supporting character, as the roles of both of these ultimately boil down to supporting the work.<br />
+I totally disagree with this. If you're making this claim, then it already refutes your other claim that Kaiki is a main character and not a supporting one (there is no "fundamental difference" after all!). Your argument for Kaiki certainly implies that you recognize that there's a difference between these two roles—whether "fundamental" or not. Can't this also be what distinguishes one's vote between Best Main Character and Best Supporting Character?<br />
+<br />
+Anyways, the point in letting the people decide is because it is the best solution which also allows for the most freedom. Like Kapyducky shows, using MAL's classification for example leads to waaaay too many problems. If you can think of a better solution, then by all means toss up the suggestion for next year's AOTY event.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div class="spaceit">Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=1100">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1080">55</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1100">56</a> [57] <a href="clubs.php?id=40791&action=view&t=comments&show=1140">58</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1160">59</a> <a href="clubs.php?id=40791&action=view&t=comments&show=1140">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>

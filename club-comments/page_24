@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Clubs - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/ss_jscript.v2.js"></script>
+		
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Quiet Discourse's Comments</h1>
+	<div id="content">
+	    <script type="text/javascript">
+
+	function delComment(commentid,clubid)
+	{
+		var confirmVal = confirm('Remove this comment?');
+
+		if (confirmVal)
+			{
+			var comObj = document.getElementById("comment"+commentid);
+			comObj.innerHTML = '<img src="http://cdn.myanimelist.net/images/xmlhttp-loader.gif" />';
+			$.get("/includes/ajax.inc.php?t=10&comid="+commentid+"&cid="+clubid, function(data)
+					{
+					$(comObj).slideToggle("slow");
+					}
+				);
+			}
+		else
+			return false;
+	}
+
+	</script>
+    <div class="borderClass spaceit"><span style="float: right;"><a href="clubs.php?cid=40791">Back to Quiet Discourse</a></span>Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=440">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=420">22</a> <a href="clubs.php?id=40791&action=view&t=comments&show=440">23</a> [24] <a href="clubs.php?id=40791&action=view&t=comments&show=480">25</a> <a href="clubs.php?id=40791&action=view&t=comments&show=500">26</a> <a href="clubs.php?id=40791&action=view&t=comments&show=480">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div><div id="comment11871285" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1294541_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/twinbells">twinbells</a> <small><span style="font-weight: normal;"> | 04-24-14, 6:51 PM</span></small></div>
+		  yeah i got u bb <!--link--><a href="http://i.imgur.com/PVkVDn5.jpg">here u go</a></td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11871273" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/mosaic"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1092257_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/mosaic">mosaic</a> <small><span style="font-weight: normal;"> | 04-24-14, 6:47 PM</span></small></div>
+		  can you zoom that for me</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11871269" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/twinbells"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1294541_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/twinbells">twinbells</a> <small><span style="font-weight: normal;"> | 04-24-14, 6:46 PM</span></small></div>
+		  hi every1 i'd like to announce the ''qd writing anthology'' "volume" "1"<br />
+<br />
+<!--link--><a href="http://i.imgur.com/Gf6zMza.jpg">coming soon expect "gr8 things"</a></td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11871181" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/iSuckAtWriting"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/396401_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/iSuckAtWriting">iSuckAtWriting</a> <small><span style="font-weight: normal;"> | 04-24-14, 6:31 PM</span></small></div>
+		  @Subpyro<br />
+<br />
+As you always seem to say, <em>how splendid</em>~ (^▽^)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11870977" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1267209_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/nil-">nil-</a> <small><span style="font-weight: normal;"> | 04-24-14, 5:50 PM</span></small></div>
+		  Wow that's actually really sad. You know, until the ending and all.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11870915" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/mosaic"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1092257_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/mosaic">mosaic</a> <small><span style="font-weight: normal;"> | 04-24-14, 5:35 PM</span></small></div>
+		  welcome to tumblr</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11870901" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/331692_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Kuiper">Kuiper</a> <small><span style="font-weight: normal;"> | 04-24-14, 5:32 PM</span></small></div>
+		  Guys and gals, allow me to tell you a short story, from several summers ago, recalling events from my adolescent years.<br />
+<br />
+Guys and gals, allow me to tell you a short story, from several summers ago.<br />
+<br />
+I used to live in a pretty rural area, and my family lived near the edge of town. The only other person my age that was within walking distance of our house when I grew up was a girl named Emily who lived at the other end of a vacant lot on the corner at the end of my street. Being the same age, we had been in the same classes through elementary school and become good friends at that age, often going over to each other's houses to play.<br />
+<br />
+However, during middle school, we sort of split paths. I was on the "accelerated learning track" and she was taking regular classes, so we never had class together. We grew apart during those high school years, only occasionally seeing each other in the hallways; we gravitated to different social circles so I'd never eat with her during lunch or go to the same after school activities as her. The one time I remember talking to her in middle school was near the end of eighth grade, and I learned that we would be going to different high schools. It seemed as though our childhood friendship would be entirely terminated at that point. Until the end of the school year when we had our last summer before high school.<br />
+<br />
+<br />
+The first day of summer vacation was a Friday, so I followed morning routine like any other week day since there weren't Saturday-morning cartoons on to disrupt my schedule. I got up at 6, poured myself a bowl of cereal, retrieved the paper from the front door step and read the comics whilst ingesting breakfast. Usually after doing this I would walk directly to school, but after I exited the house that morning, I decided to walk the other way. That direction took me toward the vacant lot by Emily's house. It was there that I saw her sitting on a large rock, staring off into space.<br />
+<br />
+I walked up to her and said "hey," and she nodded without looking at me. Acting on an impulse, I sat down next to her, and immediately regretted doing so. We shared an awkward silence and sat there for several minutes before she mumbled something about her mom and went back into her house.<br />
+<br />
+The next morning, I skipped cartoons and went straight to her door before I became too afraid to knock and went back to the lot where I sat on the same rock. After awhile I got bored, so I went back to my house, got a book, and went back to the rock. I was on the rock for what was probably an hour before she walked out, looked at me, and sat down next to me.<br />
+<br />
+I don't exactly recall our dialog, but it was something like this:<br />
+<br />
+Her: What are you reading?<br />
+Me: The Foundation.<br />
+Her: What's it about?<br />
+Me: It's the chronicle of a group of mathematical savants who isolate themselves in a corner of the galaxy, thriving on their ability to predict events based entirely on calculation.<br />
+Her: Oh.<br />
+<br />
+I regretted my calculated attempt at grandiloquence, and we again shared an awkward silence for several minutes before I got up and walked back to my house.<br />
+<br />
+The next morning, I walked out to the lot and she was waiting on the sidewalk, and we sort of shuffled our way toward the rock at the same pace before sitting down and staring off into the distance. We never looked directly at each other and didn't speak a word to each other.<br />
+<br />
+It became a daily ritual. We'd rise with the sun, head to the vacant lot, and engage in some mindless activity. Sometimes it was just sitting and doing nothing, sometimes we'd meander to the outskirts of town (we were already pretty close) and then walk back. Sometimes we'd climb a tree, or walk along the railroad tracks that ran behind my house, trying to balance ourselves on the rails.<br />
+<br />
+There were some days when one of us wouldn't show up, and the next day we'd exchange a few words, usually a short "I had to go do some stuff with my family yesterday," and that would be the end of it. We never really talked beyond exchanging a "hey" or "what's up" as a greeting.<br />
+<br />
+Our relationship was not a romance. We were both fully aware that we were not peers on intellectual or social levels, and having just reached the age where we might begin dating, I'm sure we both knew that the prospect of dating each other was entirely outside the realm of possibility. I think that's why we were silent. Middle school had drawn us apart because of how different we discovered we were, and I think we wanted to emulate our early years, when we were playmates and were too busy having fun to realize or consider our differences.<br />
+<br />
+One morning, she came out to the vacant lot, and we began walking. "My family's going on vacation tomorrow," she said. I asked her how long she'd be gone. "Not until after school starts." With that, we were both fully aware that this would in all likelihood be the last day we'd spend together, and I awkwardly suggested that we go to my house to make some sandwiches, the implication being that we'd be together the entire day and not go into town to eat. She agreed, and after having packed ourselves enough to cover our dietary needs for the day, we set out. We methodically covered all of our old Stomping Ground, and after that just followed the train tracks away from our block to see where they'd take us. Along the way, we chanced upon a tree which we climbed without speaking to one another, and we spent the rest of the day in that tree, watching the train tracks and counting the cars when trains went by. More than once that day, I wondered what it might be like to jump onto one of those trains with Emily and never return home. In the hours we spent there, there was so much that I wanted to tell her. I wanted to tell her what a wonderful companion she had been, that I was sorry that we'd fallen apart during middle school, how I wanted to be able to continue seeing each other in high school, and yet acknowledge that we were very different people with very different interests. I never said any of that, however, and the day drew to a close without us exchanging any of the sentiments that I'm sure we both longed to express.<br />
+<br />
+On the way home, those thoughts tugged at my heart, and I deliberately slowed pace to prolong our return. She immediately realized what was going on, and responded in kind; we took the most roundabout way we reasonably could have while following the way home. Anyway, we got too close to the train tracks and my friend Emily was killed. I hope your summer turns out well!<br />
+</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11870707" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Josh-i"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1205653_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Josh-i">Josh-i</a> <small><span style="font-weight: normal;"> | 04-24-14, 4:52 PM</span></small></div>
+		  i cry evertim</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11868877" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Subpyro"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/2350311_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Subpyro">Subpyro</a> <small><span style="font-weight: normal;"> | 04-24-14, 10:57 AM</span></small></div>
+		  Guys and gals, allow me to tell you a short story. The events in it have actually happened in real life, so we could say it is based from a certain person's experience.<br />
+<br />
+The story takes place on a bus. A 24 year old boy accompanied by his father are one of the passengers. The boy has his eyes wide open, and is looking out of the window. He is really excited with everything he sees, and suddenly shouts out load: "Hey dad, look! The trees are running away from us!" The father smiles and says: "Yes, yes they are."<br />
+<br />
+Next to the two is a young couple, who quickly gets annoyed by the boy's screaming. The boy continues to look out of the window, all happy. Suddenly, he shouts: "Hey dad, it's amazing! The clouds are moving with us!" His father smiles again, saying: "Yes son, they sure are." At that point, the couple loses it, and tells the father to take his son to the doctor, as he is behaving far too weird for someone of his age.<br />
+<br />
+After they finish their complaint, the father smiles, and says: "Do excuse us, but we've just come back from the doctor. You see, my son was born blind, and after all these years, this is the first time in his life when he can see the world." After hearing those words, the couple couldn't find the words to apologize for what they've said.<br />
+<br />
+Just from hearing this, I get quite a vibe through my body. Although it doesn't sound really original, I think it would be worth expanding this situation in some sort of a story. I might just turn up writing something regarding it, with me being a lover of drama and all that. :)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11855055" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/RMNDolphy"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1212363_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/RMNDolphy">RMNDolphy</a> <small><span style="font-weight: normal;"> | 04-22-14, 2:28 AM</span></small></div>
+		  I can edit!</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11854969" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 04-22-14, 1:27 AM</span></small></div>
+		  stellio i'll help with ping pong</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11854953" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/nil-"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1267209_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/nil-">nil-</a> <small><span style="font-weight: normal;"> | 04-22-14, 1:15 AM</span></small></div>
+		  I'll do one for Mekakucity Actors if anyone wants to help with me. (Also that newsletter: TLDR.)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11854269" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1158933_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Stellio">Stellio</a> <small><span style="font-weight: normal;"> | 04-21-14, 8:48 PM</span></small></div>
+		  Wow not giving ratings to shows but to my writing. I see the double standards. I'll let you figure out the mindset thingy yourself, then. :p<br />
+<br />
+Also, lpf and I are a little lonely by ourselves. It's not that I'm worried about lpf's aphoristic French style inundating the review or anything, I'd just like to work with non-French peeps for once. So yeah, people who are Pro-Pingpong, Pro-Ratings (jk ratings are stupid), or are just generally interested in collaborative writing, I wouldn't mind writing stuff together unless your name is RMNMeanie. I promise it'll be f-fun, I think. </td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11848419" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/BigSimo"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/102929_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/BigSimo">BigSimo</a> <small><span style="font-weight: normal;"> | 04-21-14, 12:06 AM</span></small></div>
+		  i agree with nil</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11847757" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/RMNDolphy"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1212363_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/RMNDolphy">RMNDolphy</a> <small><span style="font-weight: normal;"> | 04-20-14, 8:36 PM</span></small></div>
+		  I already lost interest, Stellio. You blew it. You weren't there when I needed you most.<br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>Pretty cute post though :)<br />
+<br />
+8/10<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>what the fuck is a "proper mindset" rating?<!--spoiler--></span></div><!--spoiler--></span></div><br />
+<br />
+Let's talk about dadaism.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11846397" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Stellio"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1158933_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Stellio">Stellio</a> <small><span style="font-weight: normal;"> | 04-20-14, 4:32 PM</span></small></div>
+		  @lpf: I'll contribute, let's do it bud! <br />
+<br />
+@RMNSkeptic: (This is super late so hopefully you haven't lost interest in it!)<br />
+<br />
+Having no ratings is fine. People have lists that are entirely private, so to say that ratings are entirely personalized and subjective is correct. With that said, I rate things for really two reasons: accessibility and continuity. People who access my list, as lpf and others have pointed out, are capable of having a quick cursory glimpse at my "taste" ("t" "a" "s" "t" "e" is a silly word but there's no better word for it, unfortunately). And for many, their purpose may be curiosity, scrutiny, whatever, but I organize my list for things such as future recommendation, as lpf had elaborated on previously. (And it's fairly self-explanatory that I'll recommend my 10s over 9s, 9s over 8s, and so on, but that may not always be the case)<br />
+<br />
+My feelings towards a work often change after some time, so my numbers are also fixated there to remind me of a passing thought. It's in the process of associating scores with certain assets of a show that I find value in condensing writing into numerical data. Others do something similar, probably, but yes, these can turn into unhealthy, schizophrenic penchants once applied meticulously or excessively.<br />
+<br />
+So in the end, I recommend rating largely for memory and personalized uses of ratings (why give a shit about what others think!). If one's visual memory is so vast or their writing skills are so competent as to be able to write about everything they watch (or they're rebels like, who cares about ratings), then by all means, eliminate the evil Ratings onslaught. <br />
+<br />
+On the flip side, MAL compatibility is pretty flawed and nigh arbitrary. Xinil should, but probably won't uh ever fix that.<br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>"I've also noticed a sort of unhealthy way of watching anime fostered by people preoccupied with scores. People spend an episode reflecting on how minute things change the way they'll score it rather than allowing themselves to be swept up in it."<!--spoiler--></span></div><br />
+This is where I can agree and rebel (rebels!) against the entire "Let's-Rate-Or-Review-Things-Before-They're-Finished" (excluding one episode OVAs, long running shows beyond a certain point, -- special cases etc.) Postulate/Dogma/Doctrine/Wrongness. More times than not, it's unfair to judge something that way. Yeah, first impressions count, but to utterly dismiss or indulge in a show-- that's something else. <br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>"I also think scoring categories individually like on MAL reviews is idiotic. For story, animation, etc to always be given the same weight is to ignore how appropriate/important each is for their respective anime"<!--spoiler--></span></div><br />
+The typical MAL review format is disastrous for this reason. That's not to say that's the case for all reviews in such a format (i.e. separated in Story, Animation, etc.), but when the writer dismisses the objective of all the elements working together to form isolated, convenient statements about the work, then it becomes a sort of lazy writing. MAL isn't the sole example of this, and definitely isn't the first. But it's definitely an insufferable breeding ground for it. An extreme "critic," though I won't do names, have even separated his reviews into entire sections of chunks such as "Proper Mindset," "Character Presence," "Catharsis," "Memorability," and "Legacy." And anyway, I think that just epitomizes everything that's wrong with dissecting works into chunks in a review. <br />
+<br />
+<div class="spoiler"><input type="button" class="button" onClick="this.nextSibling.nextSibling.style.display='block';this.style.display='none';" value="Show spoiler"> <span class="spoiler_content" style="display:none"><input type="button" class="button" onClick="this.parentNode.style.display='none';this.parentNode.parentNode.childNodes[0].style.display='block';" value="Hide spoiler"><br>"The idea of that seems anti-art to me"<!--spoiler--></span></div><br />
+That's Dadaism. :)</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11844321" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Kuiper"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/331692_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Kuiper">Kuiper</a> <small><span style="font-weight: normal;"> | 04-20-14, 11:55 AM</span></small></div>
+		  I used to shy away from the idea of trying to "quantify" how much I like things with numerical scores, but I got more into scoring things after another ratings site I used implemented a rating system that included adjectives along with each rating.<br />
+<br />
+While assigning arbitrary numbers like "7," "8," etc doesn't jive exceptionally well with me, I personally already mentally sort things into categories like "mediocre," "almost good," "decent," "excellent," etc.  So after looking at my own list on MAL, I instead tried to segregate the ratings system from its numerical expression, and instead came up with a list of 10 adjectives, and I assign numerical ratings on MAL based on which adjective I think best describes my thoughts on the series.<br />
+<br />
+Granted, grouping things into categories like this is no less arbitrary than a numerical score; who's to say what is "decent" versus "mediocre?"   But as noted earlier, this kind of mental sorting is something that I do already, so I find it a bit cathartic to log onto MAL and "put it into writing," so to speak.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11843095" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 04-20-14, 7:24 AM</span></small></div>
+		  I think I am definitely going to write/contribute to a Ping Pong club review at the end of the season. Anyone with me? If you think you can write or contribute to another anime's club review do tell us.<br />
+<br />
+I'm interrupting but please feel free to continue the rating discussion if you have more to say!</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11835347" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/jal90"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/402245_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/jal90">jal90</a> <small><span style="font-weight: normal;"> | 04-19-14, 12:21 AM</span></small></div>
+		  The thing about this discussion is that, while I don't see a substantial reason to rate things, I don't see either a substantial reason to not rate them. As corwin said, to a point this is about being used to the dynamics, but I would mention as well that the fact scores and commentaries or reviews are so different is the reason why they can coexist.<br />
+<br />
+In the case of MyAnimeList, for instance this rating system is useful for a number of things. On the personal level because it's a brief and easy way to check what I have watched, how have my tastes evolved through the years, etc. On the social level because many features that depend on ratings and are potentially useful (namely compatibility, automated recommendations from sites like MALGraph), and as well because they provide an information and contextualize it since the rating can be compared with others. And finally, because I'm a sucker for stats.<br />
+<br />
+In the end, if people ask me to expand and/or explain my ratings I will do. This is not a big deal to me. And I use forums, comments and review systems to talk about stuff more in depth. This is not incompatible with having a list that gives a simplified and hierarchised glance at my overall taste.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment11834833" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 04-18-14, 8:57 PM</span></small></div>
+		  I think I still have mostly 7s on my list, but that's because I generally don't watch something if I don't expect to like it. I'm good at "reading a book by its cover" so to speak.<br />
+<br />
+That said, my average rating dropped significantly after I joined C&amp;C, and proceeded to drop even further when I started watching airing anime every season.<br />
+<br />
+I remember when it was like 7.6. The good ol' days. </td>
+		</tr>
+		</table>
+		</div>
+		<br><div class="spaceit">Pages (79) <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo; First</a> ...  <a href="clubs.php?id=40791&action=view&t=comments&show=440">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=420">22</a> <a href="clubs.php?id=40791&action=view&t=comments&show=440">23</a> [24] <a href="clubs.php?id=40791&action=view&t=comments&show=480">25</a> <a href="clubs.php?id=40791&action=view&t=comments&show=500">26</a> <a href="clubs.php?id=40791&action=view&t=comments&show=480">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=51';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

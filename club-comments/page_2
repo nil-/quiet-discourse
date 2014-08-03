@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Clubs - MyAnimeList.net</title>
+    <meta name="Description" content="Start cataloging anime you've watched or manga you've read. Browse through our extensive anime and manga database. Get anime or manga suggestions, recommendations and reviews. View top rated anime and manga. Create anime and manga favorites. Tons more too!" />
+    <meta name="Keywords" content="anime, animelist, myanimelist, anime list, log anime seen, catalog anime watched, anime reviews, top anime, anime characters, favorite anime, anime discussion, anime information, manga series, manga information, top manga, mangalist, manga list, manga, manga reviews, voice actors, seiyuu" />
+    <meta name="Author" content="Garrett Gyssler">
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/hover.v5.js"></script>
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/jquery.fancybox.pack.v1.js"></script>
+	
+		<script type="text/javascript" src="http://cdn.myanimelist.net/js/ss_jscript.v2.js"></script>
+		
+				<script type="text/javascript" src="http://cdn.myanimelist.net/js/forum.v12.js"></script>
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/forums.v5.css" type="text/css" />
+				<link rel="stylesheet" href="http://cdn.myanimelist.net/css/myanimelist.v46.css" type="text/css" />
+			<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/mal.ridlayout.css" />
+	<script type="text/javascript" src="http://cdn.myanimelist.net/js/myanimelist.v19.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/jquery.fancybox.v3.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.myanimelist.net/css/dialog.v1.css" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://cdn.myanimelist.net/plugins/myanimelist.xml" title="MyAnimeList" />
+	
+	<link rel="shortcut icon" href="http://cdn.myanimelist.net/images/faviconv5.ico" />
+
+	<!-- BEGIN TRIGGER TAG INITIALIZATION -->
+	<script type="text/javascript" src="http://cdn.triggertag.gorillanation.com/js/triggertag.js"></script>
+	<script type="text/javascript">getTrigger('4834');</script>
+	<!-- END TRIGGER TAG INITIALIZATION -->
+	<!-- GAM HEADER SCRIPT -->
+		<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+		</script>
+		<script type="text/javascript">
+		GS_googleAddAdSenseService("ca-pub-1304704158939332");
+		GS_googleEnableAllServices();
+		</script>
+		<script type="text/javascript">
+		GA_googleUseIframeRendering();
+		</script>
+	<!-- END OF GAM HEADER SCRIPT -->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-369102-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script type="text/javascript">
+   (function() {
+       function async_load(){
+           var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+           var s = document.createElement('script');
+           s.src = protocol + 'pagefair.com/static/adblock_detection/js/d.min.js';
+           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+       }
+       bm_website_code = '3882DD60FDA947CD';
+       jQuery(document).ready(async_load);
+   })();
+</script></head>
+
+<body onload="">
+<div id="myanimelist">
+
+
+	<div id="headerSmall">
+		<a href="/">MyAnimeList.net</a>
+	</div>
+	
+<div id="menu">
+    
+    <div id="menu_right">
+    	
+        <form id="searchBar" method="get">
+
+        <input id="topSearchText" type="text" class="inputtext" value="Search" size="30" /> 
+        <select id="topSearchValue" class="inputtext">
+        <option value="0">Anime</option>
+        <option value="1">Manga</option>
+        <option value="2">Characters</option>
+        <option value="6">People</option>
+        <option value="3">Fansub Groups</option>
+        <option value="4">Clubs</option>
+        <option value="5">Users</option>
+        </select>
+        
+        <input id="topSearchButon" type="image" src="http://cdn.myanimelist.net/images/magnify.gif" value="Search" />
+        
+        </form>
+        
+	</div>
+	
+	<div id="menu_left">
+		<ul id="nav">
+						<li class="small"><a href="/anime.php">Anime</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=anime">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=anime">Recommendations</a></li>
+					<li><a href="/topanime.php">Top Anime</a></li>
+					<li><a href="/fansub-groups.php">Fansub Groups</a></li>
+				</ul>
+			</li>
+			<li class="small"><a href="/manga.php">Manga</a>
+				<ul class="wider">
+										<li><a href="/reviews.php?t=manga">Reviews</a></li>
+					<li><a href="/recommendations.php?s=recentrecs&t=manga">Recommendations</a></li>
+					<li><a href="/topmanga.php">Top Manga</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Community</a>
+				<ul>
+					<li><a href="/forum/">Forums</a></li>
+					<li><a href="/clubs.php">Clubs</a></li>
+					<li><a href="/blog.php">Blogs</a></li>
+					<li><a href="/users.php">Users</a></li>
+					<li><a href="/about.php?go=team">Staff</a></li>
+					<li><a href="/about.php?go=support">Help</a></li>
+				</ul>
+			</li>
+			<li class="medium"><a href="#">Industry</a>
+				<ul class="wide">
+					<li><a href="/people.php">People</a></li>
+					<li><a href="/character.php">Characters</a></li>
+					<li><a href="/news.php">News</a></li>
+					<li><a href="/favorites.php">Top Favorites</a></li>
+				</ul>
+			</li>
+			
+			<li class="tiny"><a href="/register.php">Join</a></li>
+			<li class="smaller"><a href="/ajaxtb.php?login" id="malLogin">Login</a></li>
+						</ul>
+	</div>
+</div>
+
+<div id="contentWrapper">
+
+	<div id="roadblock">
+				<div class="ad230">
+						<script type="text/javascript">
+						if ((typeof(f325922)=='undefined' || f325922 > 0) ) {
+						if(typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if(typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=230x90,963x90;tile='+(gnm_tile++)+';ord='+gnm_ord+'?" type="text/javascript"></scr'+'ipt>');
+						} else {
+							GA_googleFillSlotWithSize("ca-pub-1304704158939332", "myanimelist_ugc_230x90", 230, 90);
+						}
+						</script>
+						</div>
+				<div class="ad728">
+						<!-- 728x90 -->
+						<script type="text/javascript">
+						  if (typeof(gnm_ord)=='undefined' || (typeof(ad963_enabled)!= 'undefined' && ad963_enabled == false)) gnm_ord=Math.random()*10000000000000000;
+						  if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+						  document.write('<scr'+'ipt src="http://n4403ad.doubleclick.net/adj/gn.cr.myanimelist.net/ugc;sect=ugc;sz=728x90,970x90;dcopt=ist;type=pop;type=int;type=boom;dga=;dgg=;tile='+(gnm_tile++)+';ord=' + gnm_ord + ';?" type="text/javascript"></scr' + 'ipt>');
+						</script>
+						</div>
+				</div>
+	<h1>Quiet Discourse's Comments</h1>
+	<div id="content">
+	    <script type="text/javascript">
+
+	function delComment(commentid,clubid)
+	{
+		var confirmVal = confirm('Remove this comment?');
+
+		if (confirmVal)
+			{
+			var comObj = document.getElementById("comment"+commentid);
+			comObj.innerHTML = '<img src="http://cdn.myanimelist.net/images/xmlhttp-loader.gif" />';
+			$.get("/includes/ajax.inc.php?t=10&comid="+commentid+"&cid="+clubid, function(data)
+					{
+					$(comObj).slideToggle("slow");
+					}
+				);
+			}
+		else
+			return false;
+	}
+
+	</script>
+    <div class="borderClass spaceit"><span style="float: right;"><a href="clubs.php?cid=40791">Back to Quiet Discourse</a></span>Pages (79)  <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=-20"></a> <a href="clubs.php?id=40791&action=view&t=comments&show=0">1</a> [2] <a href="clubs.php?id=40791&action=view&t=comments&show=40">3</a> <a href="clubs.php?id=40791&action=view&t=comments&show=60">4</a> <a href="clubs.php?id=40791&action=view&t=comments&show=40">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div><div id="comment12609495" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Sung-Hwan"><img src="http://cdn.myanimelist.net/images/questionmark_50.gif" vspace="4" width="50" height="50" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Sung-Hwan">Sung-Hwan</a> <small><span style="font-weight: normal;"> | 07-31-14, 7:35 PM</span></small></div>
+		  Do any of you guys have a Skype and use it actively </td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12608235" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/283217_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/NavyCherub">NavyCherub</a> <small><span style="font-weight: normal;"> | 07-31-14, 4:48 PM</span></small></div>
+		  It also has MySpace. High priority stuff.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607799" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/985071_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Gonzo-nyan">Gonzo-nyan</a> <small><span style="font-weight: normal;"> | 07-31-14, 3:48 PM</span></small></div>
+		  And after that, 20 other sites popped up to replaced them.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607765" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Masserati_"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/276749_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Masserati_">Masserati_</a> <small><span style="font-weight: normal;"> | 07-31-14, 3:43 PM</span></small></div>
+		  The operation has Megavideo and Megaupload on the list of target websites.<br />
+<br />
+That should be all you need to know about the potential success of it.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607455" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/283217_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/NavyCherub">NavyCherub</a> <small><span style="font-weight: normal;"> | 07-31-14, 2:51 PM</span></small></div>
+		  Correction: Crunchyroll DOES have Attack on Titan, and they DID simulcast it. In fact, so did Funimation. The reason it isn't on Crunchyroll at this very moment is simply because Funimation paid them off to keep it off the site while they release the BDs and it airs on Toonami.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607419" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/iSuckAtWriting"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/396401_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/iSuckAtWriting">iSuckAtWriting</a> <small><span style="font-weight: normal;"> | 07-31-14, 2:41 PM</span></small></div>
+		  Japan has done many anti-piracy operations. They never operate as intended.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607335" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/985071_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Gonzo-nyan">Gonzo-nyan</a> <small><span style="font-weight: normal;"> | 07-31-14, 2:28 PM</span></small></div>
+		  Because they realize that almost everyone is too broke these days to handle paid subscriptions or buy blu rays. That and the vast majority of anime watchers are under the age of 18 in the West and they would be too embarrassed to ask their parents to buy a BD of Highschool Dxd.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12607209" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/henriiez"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1838286_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/henriiez">henriiez</a> <small><span style="font-weight: normal;"> | 07-31-14, 2:09 PM</span></small></div>
+		  Hasn't Japan already done that before?<br />
+<br />
+I think it's a very bad idea because anime will have less publicity, therefore less money generated by anime, which means less anime. But as it stands now with all the illegal streaming websites that provide more anime than those website whom need premium service to be able to actually keep up with the anime each week don't offer a large enough range of the seasonal anime. Some people don't have much access to anime as it stands anyhow.<br />
+<br />
+I mean, Attack on Titan, will never be as big as it is now without the help of illegal streaming websites as Crunchyroll does not have it.  But they are trying to limit that publicity? And make less money? And have less people into anime? I don't get it.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12606135" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/superzarop"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1616425_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/superzarop">superzarop</a> <small><span style="font-weight: normal;"> | 07-31-14, 11:11 AM</span></small></div>
+		  What do you guys think about the anti-piracy operation that Japan is set to carry out? Do you think it will affect availability and anime-fandom in the west? Empty PR talk or maybe they got some tricks up their sleeves?</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12605113" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Sung-Hwan"><img src="http://cdn.myanimelist.net/images/questionmark_50.gif" vspace="4" width="50" height="50" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Sung-Hwan">Sung-Hwan</a> <small><span style="font-weight: normal;"> | 07-31-14, 7:35 AM</span></small></div>
+		  Space Dandy is just fun. There's little else that needs to be said because that's all it really is. This is evident by the fact that Dandy and company sometimes even get killed and appear in the next episode as if the events of the last didn't happen.<br />
+<br />
+So yeah if you like Looney Toons it's great. <br />
+</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12603715" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/henriiez"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/1838286_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/henriiez">henriiez</a> <small><span style="font-weight: normal;"> | 07-31-14, 12:13 AM</span></small></div>
+		  Looks like I nominated a bunch of things for our next discussion.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12601993" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/283217_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/NavyCherub">NavyCherub</a> <small><span style="font-weight: normal;"> | 07-30-14, 6:19 PM</span></small></div>
+		  I didn't mean to get your hopes up.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12601933" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 07-30-14, 6:07 PM</span></small></div>
+		  Space Dandy is amazing. <br />
+<br />
+Also, more like X-Men? That sounds awesome. I'm much more inclined to pick it up now.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12601449" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Gonzo-nyan"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/985071_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Gonzo-nyan">Gonzo-nyan</a> <small><span style="font-weight: normal;"> | 07-30-14, 4:40 PM</span></small></div>
+		  It also has one of the best OPs and EDs in recent memory.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12601347" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 07-30-14, 4:22 PM</span></small></div>
+		  space dandy is an episode director anime. it's the most auteurish series at the moment, and not only on the directorial level. the first half-cour happens to be the worst. skip to episode 9 if need be, it's by choi and features kevin aymeric who has to be the best current background artist in the industry. then watch everything from basically where you left off. it's amazing from there on.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12601029" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Nagisa33"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/2921515_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Nagisa33">Nagisa33</a> <small><span style="font-weight: normal;"> | 07-30-14, 3:21 PM</span></small></div>
+		  Hello xm0123!<br />
+<br />
+@Ipf<br />
+Sorry Space Dandy but you didn't do much for me the first time I watched you. </td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12600845" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/lpf"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/367874_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/lpf">lpf</a> <small><span style="font-weight: normal;"> | 07-30-14, 2:39 PM</span></small></div>
+		  <a href="https://www.youtube.com/watch?v=-b43wL4eBAw&amp;feature=youtu.be" target="_blank">https://www.youtube.com/watch?v=-b43wL4eBAw&amp;feature=youtu.be</a><br />
+space dandy is the only thing you have to watch<br />
+watch this for proof.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12600835" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/NavyCherub"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/283217_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/NavyCherub">NavyCherub</a> <small><span style="font-weight: normal;"> | 07-30-14, 2:38 PM</span></small></div>
+		  Kyousougiga? It's more like X-Men.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12600313" class="bgColor1"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/Doaj"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/532439_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/Doaj">Doaj</a> <small><span style="font-weight: normal;"> | 07-30-14, 1:02 PM</span></small></div>
+		  Opinions on Tokyo ESP? I kinda wanna watch it, but it also looks like tryhard-Kyousougiga-bandwagon shit. Halp.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div id="comment12600081" class="bgNone"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+		  <td valign="top" width="60" align="center" class="borderClass" style="border: 0;"><div class="picSurround"><a href="/profile/xm0123"><img src="http://cdn.myanimelist.net/images/userimages/thumbs/279992_thumb.jpg" vspace="4" border="0"></a></div></td>
+		  <td class="borderClass" style="border: 0;" valign="top">
+		  <div style="margin-bottom: 6px;"><a href="/profile/xm0123">xm0123</a> <small><span style="font-weight: normal;"> | 07-30-14, 12:32 PM</span></small></div>
+		  Hello. I'm new here.<br />
+<br />
+I guess I'll start off by talking about the last anime I watched; Little Busters EX. I've enjoyed the works of Key (both VNs and the anime adaptations) since watching Kanon 2006 several years ago. I've played the original LB VN, and watched both anime seasons. I liked them. Some things could be better, but I liked them.<br />
+<br />
+Then I saw Saya's story arc in EX. I have no idea if this is, in any way, butchered from the VN. (the EX VN is still not fully translated) All I know is I saw something truly beautiful. JC Staff pulled out all the stops with the animation, Saya's VA was perfect, the story itself incorporated so many things, and incorporated them well, and this may be the best of LB I've seen yet, and that's saying something!<br />
+<br />
+Also, Saya is ridiculously cute. A cute, lovely angel that breaks my heart. ;_; Whenever the 6th episode gets subbed, I'll move onto Sassasasassaasaasas-whatever. Wish me luck.</td>
+		</tr>
+		</table>
+		</div>
+		<br><div class="spaceit">Pages (79)  <a href="clubs.php?id=40791&action=view&t=comments&show=0">&laquo;</a> <a href="clubs.php?id=40791&action=view&t=comments&show=-20"></a> <a href="clubs.php?id=40791&action=view&t=comments&show=0">1</a> [2] <a href="clubs.php?id=40791&action=view&t=comments&show=40">3</a> <a href="clubs.php?id=40791&action=view&t=comments&show=60">4</a> <a href="clubs.php?id=40791&action=view&t=comments&show=40">&raquo;</a> ... <a href="clubs.php?id=40791&action=view&t=comments&show=1560">Last &raquo;</a></div>
+</div>
+
+<div id="rightcontentunder">
+
+<a href="/about.php?go=support">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/modules.php?go=faq">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/about.php?go=contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/termsofuse.php?site=www.MyAnimeList.net" target="_blank">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.craveonline.com/privacy.php?site=www.MyAnimeList.net" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="_bapw-link" href="#" target="_blank" style=""><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important"/> <span style="vertical-align:middle !important">AdChoices</span></a><script>/*<![CDATA[*/(function(){var c=247,g=595,b=false,i=document,f=i.getElementById("_bapw-link"),a=(i.location.protocol=="https:"?"https":"http"),h=(a=="https"?"https://info.evidon.com/c/betrad/pub/":"http://cdn.betrad.com/pub/");function e(j){var d=new Image();d.src=a+"://l.betrad.com/pub/p.gif?pid="+c+"&ocid="+g+"&i"+j+"=1&r="+Math.random()}i.getElementById("_bapw-icon").src=h+"icon1.png";f.onmouseover=function(){if(/#$/.test(f.href)){f.href="http://info.evidon.com/pub_info/"+c+"?v=1"}};f.onclick=function(){var j=window._bap_p_overrides;function d(m,p){var n=i.getElementsByTagName("head")[0]||i.documentElement,l=b,k=i.createElement("script");function o(){k.onload=k.onreadystatechange=null;n.removeChild(k);p()}k.src=m;k.onreadystatechange=function(){if(!l&&(this.readyState=="loaded"||this.readyState=="complete")){l=true;o()}};k.onload=o;n.insertBefore(k,n.firstChild)}if(j&&j.hasOwnProperty(c)){if(j[c].new_window){e("c");return true}}this.onclick="return "+b;d(a+"://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js",function(){d(h+"pub2.js",function(){BAPW.i(f,{pid:c,ocid:g})})});return b};e("i")}());/*]]>*/</script>
+	
+<div id="copyright">
+MyAnimeList.net is a property of <a href="http://www.craveonline.com">CraveOnline</a>, LLC. an <a href="http://www.evolvemediallc.com">Evolve Media</a>, LLC company. &copy;2013 All Rights Reserved. <div style="position: absolute; left: -999em">monitoring_string = "1d62297d23059a80b6e7551767f2653f"</div>
+</div>
+
+</div>
+
+</div>
+
+<!--  control container height -->
+<div style="clear:both;"></div>
+
+<!-- end rightbody -->
+</div>
+
+
+</div>
+<!-- Begin comScore Tag -->
+<script>
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:6036161,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036161&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://myanimelist.us.intellitxt.com/intellitxt/front.asp?ipid=30532"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+	
+	<script type="text/javascript" src="http://cdn1.craveonline.com/libraries/pebblebed/js/cookie_notice.min.js"></script>
+	
+</body>
+</html>
